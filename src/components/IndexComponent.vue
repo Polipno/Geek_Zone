@@ -34,11 +34,11 @@
           <td>Amélioration graphique et de lisibilité majeur</td>
         </tr>
         <tr>
-          <td>22.03.2025</td>
+          <td>03.03.2025</td>
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>22.03.2025</td>
+          <td>04.03.2025</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>
@@ -91,7 +91,7 @@ export default {
     listenLikes() {
       const likeRef = ref(db, "likes/global");
       onValue(likeRef, (snapshot) => {
-        if(snapshot.exists()) {
+        if (snapshot.exists()) {
           this.likeCount = snapshot.val();
         }
       });
@@ -126,28 +126,27 @@ export default {
 
       const likeRef = ref(db, "likes/global");
       const userLikeRef = ref(db, `likes/users/${this.userId}`);
-try {
-      if (this.isLiked) {
-        // ❌ L'utilisateur retire son like
-        this.likeCount--;
-        await set(userLikeRef, null); // Supprime l'entrée de l'utilisateur
-      } else {
-        // ✅ L'utilisateur ajoute un like
-        this.likeCount++;
-        await set(userLikeRef, true); // Stocke que l'utilisateur a liké
+      try {
+        if (this.isLiked) {
+          // ❌ L'utilisateur retire son like
+          this.likeCount--;
+          await set(userLikeRef, null); // Supprime l'entrée de l'utilisateur
+        } else {
+          // ✅ L'utilisateur ajoute un like
+          this.likeCount++;
+          await set(userLikeRef, true); // Stocke que l'utilisateur a liké
+        }
+
+        // Met à jour le compteur global
+        await set(likeRef, this.likeCount);
+
+        // Met à jour l'état local
+        this.isLiked = !this.isLiked;
+      } catch (error) {
+        console.error("Error updating like: ", error);
       }
-
-      // Met à jour le compteur global
-      await set(likeRef, this.likeCount);
-
-      // Met à jour l'état local
-      this.isLiked = !this.isLiked;
-    } catch (error) {
-      console.error("Error updating like: ", error);
-
-    }
-    this.isProcessing = false;
-  },
+      this.isProcessing = false;
+    },
   },
 };
 </script>

@@ -1,5 +1,4 @@
 <template>
-  <h3>Passion Pixel</h3>
   <p>Un podcast où des invités parlent de leur jeu de cœur.</p>
   <div class="bordure-texte">
     <img
