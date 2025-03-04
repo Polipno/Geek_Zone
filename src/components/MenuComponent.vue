@@ -13,7 +13,7 @@
 
     <nav>
       <ul>
-        <router-link to="/"><button>Acceuil</button></router-link>
+        <router-link to="/"><button>Accueil</button></router-link>
         <router-link to="/contact"><button>Contact</button></router-link>
         <router-link to="/review"><button>Review</button></router-link>
         <router-link to="/wishlist"><button>Wishlist</button></router-link>
@@ -30,7 +30,7 @@ export default {
   computed: {
     pageTitle() {
       const titles = {
-        "/": "Acceuil",
+        "/": "Accueil",
         "/contact": "Contact",
         "/review": "Review",
         "/wishlist": "Wishlist",

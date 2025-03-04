@@ -291,3 +291,80 @@ fieldset {
     background-color: white;
   }
 }
+
+@media (max-width: 600px) {
+  .bordure-texte {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+  .Logo img {
+    display: none;
+  }
+
+  header,
+  footer {
+    text-align: center;
+  }
+  .Limbo {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  header {
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+    display: block;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
+  }
+  footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0;
+    width: 50%;
+  }
+  fieldset {
+    
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    font-size: 20px;
+  }
+
+fieldset input[type="checkbox"],
+fieldset input[type="radio"] {
+  transform: scale(0.5); 
+}
+
+  .image-gallery img {
+    max-width: 100%; /* Une image par ligne sur les petits écrans */
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .responsive-video iframe {
+    width: 270px;
+    height: 160px;
+  }
+  input {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background-color: white;
+  }
+}
