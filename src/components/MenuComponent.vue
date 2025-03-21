@@ -16,6 +16,7 @@
         <router-link to="/"><button>Accueil</button></router-link>
         <router-link to="/contact"><button>Contact</button></router-link>
         <router-link to="/review"><button>Review</button></router-link>
+        <router-link to="/letsplay"><button>Let's Play</button></router-link>
         <router-link to="/wishlist"><button>Wishlist</button></router-link>
         <router-link to="/question"><button>Question</button></router-link>
         <router-link to="/podcast"><button>Podcast</button></router-link>
@@ -33,6 +34,7 @@ export default {
         "/": "Accueil",
         "/contact": "Contact",
         "/review": "Review",
+        "/letsplay": "Let's Play",
         "/wishlist": "Wishlist",
         "/question": "Question",
         "/podcast": "Podcast",
