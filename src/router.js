@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Index from "./components/IndexComponent.vue";
 import Contact from "./components/ContactComponent.vue";
 import ReviewComponent from "./components/ReviewComponent.vue";
+import LetsPlay from "./components/LetsPlayComponent.vue";
 import Wishlist from "./components/WishlistComponent.vue";
 import Question from "./components/QuestionComponent.vue";
 import Podcast from "./components/PodcastComponent.vue";
@@ -15,6 +16,7 @@ import ZeldaEchoesOfWisdom from "./components/Game_Review/ZeldaEchoesOfWisdomCom
 import MarioPartyJamboree from "./components/Game_Review/MarioPartyJamboreeComponent.vue";
 import MarioLuigiLepopeeFraternelle from "./components/Game_Review/MarioLuigiLepopeeFraternelleComponent.vue";
 import DonkeyKongCountryReturnsHD from "./components/Game_Review/DonkeyKongCountryReturnsHDComponent.vue";
+import LetsPlayInside from "./components/Lets_Play/Lets_Play_Inside.vue";
 import PassionPixel from "./components/Podcast/PassionPixelComponent.vue";
 import Impressum from "./components/ImpressumComponent.vue";
 import ConditionDutilisation from "./components/ConditionDutilisationComponent.vue";
@@ -32,6 +34,12 @@ const routes = [
     path: "/review",
     name: "Review",
     component: ReviewComponent,
+    meta: { menu: "base" },
+  },
+  {
+    path: "/letsplay",
+    name: "LetsPlay",
+    component: LetsPlay,
     meta: { menu: "base" },
   },
   {
@@ -104,6 +112,12 @@ const routes = [
     path: "/donkey_kong_returns_hd",
     name: "DonkeyKongReturnsHD",
     component: DonkeyKongCountryReturnsHD,
+    meta: { menu: "game" },
+  },
+  {
+    path: "/lets_play_inside",
+    name: "LetsPlayInside",
+    component: LetsPlayInside,
     meta: { menu: "game" },
   },
   {
