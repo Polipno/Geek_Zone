@@ -16,6 +16,9 @@ import ZeldaEchoesOfWisdom from "./components/Game_Review/ZeldaEchoesOfWisdomCom
 import MarioPartyJamboree from "./components/Game_Review/MarioPartyJamboreeComponent.vue";
 import MarioLuigiLepopeeFraternelle from "./components/Game_Review/MarioLuigiLepopeeFraternelleComponent.vue";
 import DonkeyKongCountryReturnsHD from "./components/Game_Review/DonkeyKongCountryReturnsHDComponent.vue";
+import MarioKartWorld from "./components/Game_Review/MarioKartWorldComponent.vue";
+import DonkeyKongBananza from "./components/Game_Review/DonkeyKongBananzaComponent.vue";
+import KirbyAirRaiders from "./components/Game_Review/KirbyAirRaidersComponent.vue";
 import LetsPlayInside from "./components/Lets_Play/Lets_Play_Inside.vue";
 import PassionPixel from "./components/Podcast/PassionPixelComponent.vue";
 import Impressum from "./components/ImpressumComponent.vue";
@@ -112,6 +115,23 @@ const routes = [
     path: "/donkey_kong_returns_hd",
     name: "DonkeyKongReturnsHD",
     component: DonkeyKongCountryReturnsHD,
+    meta: { menu: "game" },
+  },
+  {
+    path: "/mario_kart_world",
+    name: "MarioKartWorld",
+    component: MarioKartWorld,
+    meta: { menu: "game" },
+  },
+  {
+    path: "/donkey_kong_bananza",
+    name: "DonkeyKongBananza",
+    component: DonkeyKongBananza,
+    meta: { menu: "game" },
+  },  {
+    path: "/kirby_air_raiders",
+    name: "KirbyAirRaiders",
+    component: KirbyAirRaiders,
     meta: { menu: "game" },
   },
   {

@@ -41,6 +41,24 @@
           ></iframe>
         </div>
       </div>
+      <div class="bordure-texte">
+        <h3>Tomodachi Life: Living the Dream</h3>
+
+        <p>Une suite déjantée du jeu de simulation sociale de Nintendo.</p>
+        <p>2026</p>
+        <div class="responsive-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Dvo1V7DWYsA?si=aYUz0eR3VKQ1jcgC"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </template>

@@ -101,6 +101,38 @@
             />
           </router-link>
         </div>
+        <div class="bordure-texte">
+          <h3>Mario Kart World</h3>
+          <router-link to="/mario_kart_world">
+            <img
+              src="../assets/Mario_Kart_World/Affiche_Mario_Kart_World.jpg"
+              alt="Affiche de Mario Kart World"
+              class="Image"
+            />
+          </router-link>
+        </div>
+        <div class="bordure-texte">
+          <h3>Donkey Kong Bananza</h3>
+          <router-link to="/donkey_kong_bananza">
+            <img
+              src="../assets/Donkey_Kong_Bananza/Affiche_Donkey_Kong_Bananza.jpg"
+              alt="Affiche de Donkey Kong Bananza"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte">
+          <h3>Kirby Air Raiders</h3>
+          <router-link to="/kirby_air_raiders">
+            <img
+              src="../assets/Kirby_Air_Raiders/Affiche_Kirby_Air_Riders.jpg"
+              alt="Affiche de Donkey Kong Bananza"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
       </div>
     </div>
   </div>
