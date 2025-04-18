@@ -19,7 +19,7 @@
       </p>
     </div>
   </section>
-  <section id="Histoire">
+  <section id="Lets play">
     <div class="bordure-texte">
       <h2>Let's Play</h2>
       <p>À venir</p>
@@ -31,7 +31,7 @@
       <p>À venir</p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="Images">
     <div class="bordure-texte">
       <h2>Images</h2>
       <p>Voici quelque images du Live</p>

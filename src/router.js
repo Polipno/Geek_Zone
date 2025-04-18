@@ -106,8 +106,8 @@ const routes = [
     meta: { menu: "game" },
   },
   {
-    path: "/mario_&_luigi_lepopee_fraternelle",
-    name: "Mario&LuigiLepoppeFraternelle",
+    path: "/mario_and_luigi_lepopee_fraternelle",
+    name: "MarioAndLuigiLepoppeFraternelle",
     component: MarioLuigiLepopeeFraternelle,
     meta: { menu: "game" },
   },
@@ -138,7 +138,7 @@ const routes = [
     path: "/lets_play_inside",
     name: "LetsPlayInside",
     component: LetsPlayInside,
-    meta: { menu: "game" },
+    meta: { menu: "letsplay" },
   },
   {
     path: "/passion_pixel",
@@ -169,6 +169,20 @@ const routes = [
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth", 
+      };
+    } else if (savedPosition) {
+      return savedPosition; 
+    } else {
+      return { top: 0 };
+    }
+  },
 });
+
+
 
 export default router;

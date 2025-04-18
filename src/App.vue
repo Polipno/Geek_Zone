@@ -12,6 +12,7 @@
 import Menu from "./components/MenuComponent.vue";
 import Footer from "./components/FooterComponent.vue";
 import GameReviewMenu from "./components/MenuGameReviewComponent.vue";
+import LetsPlayMenu from "./components/MenuLetsPlayComponent.vue";
 
 export default {
   name: "App",
@@ -19,6 +20,7 @@ export default {
     Menu,
     Footer,
     GameReviewMenu,
+    LetsPlayMenu
   },
   data() {
     return {
@@ -42,10 +44,15 @@ export default {
     changeMenuComponent(route) {
       const menuType = route.meta.menu;
 
-      this.currentMenuComponent =
-        menuType === "game" ? "GameReviewMenu" : "Menu";
-    },
+    if (menuType === "game") {
+      this.currentMenuComponent = "GameReviewMenu";
+    } else if (menuType === "letsplay") {
+      this.currentMenuComponent = "LetsPlayMenu";
+    } else {
+      this.currentMenuComponent = "Menu";
+    }
   },
+}
 };
 </script>
 
