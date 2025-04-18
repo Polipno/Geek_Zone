@@ -12,7 +12,7 @@
       />
     </div>
     <br />
-    <h3>Annonce du trailer Geek Zone</h3>
+    <h3>Trailer de Geek Zone</h3>
     <div class="bordure-image">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eiMvdlV2IC8?si=BeMu3pPsfnl-ri3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

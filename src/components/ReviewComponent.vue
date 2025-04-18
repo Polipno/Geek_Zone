@@ -82,7 +82,7 @@
 
         <div class="bordure-texte">
           <h3>Mario & Luigi : L'épopée fraternelle</h3>
-          <router-link to="/mario_&_luigi_lepopee_fraternelle">
+          <router-link to="/mario_and_luigi_lepopee_fraternelle">
             <img
               src="../assets/Mario_&_Luigi_Lepopee_Fraternelle/Affiche_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
               alt="Affiche de Mario & Luigi : L'épopée fraternelle"
