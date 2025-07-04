@@ -31,6 +31,7 @@ export default {
     pageTitle() {
       const titles = {
         "/lets_play_inside": "Inside",
+        "/lets_play_gris": "Gris",
       };
       return titles[this.$route.path];
     },

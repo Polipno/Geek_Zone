@@ -14,10 +14,11 @@
     <br />
     <h3>Trailer de Geek Zone</h3>
     <div class="bordure-image">
-
+      <div class="responsive-video">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eiMvdlV2IC8?si=BeMu3pPsfnl-ri3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <h3>Progression majeur du site</h3>
+    </div>
+    <h3>Progression majeure du site</h3>
 
     <table class="centered-table">
       <tbody>
@@ -32,11 +33,11 @@
 
         <tr>
           <td>15.03.2024</td>
-          <td>Responsible pour les formats téléphone et tablette</td>
+          <td>Responsive pour les formats téléphone et tablette</td>
         </tr>
         <tr>
           <td>26.07.2024</td>
-          <td>Amélioration graphique et de lisibilité majeur</td>
+          <td>Amélioration graphique et de lisibilité majeure</td>
         </tr>
         <tr>
           <td>03.03.2025</td>
@@ -49,7 +50,7 @@
       </tbody>
     </table>
 
-    <h3>Aimez vous le site Web ?</h3>
+    <h3>Aimez-vous le site web&nbsp;?</h3>
 
     <button
       @click="toggleLike"

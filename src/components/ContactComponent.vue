@@ -1,12 +1,11 @@
 <template>
   <div class="contact">
     <div class="bordure-texte">
-      <h3>Cédric Gerber</h3>
-      <p>Createur du site web</p>
+      <p>Créateur du site web</p>
       <div class="bordure-image">
         <img
           src="../assets/Profil_Cédric_Gerber.jpg"
-          alt="Image de Profil: Cédric Gerber"
+          alt="Image de Profil : Cédric Gerber"
           class="Image"
         />
       </div>
