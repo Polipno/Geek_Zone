@@ -1,24 +1,41 @@
-# geek_zone
+# Geek Zone
 
-## Project setup
-```
-yarn install
-```
+Bienvenue sur Geek Zone, un site dédié à la passion du jeu vidéo.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Installation
 
-### Compiles and minifies for production
+Installe les dépendances du projet :
 ```
-yarn build
+npm install
 ```
 
-### Lints and fixes files
+## Lancer le projet en local
+
+Pour démarrer le serveur de développement et accéder au site en local :
 ```
-yarn lint
+npm run serve
+```
+Le site sera accessible sur [http://localhost:8080](http://localhost:8080) (ou le port indiqué dans le terminal).
+
+## Construire pour la production
+
+Pour générer les fichiers optimisés pour la production :
+```
+npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Linter le code
+
+Pour vérifier et corriger la syntaxe du code :
+```
+npm run lint
+```
+
+## Personnalisation
+
+Pour plus d’options de configuration, consulte la [documentation officielle de Vue CLI](https://cli.vuejs.org/config/).
+
+---
+
+**Auteur** : Geek Zone
+**Projet personnel – 2025**

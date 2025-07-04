@@ -44,6 +44,7 @@ export default {
         "/mario_kart_world": "Mario Kart World",
         "/donkey_kong_bananza": "Donkey Kong Bananza",
         "/kirby_air_raiders": "Kirby Air Raiders",
+        "/split_fiction": "Split Fiction",
       };
 
       return titles[this.$route.path];

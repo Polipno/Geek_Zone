@@ -13,6 +13,16 @@
             />
           </router-link>
         </div>
+        <div class="bordure-texte">
+          <h3>Gris</h3>
+          <router-link to="/lets_play_gris">
+            <img
+              src="../assets/Lets_Play/Gris/Affiche_Gris.jpg"
+              alt="Affiche du jeu Gris"
+              class="Image"
+            />
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

@@ -19,7 +19,9 @@ import DonkeyKongCountryReturnsHD from "./components/Game_Review/DonkeyKongCount
 import MarioKartWorld from "./components/Game_Review/MarioKartWorldComponent.vue";
 import DonkeyKongBananza from "./components/Game_Review/DonkeyKongBananzaComponent.vue";
 import KirbyAirRaiders from "./components/Game_Review/KirbyAirRaidersComponent.vue";
+import SplitFiction from "./components/Game_Review/SplitFictionComponent.vue";
 import LetsPlayInside from "./components/Lets_Play/Lets_Play_Inside.vue";
+import LetsPlayGris from "./components/Lets_Play/Lets_Play_Gris.vue";
 import PassionPixel from "./components/Podcast/PassionPixelComponent.vue";
 import Impressum from "./components/ImpressumComponent.vue";
 import ConditionDutilisation from "./components/ConditionDutilisationComponent.vue";
@@ -134,10 +136,22 @@ const routes = [
     component: KirbyAirRaiders,
     meta: { menu: "game" },
   },
+    {
+    path: "/split_fiction",
+    name: "SplitFiction",
+    component: SplitFiction,
+    meta: { menu: "game" },
+  },
   {
     path: "/lets_play_inside",
     name: "LetsPlayInside",
     component: LetsPlayInside,
+    meta: { menu: "letsplay" },
+  },
+  {
+    path: "/lets_play_gris",
+    name: "LetsPlayGris",
+    component: LetsPlayGris,
     meta: { menu: "letsplay" },
   },
   {
@@ -182,7 +196,5 @@ const router = createRouter({
     }
   },
 });
-
-
 
 export default router;

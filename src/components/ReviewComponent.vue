@@ -26,29 +26,29 @@
         </div>
 
         <div class="bordure-texte">
-          <h3>Princess Peach Showtime !</h3>
+          <h3>Princess Peach Showtime&nbsp;!</h3>
           <router-link to="/princess_peach_showtime">
             <img
               src="../assets/Princess_Peach_Showtime/Affiche_Princess_Peach_Showtime.jpg"
-              alt="Affiche de Princess Peach Showtime !"
+              alt="Affiche de Princess Peach Showtime&nbsp;!"
               class="Image"
             />
           </router-link>
         </div>
 
         <div class="bordure-texte">
-          <h3>Paper Mario : La Porte Millénaire</h3>
+          <h3>Paper Mario&nbsp;: La Porte Millénaire</h3>
           <router-link to="/paper_mario_la_porte_millenaire">
             <img
               src="../assets/Paper_Mario_La_Porte_Millénaire/Affiche_Paper_Mario_La_Porte_Millénaire.jpg"
-              alt="Affiche de Paper Mario : La Porte Millénaire"
+              alt="Affiche de Paper Mario&nbsp;: La Porte Millénaire"
               class="Image"
             />
           </router-link>
         </div>
 
         <div class="bordure-texte">
-          <h3>Luigi's Mansion 2 HD</h3>
+<h3>Luigi's Mansion 2 HD</h3>
           <router-link to="/luigis_mansion_2_hd">
             <img
               src="../assets/Luigis_Mansion_2_HD/Affiche_Luigis_Mansion_2_HD.jpg"
@@ -81,11 +81,11 @@
         </div>
 
         <div class="bordure-texte">
-          <h3>Mario & Luigi : L'épopée fraternelle</h3>
+          <h3>Mario & Luigi&nbsp;: L’épopée fraternelle</h3>
           <router-link to="/mario_and_luigi_lepopee_fraternelle">
             <img
               src="../assets/Mario_&_Luigi_Lepopee_Fraternelle/Affiche_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-              alt="Affiche de Mario & Luigi : L'épopée fraternelle"
+              alt="Affiche de Mario & Luigi&nbsp;: L’épopée fraternelle"
               class="Image"
             />
           </router-link>
@@ -127,7 +127,18 @@
           <router-link to="/kirby_air_raiders">
             <img
               src="../assets/Kirby_Air_Raiders/Affiche_Kirby_Air_Riders.jpg"
-              alt="Affiche de Donkey Kong Bananza"
+              alt="Affiche de Kirby Air Raiders"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte">
+          <h3>Split Fiction</h3>
+          <router-link to="/split_fiction">
+            <img
+              src="../assets/Split_Fiction/Affiche_Split_Fiction.jpg"
+              alt="Affiche de Split Fiction"
               class="Image"
             />
           </router-link>
