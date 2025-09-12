@@ -32,6 +32,7 @@
   </section>
   <section id="Mon ressentit">
     <div class="bordure-texte">
+          <h2>Mon ressentit</h2>
       <p>
         Un très bon jeu à faire à plusieurs, bien que plaisant également en
         solo.<br />
@@ -48,6 +49,16 @@
         100%.<br />
         Je le recommande vivement, notamment si vous n’avez jamais joué à la
         série auparavant, comme moi !
+      </p>
+    </div>
+  </section>
+    <section id="DLC">
+    <div class="bordure-texte">
+          <h2>DLC - Jamboree TV</h2>
+      <p>
+      Un nouveau mode Jamboree Express qui contient 5 attractions où on peut utiliser le mode souris pour viser des ennemis et faire des mini-jeux.<br/>
+Ajouts de pas mal de mini-jeux sympas qui utilisent les fonctionnalités de la Nintendo Switch 2 telles que la souris, la caméra ainsi que le micro.<br/>
+Également un mode Ilico Presto où on peut commencer directement dans les 5 derniers tours d'une partie de Mario Party.
       </p>
     </div>
   </section>
