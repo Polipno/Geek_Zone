@@ -2,7 +2,7 @@
   <div style="max-width: 600px; margin: 0 auto;">
     <div class="bordure-texte" style="padding: 20px;">
       <img
-        src="../../assets/Podcast/Passion_Pixel_Affiche.jpeg"
+        src="../../assets/Podcast/Passion_Pixel_Affiche.png"
         alt="Affiche de Passion Pixel"
         class="Image"
         style="display: block; margin: 0 auto;"
