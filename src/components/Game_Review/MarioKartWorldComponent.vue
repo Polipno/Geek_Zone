@@ -39,9 +39,31 @@ Malheureusement, la récompense pour avoir tout complété reste assez décevant
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
       <p>Voici quelque images du jeu <br /><br /></p>
-      <p>    
-          ...
-      </p>
+      <div class="image-gallery">
+        <img
+          src="../../assets/Mario_Kart_World/Image_1_Mario_Kart_World.jpg"
+          alt="Image 1 de Mario Kart World"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Mario_Kart_World/Image_2_Mario_Kart_World.jpg"
+          alt="Image 2 de Mario Kart World"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Mario_Kart_World/Image_3_Mario_Kart_World.jpg"
+          alt="Image 3 de Mario Kart World"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Mario_Kart_World/Image_4_Mario_Kart_World.jpg"
+          alt="Image 4 de Mario Kart World"
+          class="Image"
+        />
+      </div>
     </div>
   </section>
 </template>

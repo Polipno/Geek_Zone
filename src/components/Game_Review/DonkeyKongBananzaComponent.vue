@@ -42,13 +42,45 @@
     </div>
   </section>
 
+      <div class="bordure-texte">
+      <h2>DLC - Île de DK et Course aux émeraudes</h2>
+      <p>    
+         Un DLC qui ajoute l’île d’origine de Donkey Kong.<br/>
+         Une île agréable à explorer, on peut scheter des statues en échange des Banana Tips.<br/>
+         Un nouveau mode de jeu a été ajouté : en y jouant, on peut débloquer de nouveaux costumes.<br/>
+         Pour ceux qui veulent terminer le jeu à 100 %, le défi sera corsé, car il faut parcourir ce mode dans plusieurs souterrains, chacun proposant 7 niveaux de difficulté.<br/>
+        </p>
+    </div>
+
   <section id="Capture d'écran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
       <p>Voici quelque images du jeu <br /><br /></p>
-      <p>    
-           ...
-      </p>
+      <div class="image-gallery">
+        <img
+          src="../../assets/Donkey_Kong_Bananza/Image_1_Donkey_Kong_Bananza.jpg"
+          alt="Image 1 de Donkey Kong Bananza"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Bananza/Image_2_Donkey_Kong_Bananza.jpg"
+          alt="Image 2 de Donkey Kong Bananza"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Bananza/Image_3_Donkey_Kong_Bananza.jpg"
+          alt="Image 3 de Donkey Kong Bananza"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Bananza/Image_4_Donkey_Kong_Bananza.jpg"
+          alt="Image 4 de Donkey Kong Bananza"
+          class="Image"
+        />
+      </div>
     </div>
   </section>
 </template>
