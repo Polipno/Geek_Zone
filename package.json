@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "vue-cli-service build && gh-pages -d dist"
+    "deploy": "vue-cli-service build && echo www.geekzone.site > dist/CNAME && gh-pages -d dist -b gh-pages --no-history -m \"chore(deploy): v$npm_config_version\""
   },
   "dependencies": {
     "core-js": "^3.8.3",
