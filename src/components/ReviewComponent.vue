@@ -121,7 +121,16 @@
             />
           </router-link>
         </div>
-
+        <div class="bordure-texte">
+          <h3>Super Mario Galaxy + Super Mario Galaxy 2</h3>
+          <router-link to="/super_mario_galaxy_+_super_mario_galaxy_2">
+            <img
+              src="../assets/Super_Mario_Galaxy_+_Super_Mario_Galaxy_2/Affiche_Super_Mario_Galaxy_+_Super_Mario_Galaxy_2.jpg"
+              alt="Affiche de Super Mario Galaxy + Super Mario Galaxy 2"
+              class="Image"
+            />
+          </router-link>
+        </div>
         <div class="bordure-texte">
           <h3>Kirby Air Raiders</h3>
           <router-link to="/kirby_air_raiders">

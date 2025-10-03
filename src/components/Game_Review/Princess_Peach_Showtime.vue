@@ -11,8 +11,8 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        "<strong>Princess Peach: Showtime!</strong>" est un jeu
-        <strong>Nintendo</strong> sorti le 22 mars 2024 sur
+        "<strong>Princess Peach: Showtime!</strong> est un jeu
+        <strong>Nintendo</strong> sorti le 22 Mars 2024 sur
         <strong>Switch</strong>. <br />
         Ce jeu marque une <strong>nouvelle ère</strong> pour la princesse, car
         sa dernière apparition dans un jeu vidéo entièrement consacré à elle

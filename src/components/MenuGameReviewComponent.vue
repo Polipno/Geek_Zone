@@ -43,6 +43,7 @@ export default {
         "/donkey_kong_returns_hd": "Donkey Kong Returns HD",
         "/mario_kart_world": "Mario Kart World",
         "/donkey_kong_bananza": "Donkey Kong Bananza",
+        "/super_mario_galaxy_+_super_mario_galaxy_2": "Super Mario Galaxy + Super Mario Galaxy 2",
         "/kirby_air_raiders": "Kirby Air Raiders",
         "/split_fiction": "Split Fiction",
       };
