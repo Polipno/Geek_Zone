@@ -20,7 +20,7 @@ export default {
     Menu,
     Footer,
     GameReviewMenu,
-    LetsPlayMenu
+    LetsPlayMenu,
   },
   data() {
     return {
@@ -44,15 +44,15 @@ export default {
     changeMenuComponent(route) {
       const menuType = route.meta.menu;
 
-    if (menuType === "game") {
-      this.currentMenuComponent = "GameReviewMenu";
-    } else if (menuType === "letsplay") {
-      this.currentMenuComponent = "LetsPlayMenu";
-    } else {
-      this.currentMenuComponent = "Menu";
-    }
+      if (menuType === "game") {
+        this.currentMenuComponent = "GameReviewMenu";
+      } else if (menuType === "letsplay") {
+        this.currentMenuComponent = "LetsPlayMenu";
+      } else {
+        this.currentMenuComponent = "Menu";
+      }
+    },
   },
-}
 };
 </script>
 

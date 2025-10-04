@@ -14,10 +14,10 @@
       <h1>{{ pageTitle }}</h1>
       <nav>
         <ul>
-        <li><router-link to="#Information">Information</router-link></li>
-        <li><router-link to="#Lets play">Let's Play</router-link></li>
-        <li><router-link to="#Mon ressentit">Mon ressentit</router-link></li>
-        <li><router-link to="#Images">Images</router-link></li>
+          <li><router-link to="#Information">Information</router-link></li>
+          <li><router-link to="#Lets play">Let's Play</router-link></li>
+          <li><router-link to="#Mon ressentit">Mon ressentit</router-link></li>
+          <li><router-link to="#Images">Images</router-link></li>
         </ul>
       </nav>
     </div>

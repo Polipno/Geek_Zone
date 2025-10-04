@@ -40,7 +40,8 @@
         célèbre plombier.<br />
         Pas besoin d'avoir des connaissances dans la saga Mario & Luigi pour
         découvrir cet opus.<br />
-        Un tour par tour très agréable avec un système de combat bien pensé ainsi que des musique qui colle au jeu.<br />
+        Un tour par tour très agréable avec un système de combat bien pensé
+        ainsi que des musique qui colle au jeu.<br />
         On peut voir un côté plus expressif des personnages comparé à d'autre
         jeu de la license, capturant l'essence même de la série Mario &
         Luigi.<br />

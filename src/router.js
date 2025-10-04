@@ -18,7 +18,7 @@ import MarioLuigiLepopeeFraternelle from "./components/Game_Review/MarioLuigiLep
 import DonkeyKongCountryReturnsHD from "./components/Game_Review/DonkeyKongCountryReturnsHDComponent.vue";
 import MarioKartWorld from "./components/Game_Review/MarioKartWorldComponent.vue";
 import DonkeyKongBananza from "./components/Game_Review/DonkeyKongBananzaComponent.vue";
-import SuperMarioGalaxySuperMarioGalaxy2 from "./components/Game_Review/SuperMarioGalaxy+SuperMarioGalaxy2Component"
+import SuperMarioGalaxySuperMarioGalaxy2 from "./components/Game_Review/SuperMarioGalaxy+SuperMarioGalaxy2Component";
 import KirbyAirRaiders from "./components/Game_Review/KirbyAirRaidersComponent.vue";
 import SplitFiction from "./components/Game_Review/SplitFictionComponent.vue";
 import LetsPlayInside from "./components/Lets_Play/Lets_Play_Inside.vue";
@@ -131,20 +131,20 @@ const routes = [
     name: "DonkeyKongBananza",
     component: DonkeyKongBananza,
     meta: { menu: "game" },
-  }, 
+  },
   {
     path: "/super_mario_galaxy_+_super_mario_galaxy_2",
     name: "SuperMarioGalaxy+SuperMarioGalaxy2",
     component: SuperMarioGalaxySuperMarioGalaxy2,
     meta: { menu: "game" },
-  }, 
+  },
   {
     path: "/kirby_air_raiders",
     name: "KirbyAirRaiders",
     component: KirbyAirRaiders,
     meta: { menu: "game" },
   },
-    {
+  {
     path: "/split_fiction",
     name: "SplitFiction",
     component: SplitFiction,
@@ -195,10 +195,10 @@ const router = createRouter({
     if (to.hash) {
       return {
         el: to.hash,
-        behavior: "smooth", 
+        behavior: "smooth",
       };
     } else if (savedPosition) {
-      return savedPosition; 
+      return savedPosition;
     } else {
       return { top: 0 };
     }

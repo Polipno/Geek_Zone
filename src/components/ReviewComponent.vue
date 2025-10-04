@@ -48,7 +48,7 @@
         </div>
 
         <div class="bordure-texte">
-<h3>Luigi's Mansion 2 HD</h3>
+          <h3>Luigi's Mansion 2 HD</h3>
           <router-link to="/luigis_mansion_2_hd">
             <img
               src="../assets/Luigis_Mansion_2_HD/Affiche_Luigis_Mansion_2_HD.jpg"
@@ -152,7 +152,6 @@
             />
           </router-link>
         </div>
-
       </div>
     </div>
   </div>
