@@ -2,10 +2,10 @@
   <div class="team-section">
     <h3>Cordonnée</h3>
     <p><strong>Adresse :</strong> Suisse</p>
-    <p><strong>Email :</strong> cgerber35@outlook.com</p>
+    <p><strong>Email :</strong> geekzone.dev@outlook.com</p>
 
     <h3>Responsable du contenu :</h3>
-    <p>Cédric Gerber, Créateur de Geek Zone</p>
+    <p>Créateur de Geek Zone</p>
 
     <h3>Avertissement juridique :</h3>
     <p>

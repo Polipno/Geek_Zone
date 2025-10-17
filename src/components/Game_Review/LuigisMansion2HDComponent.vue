@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Luigis_Mansion_2_HD/Affiche_Luigis_Mansion_2_HD.jpg"
       alt="Affiche de Luigi's Mansion 2 HD"
@@ -35,7 +35,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -66,10 +66,9 @@
       </p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu</p>
       <div class="image-gallery">
         <img
           src="../../assets/Luigis_Mansion_2_HD/Image_1_Luigi_Mansion_2_HD.jpg"

@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Kirby_Air_Raiders/Affiche_Kirby_Air_Riders.jpg"
       alt="Affiche de Zelda Echoes Of Wisdom"
@@ -19,17 +19,16 @@
       <p>...</p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>...</p>
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <p>...</p>
     </div>
   </section>

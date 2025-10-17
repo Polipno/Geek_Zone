@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Paper_Mario_La_Porte_Millénaire/Affiche_Paper_Mario_La_Porte_Millénaire.jpg"
       alt="Affiche de Paper Mario : La Porte Millénaire"
@@ -34,17 +34,17 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
         Un très bon jeu avec une grande aventure très complète qui permet une
         <strong>immersion</strong> au jeu.<br />
         Une histoire assez simpliste mais avec énormément de scènes marrantes
-        qui donnent un côté très Mario qu'on
+        qui donnent un côté très Comic qu'on
         <strong>apprécie</strong>.<br /><br />
         Un RPG avec son lot de <strong>énigmes</strong> bien pensées ainsi
-        qu'une durée de vie du jeu assez longue, notamment +60h pour mon cas à
+        qu'une durée de vie du jeu assez longue, notamment +90h dans mon cas pour le
         100 %. <br />
         En cours de l'aventure, on pourra rencontrer plusieurs personnes dont
         certaines qui vous rejoindront dans l'aventure ainsi que plusieurs
@@ -54,15 +54,13 @@
         Un très bon jeu pour les gens qui veulent jouer à un RPG tour par tour
         avec une grande histoire simpliste sans prise de tête.<br />
         Si vous êtes des joueurs à vouloir faire à 100 % prennaient bien en
-        conte que c'est un vrai investissement car j'ai prit +90h pour le
-        faire...
+        conte que c'est un vrai investissement sachant le temp que ça peut prendre...
       </p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Paper_Mario_La_Porte_Millénaire/Image_1_Paper_Mario_La_Porte_Millénaire.jpg"

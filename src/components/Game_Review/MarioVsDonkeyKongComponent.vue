@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Mario_vs._Donkey_Kong/Affiche_Mario_vs._Donkey_Kong.jpg"
       alt="Affiche de Mario vs. Donkey Kong"
@@ -41,11 +41,10 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
-        Ma note: 8/10<br /><br />
         Un très bon jeu <strong>d'énigme</strong> qui est très plaisant à jouer,
         malgré quelques défauts de suivi des personnages qu'on a constatés en
         jouant à deux. <br />
@@ -59,10 +58,9 @@
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Mario_vs._Donkey_Kong/Image_1_Mario_vs._Donkey_Kong.jpg"

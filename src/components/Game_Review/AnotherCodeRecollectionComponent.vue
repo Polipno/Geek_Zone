@@ -1,18 +1,13 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Another_Code_Recollection/Affiche_2_Another_Code_Recollection.jpg"
+      src="@/assets/Another_Code_Recollection/Affiche_2_Another_Code_Recollection.jpg"
       alt="Affiche de Another Code Recollection"
       class="Image"
     />
   </div>
-  <br />
-  <audio controls>
-    <source
-      src="../../audio/Another Code Recollection OST  Just a Wish.mp3"
-      type="audio/mpeg"
-    />
-  </audio>
+  <audio ref="audioPlayer" :src="bgm" preload="auto"></audio>
+
   <section id="Information">
     <div class="bordure-texte">
       <h2>Information</h2>
@@ -64,12 +59,11 @@
     </div>
   </section>
 
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
 
       <p>
-        Ma note: 10/10<br />
         Voici mon ressentit des 2 jeux<br /><br />
 
         <strong>Another Code: Two Memories:</strong> Un jeu avec des énigmes
@@ -99,10 +93,9 @@
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Another_Code_Recollection/Image_1_Another_Code_Recollection.jpeg"
@@ -128,22 +121,30 @@
       </div>
     </div>
   </section>
-  <section id="Bonus">
-    <div class="bordure-texte">
-      <h2>Bonus</h2>
-      <p>
-        <img
-          src="../../assets/Another_Code_Recollection/Image_Bonus_Another_Code_Recollection.jpeg"
-          alt="Bonus de Another Code Recollection"
-          class="Image"
-        />
-      </p>
-    </div>
-  </section>
+
 </template>
 
 <script>
+import bgm from "@/audio/Another_Code_Recollection_OST_Just_a_Wish.mp3"; 
+
 export default {
   name: "AnotherCodeRecollectionComponent",
+  data() {
+    return {bgm};
+  },
+  mounted() {
+    const audio = this.$refs.audioPlayer;
+    audio.volume = 0.8;
+    
+  
+    audio.play().catch(() => {
+      
+      const playOnClick = () => {
+        audio.play();
+        window.removeEventListener("click", playOnClick);
+      };
+      window.addEventListener("click", playOnClick);
+    });
+  },
 };
 </script>

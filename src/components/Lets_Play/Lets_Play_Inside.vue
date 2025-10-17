@@ -25,7 +25,7 @@
       <p>À venir</p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>À venir</p>

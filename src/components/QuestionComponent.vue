@@ -196,7 +196,7 @@
         />
         <label for="radio3">Palutena</label>
       </fieldset>
-
+        <br/><br/><br/>
       <button @click="showResults">Confirmer</button>
 
       <div v-if="showPopup" class="popup">
@@ -212,6 +212,7 @@
             </li>
           </ul>
         </div>
+
         <button @click="closePopup">Fermer</button>
       </div>
     </div>

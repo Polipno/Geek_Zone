@@ -1,7 +1,7 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Donkey_Kong_Country_Returns_HD/Donkey_Kong_Country_Returns_HD.jpeg"
+      src="../../assets/Donkey_Kong_Country_Returns_HD/Donkey_Kong_Country_Returns_HD.jpg"
       alt="Image de Donkey Kong Country Returns HD"
       class="Image"
     />
@@ -32,7 +32,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -44,16 +44,16 @@
         chrono où il faut terminer le niveau avant le temps défini.<br />
         Ce mode peut être un véritable défi, surtout si vous visez les médailles
         d'or brillantes dans chaque niveau.<br />
+        Le mode 2 joueur est aussi présent et très plaisant à jouer.<br />
         Le jeu est très complet, avec 9 mondes d’environ 9 niveaux chacun.<br />
         Un jeu que je recommande si vous n'avez jamais joué au jeu original.
       </p>
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       ...
     </div>
   </section>

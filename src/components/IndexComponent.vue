@@ -8,10 +8,10 @@
       <img
         src="../assets/Affiche_Geek_Zone.jpg"
         alt="Affiche de Geek Zone"
-        class="Image"
+        class="Image ImageAcceuil"
       />
     </div>
-    <br />
+    <br />    <br />
     <h3>Trailer de Geek Zone</h3>
     <div class="bordure-image">
       <div class="responsive-video">
@@ -26,7 +26,8 @@
           allowfullscreen
         ></iframe>
       </div>
-    </div>
+    </div>  
+      <br />      <br />
     <h3>Progression majeure du site</h3>
 
     <table class="centered-table">
@@ -53,12 +54,12 @@
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>04.03.2025</td>
+          <td>17.10.2025</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>
     </table>
-
+    <br />
     <h3>Aimez-vous le site web&nbsp;?</h3>
 
     <button

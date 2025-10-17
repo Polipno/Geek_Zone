@@ -21,6 +21,8 @@ import DonkeyKongBananza from "./components/Game_Review/DonkeyKongBananzaCompone
 import SuperMarioGalaxySuperMarioGalaxy2 from "./components/Game_Review/SuperMarioGalaxy+SuperMarioGalaxy2Component";
 import KirbyAirRaiders from "./components/Game_Review/KirbyAirRaidersComponent.vue";
 import SplitFiction from "./components/Game_Review/SplitFictionComponent.vue";
+import PlanetOfLana from "./components/Game_Review/PlanetOfLanaComponent.vue"
+import SilentHillF from "./components/Game_Review/SilentHillFComponent.vue"
 import LetsPlayInside from "./components/Lets_Play/Lets_Play_Inside.vue";
 import LetsPlayGris from "./components/Lets_Play/Lets_Play_Gris.vue";
 import PassionPixel from "./components/Podcast/PassionPixelComponent.vue";
@@ -148,6 +150,18 @@ const routes = [
     path: "/split_fiction",
     name: "SplitFiction",
     component: SplitFiction,
+    meta: { menu: "game" },
+  },
+  {
+    path: "/planet_of_lana",
+    name: "PlanetOfLana",
+    component: PlanetOfLana,
+    meta: { menu: "game" },
+  },
+    {
+    path: "/silent_hill_f",
+    name: "SilentHillF",
+    component: SilentHillF,
     meta: { menu: "game" },
   },
   {

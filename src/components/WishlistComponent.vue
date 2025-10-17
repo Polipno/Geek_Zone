@@ -5,11 +5,11 @@
         <h3>Mario Tennis Fever</h3>
 
         <p>Un nouveau jeu de la saga Mario Tennis.</p>
-        <p>12 Février 2025</p>
+        <p>12 Février 2026</p>
         <div class="responsive-video">
           <iframe
-            width="560"
-            height="315"
+            width="640"
+            height="360"
             src="https://www.youtube.com/embed/myC8ZlDiulo?si=gylNTBKfDTBD0FLc"
             title="YouTube video player"
             frameborder="0"
@@ -26,8 +26,8 @@
         <p>Printemp 2026</p>
         <div class="responsive-video">
           <iframe
-            width="560"
-            height="315"
+            width="640"
+            height="360"
             src="https://www.youtube.com/embed/YluJneE1bMo?si=DUrKGUfInXnO8mhq"
             title="YouTube video player"
             frameborder="0"
@@ -35,6 +35,15 @@
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+        </div>
+      </div>
+            <div class="bordure-texte">
+        <h3>Directive 8020</h3>
+
+        <p>Un jeu sci-fi créer par les dévloppeur du UNTIL DAWN ou THE QUARRY</p>
+        <p>2026</p>
+        <div class="responsive-video">
+          <iframe width="1320" height="718" src="https://www.youtube.com/embed/etXhOhzbXso" title="Directive 8020 | Announce Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>

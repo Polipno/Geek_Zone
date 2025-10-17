@@ -5,17 +5,17 @@
   font-family: "MadimiOne-Regular";
   src: url("../fonts/MadimiOne-Regular.ttf") format("truetype");
 }
-
+  html { zoom: 0.9; }   
 /* MenuComponent */
 .menu {
-  background-color: #333;
+  background-color: #252525;
   color: rgb(200, 200, 200);
   padding: 10px 0;
   text-align: center;
 }
 
 .menuReview {
-  background-color: #333;
+  background-color: #252525;
   color: rgb(200, 200, 200);
   padding: 24px 0;
   text-align: center;
@@ -25,14 +25,17 @@
   float: left;
   position: absolute;
   padding: 15px 15px;
-  margin-left: -100px;
+  margin-left: 0px;
 }
 
 .LogoGameReview {
   float: left;
   position: absolute;
   padding: 1px 15px;
-  margin-left: -100px;
+  margin-left: 0px;
+}
+.pc-only {
+  display: block;
 }
 
 .Logo img {
@@ -59,7 +62,7 @@
 
 /* FooterComponent */
 .footer {
-  background-color: #222;
+  background-color: #252525;
   color: rgb(200, 200, 200);
   text-align: center;
   padding: 10px 0;
@@ -67,16 +70,18 @@
   width: 100%;
 }
 
-/* IndexComponent */
 .centered-table {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border-radius: 15px;
   border-collapse: separate;
   border-spacing: 0;
   overflow: hidden;
-  padding: 5px;
+  padding: 15px;
   border: 2px solid rgb(200, 200, 200);
+  background-color: #252525;
+  width: 34%;
+  height: auto;
 }
 
 .bordure-image {
@@ -85,20 +90,50 @@
   margin: 5px;
   display: inline-block;
   border-radius: 15px;
+    background-color: #252525;
+
 }
 
+.ImageAcceuil {
+  max-width: 350px; 
+}
+
+.ImageContact {
+  max-width: 600px; 
+  width: 400px;
+  height: auto;
+  
+}
+
+.mobile-only {
+  display: none;
+}
 .bordure-texte {
   border: 2px solid rgb(200, 200, 200);
   padding: 10px;
   margin: 10px;
   display: inline-block;
   border-radius: 15px;
+  background-color: #252525;
+
+}
+
+#Information .bordure-texte,
+#Histoire .bordure-texte,
+#MonRessenti .bordure-texte,
+#DLC .bordure-texte,
+#CaptureEcran .bordure-texte {
+  display: block;
+  width: min(100%, 1350px);
+  margin: 10px auto;
+  box-sizing: border-box;
 }
 
 .team-section {
   margin-top: 20px;
   text-align: center;
   background-color: black;
+
 }
 
 .team-member {
@@ -125,8 +160,10 @@ h2 {
 }
 
 .centered-table td {
-  border: none; /* Retire les bordures des cellules */
+  border: none; 
   padding: 3px;
+  border-bottom: 1px solid rgb(255, 255, 255); 
+
 }
 
 .Littleimage {
@@ -153,11 +190,11 @@ h2 {
   border: 2px solid #ccc;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  max-height: 80vh; /* Limiter la hauteur maximale du popup */
-  overflow-y: auto; /* Activer le défilement vertical */
-  width: 90%; /* Rendre le popup responsive */
-  max-width: 750px; /* Limite la largeur */
-  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto; 
+  width: 90%; 
+  max-width: 750px; 
+  border-radius: 15px;
 }
 
 nav ul {
@@ -186,7 +223,7 @@ button {
   font-size: 16px;
   color: rgb(200, 200, 200);
   background-color: #252525;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid rgb(200, 200, 200);
 }
 
@@ -205,11 +242,13 @@ button.disabled {
 }
 
 fieldset {
-  max-width: 400px; /* Ajustez cette valeur selon vos besoins */
-  margin: 10px auto; /* Ajoute une marge de 20px sur tous les côtés et centre le fieldset */
-  padding: 10px; /* Ajoute un peu d'espace à l'intérieur du cadre */
-  border: 2px solid #ccc; /* Affiche une bordure subtile */
-  border-radius: 10px;
+  max-width: 400px;
+  margin: 10px auto; 
+  padding: 10px;
+  border: 2px solid #ccc; 
+  border-radius: 15px;
+  background-color: #252525;
+
 }
 
 @media (max-width: 1200px) {
@@ -222,7 +261,7 @@ fieldset {
   .Logo img {
     display: none;
   }
-
+  html { zoom: 1; }  
   header,
   footer {
     text-align: center;
@@ -251,6 +290,8 @@ fieldset {
     padding: 20px 0;
     width: 100%;
     font-size: 40px;
+      background-color: #252525;
+
   }
   .image-gallery img {
     max-width: 100%; /* Une image par ligne sur les petits écrans */
@@ -274,16 +315,40 @@ fieldset {
 }
 
 @media (max-width: 600px) {
+    html { zoom: 1; }  
+
   .bordure-texte {
     display: block;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     overflow: auto;
   }
+
+.Image{
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.ImageContact {
+  max-width: 400px; 
+  width: 300px;
+  height: auto;
+  
+}
+  .mobile-only {
+  display: block;
+}
+ .pc-only {
+  display: none;
+}
   .Logo img {
     display: none;
   }
-
+audio {
+  display: none;
+}
   header,
   footer {
     text-align: center;
@@ -311,6 +376,8 @@ fieldset {
     padding: 10px 0;
     width: 80%;
     font-size: 20px;
+      background-color: #252525;
+
   }
   .image-gallery img {
     max-width: 100%; /* Une image par ligne sur les petits écrans */
@@ -325,8 +392,8 @@ fieldset {
     font-size: 20px;
   }
   .responsive-video iframe {
-    width: 270px;
-    height: 160px;
+    width: 350px;
+    height: 197px;
   }
   input {
     width: 40px;
@@ -334,4 +401,12 @@ fieldset {
     border: 2px solid #000;
     background-color: white;
   }
+
+.centered-table td {
+  border-bottom: 1px solid rgb(255, 255, 255); 
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
 }

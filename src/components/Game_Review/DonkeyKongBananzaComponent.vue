@@ -1,11 +1,12 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Donkey_Kong_Bananza/Affiche_Donkey_Kong_Bananza.jpg"
-      alt="Affiche de Zelda Echoes Of Wisdom"
+      alt="Affiche de Donkey Kong Bananza"
       class="Image"
     />
   </div>
+  <audio ref="audioPlayer" :src="bgm" preload="auto"></audio>
 
   <section id="Information">
     <div class="bordure-texte">
@@ -26,7 +27,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -56,25 +57,24 @@
       </p>
     </div>
   </section>
-
+  <section id="DLC">
   <div class="bordure-texte">
     <h2>DLC - Île de DK et Course aux émeraudes</h2>
     <p>
       Un DLC qui ajoute l’île d’origine de Donkey Kong.<br />
-      Une île agréable à explorer, on peut scheter des statues en échange des
+      Une île agréable à explorer, on peut aussi s'acheter des statues en échange des
       Banana Tips.<br />
-      Un nouveau mode de jeu a été ajouté : en y jouant, on peut débloquer de
+      Un nouveau mode de jeu a été ajouté: en y jouant, on peut débloquer de
       nouveaux costumes.<br />
       Pour ceux qui veulent terminer le jeu à 100 %, le défi sera corsé, car il
       faut parcourir ce mode dans plusieurs souterrains, chacun proposant 7
       niveaux de difficulté.<br />
     </p>
   </div>
-
-  <section id="Capture d'écran">
+</section>
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Donkey_Kong_Bananza/Image_1_Donkey_Kong_Bananza.jpg"
@@ -105,7 +105,26 @@
 </template>
 
 <script>
+import bgm from "@/audio/Donkey_Kong_Bananza_Heart_of_Gold.mp3"; 
+
 export default {
   name: "DonkeyKongBananzaComponent",
+    data() {
+    return {bgm};
+  },
+  mounted() {
+    const audio = this.$refs.audioPlayer;
+    audio.volume = 0.8;
+    
+  
+    audio.play().catch(() => {
+      
+      const playOnClick = () => {
+        audio.play();
+        window.removeEventListener("click", playOnClick);
+      };
+      window.addEventListener("click", playOnClick);
+    });
+  },
 };
 </script>

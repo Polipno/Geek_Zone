@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Zelda_Echoes_Of_Wisdom/Affiche_Zelda_Echoes_Of_Wisdom.jpg"
       alt="Affiche de Zelda Echoes Of Wisdom"
@@ -11,10 +11,10 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        un jeu d'action-aventure sorti le 26 septembre 2024 sur Nintendo
+        Un jeu d'action-aventure sorti le 26 septembre 2024 sur Nintendo
         Switch.<br />
-        Pour la première fois dans la série principale, la princesse Zelda est
-        le personnage jouable principal, prenant la place traditionnelle de
+        Pour la première fois dans la série, la princesse Zelda est
+        la personnage jouable principal, prenant la place traditionnelle de
         Link.
       </p>
     </div>
@@ -31,7 +31,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -50,10 +50,9 @@
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Zelda_Echoes_Of_Wisdom/Image_1_Zelda_Echoes_Of_Wisdom.jpg"

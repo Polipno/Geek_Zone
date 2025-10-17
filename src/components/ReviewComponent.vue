@@ -70,7 +70,7 @@
         </div>
 
         <div class="bordure-texte">
-          <h3>Mario Party Jamboree</h3>
+          <h3>Super Mario Party Jamboree</h3>
           <router-link to="/mario_party_jamboree">
             <img
               src="../assets/Mario_Party_Jamboree/Affiche_Mario_Party_Jamboree.jpg"
@@ -95,7 +95,7 @@
           <h3>Donkey Kong Country Returns HD</h3>
           <router-link to="/donkey_kong_returns_hd">
             <img
-              src="../assets/Donkey_Kong_Country_Returns_HD/Donkey_Kong_Country_Returns_HD.jpeg"
+              src="../assets/Donkey_Kong_Country_Returns_HD/Donkey_Kong_Country_Returns_HD.jpg"
               alt="Affiche de Donkey Kong Country Returns HD"
               class="Image"
             />
@@ -122,10 +122,10 @@
           </router-link>
         </div>
         <div class="bordure-texte">
-          <h3>Super Mario Galaxy + Super Mario Galaxy 2</h3>
+          <h3>Super Mario Galaxy 1 + 2</h3>
           <router-link to="/super_mario_galaxy_+_super_mario_galaxy_2">
             <img
-              src="../assets/Super_Mario_Galaxy_+_Super_Mario_Galaxy_2/Affiche_Super_Mario_Galaxy_+_Super_Mario_Galaxy_2.jpg"
+              src="../assets/Super_Mario_Galaxy_+_Super_Mario_Galaxy_2/Affiche_Super_Mario_Galaxy_+_Super_Mario_Galaxy_2.jpeg"
               alt="Affiche de Super Mario Galaxy + Super Mario Galaxy 2"
               class="Image"
             />
@@ -148,6 +148,28 @@
             <img
               src="../assets/Split_Fiction/Affiche_Split_Fiction.jpg"
               alt="Affiche de Split Fiction"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+                <div class="bordure-texte">
+          <h3>Planet of Lana</h3>
+          <router-link to="/planet_of_lana">
+            <img
+              src="../assets/Planet_Of_Lana/Affiche_Planet_Of_Lana.jpeg"
+              alt="Affiche de Planet of Lana"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+                <div class="bordure-texte">
+          <h3>Silent Hill f</h3>
+          <router-link to="/silent_hill_f">
+            <img
+              src="../assets/Silent_Hill_f/Affiche_Silent_Hill_f.jpeg"
+              alt="Affiche de Silent Hill f"
               class="Image"
             />
           </router-link>

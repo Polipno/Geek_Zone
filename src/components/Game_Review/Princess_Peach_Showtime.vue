@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Princess_Peach_Showtime/Affiche_Princess_Peach_Showtime.jpg"
       alt="Image de Princess Peach Showtime!"
@@ -11,12 +11,12 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        "<strong>Princess Peach: Showtime!</strong> est un jeu
+        <strong>Princess Peach: Showtime!</strong> est un jeu
         <strong>Nintendo</strong> sorti le 22 Mars 2024 sur
         <strong>Switch</strong>. <br />
         Ce jeu marque une <strong>nouvelle ère</strong> pour la princesse, car
         sa dernière apparition dans un jeu vidéo entièrement consacré à elle
-        remonte à 2005 avec "<strong>Super Princess Peach</strong>".<br />
+        remonte à 2005 avec <strong>Super Princess Peach</strong>.<br />
         Cela faisait donc près de <strong>20 ans</strong> qu'un jeu dédié à
         <strong>la princesse Peach</strong> n'était pas sorti.
       </p>
@@ -35,7 +35,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -55,10 +55,9 @@
       </p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Princess_Peach_Showtime/Image_1_Princess_Peach_Showtime.jpg"

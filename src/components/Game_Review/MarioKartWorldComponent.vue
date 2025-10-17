@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Mario_Kart_World/Affiche_Mario_Kart_World.jpg"
       alt="Affiche de Mario Kart World"
@@ -16,7 +16,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -30,7 +30,7 @@
         La météo dynamique et le cycle jour/nuit, qui influencent les courses,
         ajoutent une touche d’immersion sympa.<br />
         Avec plus de 200 morceaux de musique tous bien composés, l'ambiance
-        sonore est au rendez-vous. Le mode Grand Prix est bien fourni, avec 8
+        sonore est au rendez-vous. <br/>Le mode Grand Prix est bien fourni, avec 8
         coupes disponibles en 50cc, 100cc, 150cc ainsi qu’en mode miroir.<br />
         On retrouve aussi un mode Survie, structuré de la même manière avec ses
         propres règle.<br />
@@ -44,8 +44,7 @@
         de la sortie.<br />
         Le 100 % demande un vrai investissement, notamment dans le mode Balade:
         il faut collecter 394 P-Switch, 150 panneaux, 200 médailles Peach, et
-        obtenir 3 étoiles dans toutes les coupes du mode Grand Prix et Survie et
-        encore battre tout les fantômes dans le mode Contre-la-montre.<br />
+        obtenir 3 étoiles dans toutes les coupes du mode Grand Prix et Survie.<br />
         Malheureusement, la récompense pour avoir tout complété reste assez
         décevante, puisqu’il s’agit principalement d’autocollants servant
         uniquement à décorer les véhicules.<br />
@@ -53,10 +52,9 @@
     </div>
   </section>
 
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Mario_Kart_World/Image_1_Mario_Kart_World.jpg"

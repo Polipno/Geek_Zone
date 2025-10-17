@@ -1,7 +1,7 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Super_Mario_Galaxy_+_Super_Mario_Galaxy_2/Affiche_Super_Mario_Galaxy_+_Super_Mario_Galaxy_2.jpg"
+      src="../../assets/Super_Mario_Galaxy_+_Super_Mario_Galaxy_2/Affiche_Super_Mario_Galaxy_+_Super_Mario_Galaxy_2.jpeg"
       alt="Image de Super Mario Galaxy + Super Mario Galaxy 2"
       class="Image"
     />
@@ -19,16 +19,15 @@
       <p>...</p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>...</p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">...</div>
     </div>
   </section>

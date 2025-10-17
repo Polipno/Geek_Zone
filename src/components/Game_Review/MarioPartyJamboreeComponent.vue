@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Mario_Party_Jamboree/Affiche_Mario_Party_Jamboree.jpg"
       alt="Image de Mario Party Jamboree"
@@ -11,7 +11,7 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        Super Mario Party Jamboree est un jeu de société développé par Nintendo
+        Super Mario Party Jamboree est un jeu développé par Nintendo
         Cube et édité par Nintendo, sorti sur Nintendo Switch le 17 octobre
         2024.<br />
         Il s'agit du treizième opus sur console de salon de la série Mario Party
@@ -30,7 +30,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -59,18 +59,17 @@
         Un nouveau mode Jamboree Express qui contient 5 attractions où on peut
         utiliser le mode souris pour viser des ennemis et faire des
         mini-jeux.<br />
-        Ajouts de pas mal de mini-jeux sympas qui utilisent les fonctionnalités
-        de la Nintendo Switch 2 telles que la souris, la caméra ainsi que le
+        Ajouts de plusieurs mini-jeux sympas qui utilisent les fonctionnalités
+        de la Nintendo Switch 2 tels que la souris, la caméra ainsi que le
         micro.<br />
         Également un mode Ilico Presto où on peut commencer directement dans les
         5 derniers tours d'une partie de Mario Party.
       </p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Mario_Party_Jamboree/Image_1_Super_Mario_Party_Jamboree.jpg"

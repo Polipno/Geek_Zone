@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Affiche_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
       alt="Image de Mario & Luigi L'épopée Fraternelle"
@@ -32,7 +32,7 @@
       </p>
     </div>
   </section>
-  <section id="Mon ressentit">
+  <section id="MonRessenti">
     <div class="bordure-texte">
       <h2>Mon ressentit</h2>
       <p>
@@ -55,10 +55,9 @@
       </p>
     </div>
   </section>
-  <section id="Capture d'écran">
+  <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>Voici quelque images du jeu <br /><br /></p>
       <div class="image-gallery">
         <img
           src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Image_1_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
