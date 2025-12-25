@@ -1,8 +1,17 @@
 <template>
   <div class="review">
+    <div class="search-bar" style="margin-bottom: 16px;">
+      <input
+        type="text"
+        v-model="searchQuery"
+        placeholder="Rechercher un jeu..."
+        class="search-input"
+        style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px;"
+      />
+    </div>
     <div class="team-section">
       <div class="team-member">
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Another Code Recollection')">
           <h3>Another Code Recollection</h3>
 
           <router-link to="/another_code_recollection">
@@ -14,7 +23,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Mario vs. Donkey Kong')">
           <h3>Mario vs. Donkey Kong</h3>
           <router-link to="/mario_vs._donkey_kong">
             <img
@@ -25,7 +34,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Princess Peach Showtime !')">
           <h3>Princess Peach Showtime&nbsp;!</h3>
           <router-link to="/princess_peach_showtime">
             <img
@@ -36,7 +45,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Paper Mario : La Porte Millénaire')">
           <h3>Paper Mario&nbsp;: La Porte Millénaire</h3>
           <router-link to="/paper_mario_la_porte_millenaire">
             <img
@@ -47,7 +56,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Luigi\'s Mansion 2 HD')">
           <h3>Luigi's Mansion 2 HD</h3>
           <router-link to="/luigis_mansion_2_hd">
             <img
@@ -58,7 +67,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Zelda Echoes of Wisdom')">
           <h3>Zelda Echoes of Wisdom</h3>
           <router-link to="/zelda_echoes_of_wisdom">
             <img
@@ -69,7 +78,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Super Mario Party Jamboree')">
           <h3>Super Mario Party Jamboree</h3>
           <router-link to="/mario_party_jamboree">
             <img
@@ -80,7 +89,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Mario & Luigi : L’épopée fraternelle')">
           <h3>Mario & Luigi&nbsp;: L’épopée fraternelle</h3>
           <router-link to="/mario_and_luigi_lepopee_fraternelle">
             <img
@@ -91,7 +100,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Donkey Kong Country Returns HD')">
           <h3>Donkey Kong Country Returns HD</h3>
           <router-link to="/donkey_kong_returns_hd">
             <img
@@ -101,7 +110,7 @@
             />
           </router-link>
         </div>
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Mario Kart World')">
           <h3>Mario Kart World</h3>
           <router-link to="/mario_kart_world">
             <img
@@ -111,7 +120,7 @@
             />
           </router-link>
         </div>
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Donkey Kong Bananza')">
           <h3>Donkey Kong Bananza</h3>
           <router-link to="/donkey_kong_bananza">
             <img
@@ -121,7 +130,7 @@
             />
           </router-link>
         </div>
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Super Mario Galaxy 1 + 2')">
           <h3>Super Mario Galaxy 1 + 2</h3>
           <router-link to="/super_mario_galaxy_+_super_mario_galaxy_2">
             <img
@@ -131,7 +140,7 @@
             />
           </router-link>
         </div>
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Kirby Air Raiders')">
           <h3>Kirby Air Raiders</h3>
           <router-link to="/kirby_air_raiders">
             <img
@@ -142,7 +151,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte">
+        <div class="bordure-texte" v-show="matches('Split Fiction')">
           <h3>Split Fiction</h3>
           <router-link to="/split_fiction">
             <img
@@ -153,7 +162,7 @@
           </router-link>
         </div>
 
-                <div class="bordure-texte">
+                    <div class="bordure-texte" v-show="matches('Planet of Lana')">
           <h3>Planet of Lana</h3>
           <router-link to="/planet_of_lana">
             <img
@@ -164,7 +173,7 @@
           </router-link>
         </div>
 
-                <div class="bordure-texte">
+                    <div class="bordure-texte" v-show="matches('Silent Hill f')">
           <h3>Silent Hill f</h3>
           <router-link to="/silent_hill_f">
             <img
@@ -182,5 +191,17 @@
 <script>
 export default {
   name: "ReviewComponent",
+  data() {
+    return {
+      searchQuery: "",
+    };
+  },
+  methods: {
+    matches(name) {
+      const q = (this.searchQuery || "").trim().toLowerCase();
+      if (!q) return true;
+      return name.toLowerCase().includes(q);
+    },
+  },
 };
 </script>
