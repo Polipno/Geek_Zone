@@ -4,7 +4,7 @@
       <p>Créateur du site web</p>
       <div class="bordure-image">
         <img
-          src="../assets/Profil_Cédric_Gerber.jpg"
+          src="../assets/Profil_Geek_Zone.jpg"
           alt="Image de Profil : Cédric Gerber"
           class="Image ImageContact"
         />

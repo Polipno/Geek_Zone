@@ -54,7 +54,31 @@
   <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      ...
+      <div class="image-gallery">
+        <img
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_1_Donkey_Kong_Country_Returns_HD.jpg"
+          alt="Image 1 de Donkey Kong Country Returns"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_2_Donkey_Kong_Country_Returns_HD.jpg"
+          alt="Image 2 de Donkey Kong Country Returns"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_3_Donkey_Kong_Country_Returns_HD.jpg"
+          alt="Image 3 de Donkey Kong Country Returns"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_4_Donkey_Kong_Country_Returns_HD.jpg"
+          alt="Image 4 de Donkey Kong Country Returns"
+          class="Image"
+        />
+      </div>
     </div>
   </section>
 </template>

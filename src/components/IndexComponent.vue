@@ -11,7 +11,8 @@
         class="Image ImageAcceuil"
       />
     </div>
-    <br />    <br />
+    <br />
+    <br />
     <h3>Trailer de Geek Zone</h3>
     <div class="bordure-image">
       <div class="responsive-video">
@@ -26,8 +27,9 @@
           allowfullscreen
         ></iframe>
       </div>
-    </div>  
-      <br />      <br />
+    </div>
+    <br />
+    <br />
     <h3>Progression majeure du site</h3>
 
     <table class="centered-table">
@@ -54,7 +56,7 @@
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>17.10.2025</td>
+          <td>10.01.2026</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>

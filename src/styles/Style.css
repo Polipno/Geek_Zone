@@ -5,7 +5,9 @@
   font-family: "MadimiOne-Regular";
   src: url("../fonts/MadimiOne-Regular.ttf") format("truetype");
 }
-  html { zoom: 0.9; }   
+html {
+  zoom: 0.9;
+}
 /* MenuComponent */
 .menu {
   background-color: #252525;
@@ -80,7 +82,7 @@
   padding: 15px;
   border: 2px solid rgb(200, 200, 200);
   background-color: #252525;
-  width: 34%;
+  width: 100%;
   height: auto;
 }
 
@@ -90,19 +92,17 @@
   margin: 5px;
   display: inline-block;
   border-radius: 15px;
-    background-color: #252525;
-
+  background-color: #252525;
 }
 
 .ImageAcceuil {
-  max-width: 350px; 
+  max-width: 350px;
 }
 
 .ImageContact {
-  max-width: 600px; 
+  max-width: 600px;
   width: 400px;
   height: auto;
-  
 }
 
 .mobile-only {
@@ -115,7 +115,6 @@
   display: inline-block;
   border-radius: 15px;
   background-color: #252525;
-
 }
 
 #Information .bordure-texte,
@@ -133,7 +132,6 @@
   margin-top: 20px;
   text-align: center;
   background-color: black;
-
 }
 
 .team-member {
@@ -187,10 +185,9 @@ h2 {
 }
 
 .centered-table td {
-  border: none; 
+  border: none;
   padding: 3px;
-  border-bottom: 1px solid rgb(255, 255, 255); 
-
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .Littleimage {
@@ -218,9 +215,9 @@ h2 {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   max-height: 80vh;
-  overflow-y: auto; 
-  width: 90%; 
-  max-width: 750px; 
+  overflow-y: auto;
+  width: 90%;
+  max-width: 750px;
   border-radius: 15px;
 }
 
@@ -270,12 +267,11 @@ button.disabled {
 
 fieldset {
   max-width: 400px;
-  margin: 10px auto; 
+  margin: 10px auto;
   padding: 10px;
-  border: 2px solid #ccc; 
+  border: 2px solid #ccc;
   border-radius: 15px;
   background-color: #252525;
-
 }
 
 @media (max-width: 1200px) {
@@ -288,7 +284,9 @@ fieldset {
   .Logo img {
     display: none;
   }
-  html { zoom: 1; }  
+  html {
+    zoom: 1;
+  }
   header,
   footer {
     text-align: center;
@@ -317,8 +315,7 @@ fieldset {
     padding: 20px 0;
     width: 100%;
     font-size: 40px;
-      background-color: #252525;
-
+    background-color: #252525;
   }
   .image-gallery img {
     max-width: 100%; /* Une image par ligne sur les petits écrans */
@@ -354,7 +351,9 @@ fieldset {
 }
 
 @media (max-width: 600px) {
-    html { zoom: 1; }  
+  html {
+    zoom: 1;
+  }
 
   .bordure-texte {
     display: block;
@@ -363,31 +362,33 @@ fieldset {
     overflow: auto;
   }
 
-.Image{
-  max-width: 350px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-.ImageContact {
-  max-width: 400px; 
-  width: 300px;
-  height: auto;
-  
-}
+  .Image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .ImageContact {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
   .mobile-only {
-  display: block;
-}
- .pc-only {
-  display: none;
-}
+    display: block;
+  }
+  .pc-only {
+    display: none;
+  }
   .Logo img {
     display: none;
   }
-audio {
-  display: none;
-}
+  audio {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
   header,
   footer {
     text-align: center;
@@ -398,11 +399,15 @@ audio {
     text-align: center;
     display: block;
   }
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
   nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 0px;
+    padding: 10px 20px;
   }
   footer {
     font-size: 10px;
@@ -415,8 +420,7 @@ audio {
     padding: 10px 0;
     width: 80%;
     font-size: 20px;
-      background-color: #252525;
-
+    background-color: #252525;
   }
   .image-gallery img {
     max-width: 100%; /* Une image par ligne sur les petits écrans */
@@ -431,8 +435,8 @@ audio {
     font-size: 20px;
   }
   .responsive-video iframe {
-    width: 350px;
-    height: 197px;
+    max-width: 100%;
+    height: auto;
   }
   input {
     width: 40px;
@@ -453,11 +457,15 @@ audio {
     color: rgb(200, 200, 200);
   }
 
-.centered-table td {
-  border-bottom: 1px solid rgb(255, 255, 255); 
-  padding-left: 40px;
-  padding-right: 40px;
-
+  .centered-table td {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
+@media (min-width: 601px) {
+  .centered-table {
+    width: 34%;
+  }
 }
