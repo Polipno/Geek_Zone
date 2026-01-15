@@ -374,7 +374,8 @@ fieldset input[type='radio'] {
     margin-bottom: 20px;
     overflow: auto;
   }
-  .Logo img {
+  .Logo img,
+  .LogoGameReview img {
     display: none;
   }
   html {
@@ -473,7 +474,8 @@ fieldset input[type='radio'] {
   .pc-only {
     display: none;
   }
-  .Logo img {
+  .Logo img,
+  .LogoGameReview img {
     display: none;
   }
   audio {

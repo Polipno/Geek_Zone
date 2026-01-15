@@ -21,7 +21,7 @@
     </div>
   </section>
 
-  <section id="Lets play">
+  <section id="LetsPlay">
     <div class="bordure-texte">
       <h2>Let's Play</h2>
       <p>À venir</p>
