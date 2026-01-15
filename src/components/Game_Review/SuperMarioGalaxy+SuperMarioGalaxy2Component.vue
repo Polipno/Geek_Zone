@@ -35,6 +35,6 @@
 
 <script>
 export default {
-  name: "SuperMarioGalaxy+SuperMarioGalaxy2Component",
+  name: 'SuperMarioGalaxy+SuperMarioGalaxy2Component',
 };
 </script>

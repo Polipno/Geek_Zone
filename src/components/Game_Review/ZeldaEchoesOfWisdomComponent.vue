@@ -11,11 +11,9 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        Un jeu d'action-aventure sorti le 26 septembre 2024 sur Nintendo
-        Switch.<br />
-        Pour la première fois dans la série, la princesse Zelda est
-        la personnage jouable principal, prenant la place traditionnelle de
-        Link.
+        Un jeu d'action-aventure sorti le 26 septembre 2024 sur Nintendo Switch.<br />
+        Pour la première fois dans la série, la princesse Zelda est la personnage jouable principal,
+        prenant la place traditionnelle de Link.
       </p>
     </div>
   </section>
@@ -23,11 +21,10 @@
     <div class="bordure-texte">
       <h2>Histoire</h2>
       <p>
-        Le royaume d'Hyrule est menacé par des failles mystérieuses qui
-        absorbent des régions entières et leurs habitants, y compris le héros
-        Link.<br />
-        Armée du Tri Bâton et accompagnée de la fée Tri, la princesse Zelda
-        entreprend une quête pour sceller ces failles et sauver son royaume.
+        Le royaume d'Hyrule est menacé par des failles mystérieuses qui absorbent des régions
+        entières et leurs habitants, y compris le héros Link.<br />
+        Armée du Tri Bâton et accompagnée de la fée Tri, la princesse Zelda entreprend une quête
+        pour sceller ces failles et sauver son royaume.
       </p>
     </div>
   </section>
@@ -36,16 +33,15 @@
       <h2>Mon ressentit</h2>
       <p>
         Un très bon jeu pour découvrir la licence Zelda.<br />
-        Avec un style graphique 3D réussi et des musiques bien composées, il
-        crée une véritable immersion.<br />
-        L’histoire intrigante nous donne envie de découvrir la suite, et les
-        rencontres avec des personnages attachants ajoutent une belle
-        profondeur.<br />
-        Le gameplay est original grâce au pouvoir de créer des échos (des objets
-        scannés) et à la synchronisation, qui permet de déplacer des objets, de
-        faire des combinaisons intéressantes, et bien plus encore.<br />
-        Le jeu m’a pris environ 50 heures pour atteindre les 100 %, un défi très
-        correct et agréable à relever.
+        Avec un style graphique 3D réussi et des musiques bien composées, il crée une véritable
+        immersion.<br />
+        L’histoire intrigante nous donne envie de découvrir la suite, et les rencontres avec des
+        personnages attachants ajoutent une belle profondeur.<br />
+        Le gameplay est original grâce au pouvoir de créer des échos (des objets scannés) et à la
+        synchronisation, qui permet de déplacer des objets, de faire des combinaisons intéressantes,
+        et bien plus encore.<br />
+        Le jeu m’a pris environ 50 heures pour atteindre les 100 %, un défi très correct et agréable
+        à relever.
       </p>
     </div>
   </section>
@@ -84,6 +80,6 @@
 
 <script>
 export default {
-  name: "ZeldaEchoesOfWisdomComponent",
+  name: 'ZeldaEchoesOfWisdomComponent',
 };
 </script>

@@ -20,6 +20,6 @@
 
 <script>
 export default {
-  name: "PodcastComponent",
+  name: 'PodcastComponent',
 };
 </script>

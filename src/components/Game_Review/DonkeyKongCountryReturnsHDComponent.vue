@@ -12,8 +12,7 @@
       <h2>Information</h2>
       <p>
         Développé par Retro Studios et édité par Nintendo.<br />
-        Le jeu revient en version remasterisée 15 ans après sa version
-        originale.
+        Le jeu revient en version remasterisée 15 ans après sa version originale.
       </p>
     </div>
   </section>
@@ -22,13 +21,12 @@
     <div class="bordure-texte">
       <h2>Histoire</h2>
       <p>
-        L’histoire commence lorsque les mystérieuses créatures Tiki Tak, venues
-        de nulle part, hypnotisent les animaux de la jungle. <br />
-        Sous leur emprise, les animaux volent toutes les précieuses bananes de
-        Donkey Kong et s’enfuient dans la même direction. <br />
-        Donkey Kong, furieux et déterminé, doit percer le mystère de ces
-        envahisseurs et récupérer son précieux butin à travers une aventure
-        pleine de défis et de dangers.<br />
+        L’histoire commence lorsque les mystérieuses créatures Tiki Tak, venues de nulle part,
+        hypnotisent les animaux de la jungle. <br />
+        Sous leur emprise, les animaux volent toutes les précieuses bananes de Donkey Kong et
+        s’enfuient dans la même direction. <br />
+        Donkey Kong, furieux et déterminé, doit percer le mystère de ces envahisseurs et récupérer
+        son précieux butin à travers une aventure pleine de défis et de dangers.<br />
       </p>
     </div>
   </section>
@@ -37,13 +35,12 @@
       <h2>Mon ressentit</h2>
       <p>
         Un jeu très sympa si vous recherchez un platformer 2D plus corsé.<br />
-        Chaque niveau a sa propre identité et une bande-son qui correspond à
-        l'ambiance du jeu.<br />
-        Le 100 % reste tout de même très corsé avec les lettres KONG et les
-        puzzles à récolter dans presque tous les niveaux, ainsi que le mode
-        chrono où il faut terminer le niveau avant le temps défini.<br />
-        Ce mode peut être un véritable défi, surtout si vous visez les médailles
-        d'or brillantes dans chaque niveau.<br />
+        Chaque niveau a sa propre identité et une bande-son qui correspond à l'ambiance du jeu.<br />
+        Le 100 % reste tout de même très corsé avec les lettres KONG et les puzzles à récolter dans
+        presque tous les niveaux, ainsi que le mode chrono où il faut terminer le niveau avant le
+        temps défini.<br />
+        Ce mode peut être un véritable défi, surtout si vous visez les médailles d'or brillantes
+        dans chaque niveau.<br />
         Le mode 2 joueur est aussi présent et très plaisant à jouer.<br />
         Le jeu est très complet, avec 9 mondes d’environ 9 niveaux chacun.<br />
         Un jeu que je recommande si vous n'avez jamais joué au jeu original.
@@ -85,6 +82,6 @@
 
 <script>
 export default {
-  name: "DonkeyKongCountryReturnsHDComponent",
+  name: 'DonkeyKongCountryReturnsHDComponent',
 };
 </script>

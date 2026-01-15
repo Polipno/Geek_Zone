@@ -11,8 +11,8 @@
     <div class="bordure-texte" style="margin-top: 10px; padding: 20px">
       <h4 style="text-align: center">Minecraft - Nerwaak</h4>
       <p style="text-align: center">
-        Pour ce premier podcast de Geek Zone on accueille Nerwaak qui va nous
-        parler de son jeu d'enfance Minecraft.
+        Pour ce premier podcast de Geek Zone on accueille Nerwaak qui va nous parler de son jeu
+        d'enfance Minecraft.
       </p>
       <div style="display: flex; justify-content: center">
         <audio controls>
@@ -29,6 +29,6 @@
 
 <script>
 export default {
-  name: "PassionPixelComponent",
+  name: 'PassionPixelComponent',
 };
 </script>

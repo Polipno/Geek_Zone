@@ -11,12 +11,12 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        <strong>Gris</strong> est un jeu de plateforme et d’aventure développé
-        par Nomada Studio et édité par Devolver Digital.<br />
-        Sorti en 2018, il est salué pour sa direction artistique, sa bande-son
-        et son expérience émotionnelle unique.<br />
-        Le joueur incarne Gris, une jeune fille évoluant dans un monde en ruine,
-        symbolisant son parcours à travers la douleur et la reconstruction.
+        <strong>Gris</strong> est un jeu de plateforme et d’aventure développé par Nomada Studio et
+        édité par Devolver Digital.<br />
+        Sorti en 2018, il est salué pour sa direction artistique, sa bande-son et son expérience
+        émotionnelle unique.<br />
+        Le joueur incarne Gris, une jeune fille évoluant dans un monde en ruine, symbolisant son
+        parcours à travers la douleur et la reconstruction.
       </p>
     </div>
   </section>
@@ -48,6 +48,6 @@
 
 <script>
 export default {
-  name: "LetsPlayGris",
+  name: 'LetsPlayGris',
 };
 </script>

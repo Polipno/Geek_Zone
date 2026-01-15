@@ -2,11 +2,7 @@
   <div class="menu">
     <div class="Logo">
       <router-link to="/">
-        <img
-          src="../assets/Logo_Geek_Zone.png"
-          alt="Logo de Geek Zone"
-          class="Image"
-        />
+        <img src="../assets/Logo_Geek_Zone.png" alt="Logo de Geek Zone" class="Image" />
       </router-link>
     </div>
     <h1>{{ pageTitle }}</h1>
@@ -27,19 +23,19 @@
 
 <script>
 export default {
-  name: "MenuComponent",
+  name: 'MenuComponent',
   computed: {
     pageTitle() {
       const titles = {
-        "/": "Accueil",
-        "/contact": "Contact",
-        "/review": "Review",
-        "/letsplay": "Let's Play",
-        "/wishlist": "Wishlist",
-        "/question": "Question",
-        "/podcast": "Podcast",
-        "/passion_pixel": "Passion Pixel",
-        "/impressum": "Impressum",
+        '/': 'Accueil',
+        '/contact': 'Contact',
+        '/review': 'Review',
+        '/letsplay': "Let's Play",
+        '/wishlist': 'Wishlist',
+        '/question': 'Question',
+        '/podcast': 'Podcast',
+        '/passion_pixel': 'Passion Pixel',
+        '/impressum': 'Impressum',
         "/condition_d'utilisation": "Conditions d'utilisation",
       };
       return titles[this.$route.path];

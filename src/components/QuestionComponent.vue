@@ -2,9 +2,7 @@
   <div class="team-section">
     <div class="team-member">
       <fieldset>
-        <legend>
-          Quel est le <strong>premier</strong> jeu vidéo commercial créé ? (1pt)
-        </legend>
+        <legend>Quel est le <strong>premier</strong> jeu vidéo commercial créé ? (1pt)</legend>
         <input
           type="radio"
           id="radio1"
@@ -14,13 +12,7 @@
         />
         <label for="radio1">Space Invaders</label><br />
 
-        <input
-          type="radio"
-          id="radio2"
-          name="groupeRadio"
-          value="Pong"
-          v-model="userAnswers.q1"
-        />
+        <input type="radio" id="radio2" name="groupeRadio" value="Pong" v-model="userAnswers.q1" />
         <label for="radio2">Pong</label><br />
 
         <input
@@ -35,8 +27,8 @@
 
       <fieldset>
         <legend>
-          Où se déroule <strong>l'histoire</strong> de
-          <strong>Super Mario Bros. Wonder</strong> ? (1pt)
+          Où se déroule <strong>l'histoire</strong> de <strong>Super Mario Bros. Wonder</strong> ?
+          (1pt)
         </legend>
         <input
           type="radio"
@@ -67,9 +59,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>
-          Quel est <strong>l'abillité</strong> de <strong>Kirby</strong> ? (1pt)
-        </legend>
+        <legend>Quel est <strong>l'abillité</strong> de <strong>Kirby</strong> ? (1pt)</legend>
         <input
           type="radio"
           id="radio7"
@@ -132,10 +122,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>
-          Quel <strong>personnage</strong> Appartient à <strong>Sega</strong> ?
-          (2pt)
-        </legend>
+        <legend>Quel <strong>personnage</strong> Appartient à <strong>Sega</strong> ? (2pt)</legend>
         <input
           type="radio"
           id="radio13"
@@ -169,13 +156,7 @@
           Comment s'appele le <strong>personnage</strong> principal du jeu
           <strong>Kid Icarus</strong> ? (3pt)
         </legend>
-        <input
-          type="radio"
-          id="radio16"
-          name="groupeRadio6"
-          value="Pit"
-          v-model="userAnswers.q6"
-        />
+        <input type="radio" id="radio16" name="groupeRadio6" value="Pit" v-model="userAnswers.q6" />
         <label for="radio1">Pit</label><br />
 
         <input
@@ -196,7 +177,7 @@
         />
         <label for="radio3">Palutena</label>
       </fieldset>
-        <br/><br/><br/>
+
       <button @click="showResults">Confirmer</button>
 
       <div v-if="showPopup" class="popup">
@@ -221,16 +202,16 @@
 
 <script>
 export default {
-  name: "QuestionComponent",
+  name: 'QuestionComponent',
   data() {
     return {
       correctAnswers: {
         q1: {
-          answer: "Pong",
-          text: "Quel est le premier jeu vidéo commercial créé ?",
+          answer: 'Pong',
+          text: 'Quel est le premier jeu vidéo commercial créé ?',
         },
         q2: {
-          answer: "Le Royaume des Fleurs",
+          answer: 'Le Royaume des Fleurs',
           text: "Où se déroule l'histoire de Super Mario Bros. Wonder ?",
         },
         q3: {
@@ -238,15 +219,15 @@ export default {
           text: "Quel est l'abillité de Kirby ?",
         },
         q4: {
-          answer: "Corbac",
-          text: "Sur Brawlstars, quel Brawler est légendaire ?",
+          answer: 'Corbac',
+          text: 'Sur Brawlstars, quel Brawler est légendaire ?',
         },
         q5: {
-          answer: "Alex Kidd",
-          text: "Quel personnage appartient à Sega ?",
+          answer: 'Alex Kidd',
+          text: 'Quel personnage appartient à Sega ?',
         },
         q6: {
-          answer: "Pit",
+          answer: 'Pit',
           text: "Comment s'appelle le personnage principal du jeu Kid Icarus ?",
         },
       },
@@ -273,11 +254,11 @@ export default {
         const correctAnswer = this.correctAnswers[key].answer;
         const questionText = this.correctAnswers[key].text;
         if (this.userAnswers[key] === correctAnswer) {
-          this.score += key === "q4" || key === "q5" ? 2 : key === "q6" ? 3 : 1;
+          this.score += key === 'q4' || key === 'q5' ? 2 : key === 'q6' ? 3 : 1;
         } else {
           this.incorrectAnswers.push({
             questionText: questionText,
-            userAnswer: this.userAnswers[key] || "Aucun",
+            userAnswer: this.userAnswers[key] || 'Aucun',
             correctAnswer: correctAnswer,
           });
         }

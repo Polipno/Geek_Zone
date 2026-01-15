@@ -26,12 +26,12 @@
 
 <script>
 export default {
-  name: "MenuLetsPlayComponent",
+  name: 'MenuLetsPlayComponent',
   computed: {
     pageTitle() {
       const titles = {
-        "/lets_play_inside": "Inside",
-        "/lets_play_gris": "Gris",
+        '/lets_play_reanimal': 'Reanimal',
+        '/lets_play_gris': 'Gris',
       };
       return titles[this.$route.path];
     },

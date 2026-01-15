@@ -14,7 +14,7 @@
     <br />
     <br />
     <h3>Trailer de Geek Zone</h3>
-    <div class="bordure-image">
+    <div class="bordure-image bordure-video">
       <div class="responsive-video">
         <iframe
           width="560"
@@ -28,7 +28,7 @@
         ></iframe>
       </div>
     </div>
-    <br />
+
     <br />
     <h3>Progression majeure du site</h3>
 
@@ -69,22 +69,22 @@
       :class="{ liked: isLiked, disabled: isProcessing }"
       :disabled="isProcessing"
     >
-      {{ isLiked ? "❤️" : "🤍" }}
+      {{ isLiked ? '❤️' : '🤍' }}
     </button>
     <p>Nombre de likes : {{ likeCount }}</p>
   </div>
 </template>
 
 <script>
-import { db, ref, get, set, onValue } from "../firebase";
+import { db, ref, get, set, onValue } from '../firebase';
 
 export default {
-  name: "IndexComponent",
+  name: 'IndexComponent',
   data() {
     return {
       likeCount: 0,
       isLiked: false,
-      userId: "",
+      userId: '',
       isProcessing: false,
     };
   },
@@ -96,18 +96,18 @@ export default {
   methods: {
     async incrementLike() {
       this.likeCount++;
-      await set(ref(db, "likes/global"), this.likeCount);
+      await set(ref(db, 'likes/global'), this.likeCount);
     },
     getUserId() {
-      let userId = localStorage.getItem("userId");
+      let userId = localStorage.getItem('userId');
       if (!userId) {
-        userId = "user-" + Math.random().toString(36).substr(2, 9);
-        localStorage.setItem("userId", userId);
+        userId = 'user-' + Math.random().toString(36).substr(2, 9);
+        localStorage.setItem('userId', userId);
       }
       return userId;
     },
     listenLikes() {
-      const likeRef = ref(db, "likes/global");
+      const likeRef = ref(db, 'likes/global');
       onValue(likeRef, (snapshot) => {
         if (snapshot.exists()) {
           this.likeCount = snapshot.val();
@@ -123,7 +123,7 @@ export default {
       }
     },
     async fetchLikes() {
-      const likeRef = ref(db, "likes/global");
+      const likeRef = ref(db, 'likes/global');
       const userLikeRef = ref(db, `likes/users/${this.userId}`);
       // Récupère le compteur global
       const snapshot = await get(likeRef);
@@ -142,7 +142,7 @@ export default {
       if (this.isProcessing) return;
       this.isProcessing = true;
 
-      const likeRef = ref(db, "likes/global");
+      const likeRef = ref(db, 'likes/global');
       const userLikeRef = ref(db, `likes/users/${this.userId}`);
       try {
         if (this.isLiked) {
@@ -161,7 +161,7 @@ export default {
         // Met à jour l'état local
         this.isLiked = !this.isLiked;
       } catch (error) {
-        console.error("Error updating like: ", error);
+        console.error('Error updating like: ', error);
       }
       this.isProcessing = false;
     },

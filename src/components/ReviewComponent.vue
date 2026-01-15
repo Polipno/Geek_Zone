@@ -1,12 +1,12 @@
 <template>
   <div class="review">
-    <div class="search-bar" style="margin-bottom: 16px;">
+    <div class="search-bar" style="margin-bottom: 16px">
       <input
         type="text"
         v-model="searchQuery"
         placeholder="Rechercher un jeu..."
         class="search-input"
-        style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px;"
+        style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px"
       />
     </div>
     <div class="team-section">
@@ -162,7 +162,7 @@
           </router-link>
         </div>
 
-                    <div class="bordure-texte" v-show="matches('Planet of Lana')">
+        <div class="bordure-texte" v-show="matches('Planet of Lana')">
           <h3>Planet of Lana</h3>
           <router-link to="/planet_of_lana">
             <img
@@ -173,7 +173,7 @@
           </router-link>
         </div>
 
-                    <div class="bordure-texte" v-show="matches('Silent Hill f')">
+        <div class="bordure-texte" v-show="matches('Silent Hill f')">
           <h3>Silent Hill f</h3>
           <router-link to="/silent_hill_f">
             <img
@@ -190,15 +190,15 @@
 
 <script>
 export default {
-  name: "ReviewComponent",
+  name: 'ReviewComponent',
   data() {
     return {
-      searchQuery: "",
+      searchQuery: '',
     };
   },
   methods: {
     matches(name) {
-      const q = (this.searchQuery || "").trim().toLowerCase();
+      const q = (this.searchQuery || '').trim().toLowerCase();
       if (!q) return true;
       return name.toLowerCase().includes(q);
     },

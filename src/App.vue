@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import Menu from "./components/MenuComponent.vue";
-import Footer from "./components/FooterComponent.vue";
-import GameReviewMenu from "./components/MenuGameReviewComponent.vue";
-import LetsPlayMenu from "./components/MenuLetsPlayComponent.vue";
+import Menu from './components/MenuComponent.vue';
+import Footer from './components/FooterComponent.vue';
+import GameReviewMenu from './components/MenuGameReviewComponent.vue';
+import LetsPlayMenu from './components/MenuLetsPlayComponent.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Menu,
     Footer,
@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      currentComponent: "Index",
-      currentMenuComponent: "Menu",
+      currentComponent: 'Index',
+      currentMenuComponent: 'Menu',
     };
   },
   watch: {
@@ -44,12 +44,12 @@ export default {
     changeMenuComponent(route) {
       const menuType = route.meta.menu;
 
-      if (menuType === "game") {
-        this.currentMenuComponent = "GameReviewMenu";
-      } else if (menuType === "letsplay") {
-        this.currentMenuComponent = "LetsPlayMenu";
+      if (menuType === 'game') {
+        this.currentMenuComponent = 'GameReviewMenu';
+      } else if (menuType === 'letsplay') {
+        this.currentMenuComponent = 'LetsPlayMenu';
       } else {
-        this.currentMenuComponent = "Menu";
+        this.currentMenuComponent = 'Menu';
       }
     },
   },
@@ -57,5 +57,5 @@ export default {
 </script>
 
 <style>
-@import "/src/styles/Style.css";
+@import '/src/styles/Style.css';
 </style>
