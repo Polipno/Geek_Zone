@@ -172,7 +172,9 @@ html {
 #Histoire .bordure-texte,
 #MonRessenti .bordure-texte,
 #DLC .bordure-texte,
-#CaptureEcran .bordure-texte {
+#CaptureEcran .bordure-texte,
+#LetsPlay .bordure-texte,
+#Images .bordure-texte {
   display: block;
   width: min(100%, 1350px);
   margin: 10px auto;

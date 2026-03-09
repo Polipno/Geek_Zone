@@ -47,11 +47,34 @@
       </p>
     </div>
   </section>
-
   <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      ...
+      <div class="image-gallery">
+        <img
+          src="../../assets/Planet_Of_Lana/Image_1_Planet_Of_Lana.jpeg"
+          alt="Image 1 de Planet Of Lana"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Planet_Of_Lana/image_2_Planet_Of_Lana.jpeg"
+          alt="Image 2 de Planet Of Lana"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Planet_Of_Lana/image_3_Planet_Of_Lana.jpeg.jpeg"
+          alt="Image 3 de Planet Of Lana"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Planet_Of_Lana/image_4_Planet_Of_Lana.jpeg.jpeg"
+          alt="Image 4 de Planet Of Lana"
+          class="Image"
+        />
+      </div>
     </div>
   </section>
 </template>

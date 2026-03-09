@@ -54,13 +54,6 @@
       </p>
     </div>
   </section>
-
-  <section id="CaptureEcran">
-    <div class="bordure-texte">
-      <h2>Capture d'écran</h2>
-      <p>...</p>
-    </div>
-  </section>
 </template>
 
 <script>

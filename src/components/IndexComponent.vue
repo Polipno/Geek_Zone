@@ -56,7 +56,7 @@
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>10.01.2026</td>
+          <td>20.03.2026</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>
@@ -89,11 +89,20 @@ export default {
     };
   },
   async created() {
+    if (this.isE2E()) {
+      this.likeCount = 0;
+      this.isLiked = false;
+      return;
+    }
+
     this.userId = this.getUserId();
     this.listenLikes();
     await this.fetchLikes();
   },
   methods: {
+    isE2E() {
+      return typeof window !== 'undefined' && window.Cypress;
+    },
     async incrementLike() {
       this.likeCount++;
       await set(ref(db, 'likes/global'), this.likeCount);
@@ -131,34 +140,36 @@ export default {
         this.likeCount = snapshot.val();
       }
 
-      // Vérifie si l'utilisateur a déjà liké
       const userSnapshot = await get(userLikeRef);
       if (userSnapshot.exists()) {
-        this.isLiked = true; // L'utilisateur a liké
+        this.isLiked = true;
       }
     },
-    // 📌 3️⃣ Fonction pour liker ou enlever son like
+
     async toggleLike() {
       if (this.isProcessing) return;
       this.isProcessing = true;
+
+      if (this.isE2E()) {
+        this.likeCount += this.isLiked ? -1 : 1;
+        this.isLiked = !this.isLiked;
+        this.isProcessing = false;
+        return;
+      }
 
       const likeRef = ref(db, 'likes/global');
       const userLikeRef = ref(db, `likes/users/${this.userId}`);
       try {
         if (this.isLiked) {
-          // ❌ L'utilisateur retire son like
           this.likeCount--;
-          await set(userLikeRef, null); // Supprime l'entrée de l'utilisateur
+          await set(userLikeRef, null);
         } else {
-          // ✅ L'utilisateur ajoute un like
           this.likeCount++;
-          await set(userLikeRef, true); // Stocke que l'utilisateur a liké
+          await set(userLikeRef, true);
         }
 
-        // Met à jour le compteur global
         await set(likeRef, this.likeCount);
 
-        // Met à jour l'état local
         this.isLiked = !this.isLiked;
       } catch (error) {
         console.error('Error updating like: ', error);

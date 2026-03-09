@@ -58,25 +58,25 @@
       <div class="image-gallery">
         <img
           src="../../assets/Princess_Peach_Showtime/Image_1_Princess_Peach_Showtime.jpg"
-          alt="Image 1 de Mario vs. Donkey Kong"
+          alt="Image 1 de Princess Peach Showtime"
           class="Image"
         />
         <br />
         <img
           src="../../assets/Princess_Peach_Showtime/Image_2_Princess_Peach_Showtime.jpg"
-          alt="Image 2 de Mario vs. Donkey Kong"
+          alt="Image 2 de Princess Peach Showtime"
           class="Image"
         />
         <br />
         <img
           src="../../assets/Princess_Peach_Showtime/Image_3_Princess_Peach_Showtime.jpg"
-          alt="Image 3 de Mario vs. Donkey Kong"
+          alt="Image 3 de Princess Peach Showtime"
           class="Image"
         />
         <br />
         <img
           src="../../assets/Princess_Peach_Showtime/Image_4_Princess_Peach_Showtime.jpg"
-          alt="Image 4 de Mario vs. Donkey Kong"
+          alt="Image 4 de Princess Peach Showtime"
           class="Image"
         />
       </div>

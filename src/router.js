@@ -23,6 +23,9 @@ import KirbyAirRaiders from './components/Game_Review/KirbyAirRaidersComponent.v
 import SplitFiction from './components/Game_Review/SplitFictionComponent.vue';
 import PlanetOfLana from './components/Game_Review/PlanetOfLanaComponent.vue';
 import SilentHillF from './components/Game_Review/SilentHillFComponent.vue';
+import LittleNightmaresIII from './components/Game_Review/LittleNightmaresIIIComponent.vue';
+import MarioTennisFever from './components/Game_Review/MarioTennisFeverComponent.vue';
+import ResidentEvilRequiem from './components/Game_Review/ResidentEvilRequiemComponent.vue';
 import LetsPlayReanimal from './components/Lets_Play/Lets_Play_Reanimal.vue';
 import LetsPlayGris from './components/Lets_Play/Lets_Play_Gris.vue';
 import PassionPixel from './components/Podcast/PassionPixelComponent.vue';
@@ -162,6 +165,24 @@ const routes = [
     path: '/silent_hill_f',
     name: 'SilentHillF',
     component: SilentHillF,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/little_nightmares_iii',
+    name: 'LittleNightmaresIII',
+    component: LittleNightmaresIII,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/mario_tennis_fever',
+    name: 'MarioTennisFever',
+    component: MarioTennisFever,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/resident_evil_requiem',
+    name: 'ResidentEvilRequiem',
+    component: ResidentEvilRequiem,
     meta: { menu: 'game' },
   },
   {

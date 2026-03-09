@@ -183,6 +183,39 @@
             />
           </router-link>
         </div>
+
+        <div class="bordure-texte" v-show="matches('Little Nightmares III')">
+          <h3>Little Nightmares III</h3>
+          <router-link to="/little_nightmares_iii">
+            <img
+              src="../assets/Little_Nightmares_III/Affiche_Little_Nightmares_III.jpg"
+              alt="Affiche de Little Nightmares III"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte" v-show="matches('Mario Tennis Fever')">
+          <h3>Mario Tennis Fever</h3>
+          <router-link to="/mario_tennis_fever">
+            <img
+              src="../assets/Mario_Tennis_Fever/Affiche_Mario_Tennis_Fever.jpg"
+              alt="Affiche de Mario Tennis Fever"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte" v-show="matches('Resident Evil Requiem')">
+          <h3>Resident Evil Requiem</h3>
+          <router-link to="/resident_evil_requiem">
+            <img
+              src="../assets/Resident_Evil_Requiem/wp15649783.png"
+              alt="Affiche de Resident Evil Requiem"
+              class="Image"
+            />
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

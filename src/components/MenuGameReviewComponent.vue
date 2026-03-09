@@ -47,6 +47,9 @@ export default {
         '/split_fiction': 'Split Fiction',
         '/planet_of_lana': 'Planet of Lana',
         '/silent_hill_f': 'Silent Hill f',
+        '/little_nightmares_iii': 'Little Nightmares III',
+        '/mario_tennis_fever': 'Mario Tennis Fever',
+        '/resident_evil_requiem': 'Resident Evil Requiem',
       };
 
       return titles[this.$route.path];

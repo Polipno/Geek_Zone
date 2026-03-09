@@ -1,5 +1,5 @@
 <template>
-  <div class="bordure-image">
+  <div class="bordure-image mobile-only">
     <img
       src="../../assets/Lets_Play/Gris/Affiche_Gris.jpg"
       alt="Affiche du jeu Gris"

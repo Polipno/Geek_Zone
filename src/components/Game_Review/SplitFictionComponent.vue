@@ -52,7 +52,31 @@
   <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>...</p>
+      <div class="image-gallery">
+        <img
+          src="../../assets/Split_Fiction/Image_1_Split_Fiction.jpeg"
+          alt="Image 1 de Split Fiction"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Split_Fiction/Image_2_Split_Fiction.jpeg"
+          alt="Image 2 de Split Fiction"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Split_Fiction/Image_3_Split_Fiction.jpeg"
+          alt="Image 3 de Split Fiction"
+          class="Image"
+        />
+        <br />
+        <img
+          src="../../assets/Split_Fiction/Image_4_Split_Fiction.jpeg"
+          alt="Image 4 de Split Fiction"
+          class="Image"
+        />
+      </div>
     </div>
   </section>
 </template>
