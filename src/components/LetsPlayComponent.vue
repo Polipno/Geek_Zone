@@ -14,11 +14,11 @@
           </router-link>
         </div>
         <div class="bordure-texte">
-          <h3>Gris</h3>
-          <router-link to="/lets_play_gris">
+          <h3>A Highland Song</h3>
+          <router-link to="/lets_play_a_highland_song">
             <img
-              src="../assets/Lets_Play/Gris/Affiche_Gris.jpg"
-              alt="Affiche du ?"
+              src="../assets/Lets_Play/A_Highland_Song/Affiche_A_Highland_Song.jpg"
+              alt="Affiche de A Highland Song"
               class="Image"
             />
           </router-link>

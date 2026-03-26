@@ -26,8 +26,9 @@ import SilentHillF from './components/Game_Review/SilentHillFComponent.vue';
 import LittleNightmaresIII from './components/Game_Review/LittleNightmaresIIIComponent.vue';
 import MarioTennisFever from './components/Game_Review/MarioTennisFeverComponent.vue';
 import ResidentEvilRequiem from './components/Game_Review/ResidentEvilRequiemComponent.vue';
+import YoshiEtLeLivreMysterieux from './components/Game_Review/YoshiEtLeLivreMysterieux.vue';
 import LetsPlayReanimal from './components/Lets_Play/Lets_Play_Reanimal.vue';
-import LetsPlayGris from './components/Lets_Play/Lets_Play_Gris.vue';
+import LetsPlayAHighlandSong from './components/Lets_Play/Lets_Play_A_Highland_Song.vue';
 import PassionPixel from './components/Podcast/PassionPixelComponent.vue';
 import Impressum from './components/ImpressumComponent.vue';
 import ConditionDutilisation from './components/ConditionDutilisationComponent.vue';
@@ -186,15 +187,21 @@ const routes = [
     meta: { menu: 'game' },
   },
   {
+    path: '/yoshi_et_le_livre_mysterieux',
+    name: 'YoshiEtLeLivreMysterieux',
+    component: YoshiEtLeLivreMysterieux,
+    meta: { menu: 'game' },
+  },
+  {
     path: '/lets_play_reanimal',
     name: 'LetsPlayReanimal',
     component: LetsPlayReanimal,
     meta: { menu: 'letsplay' },
   },
   {
-    path: '/lets_play_gris',
-    name: 'LetsPlayGris',
-    component: LetsPlayGris,
+    path: '/lets_play_a_highland_song',
+    name: 'LetsPlayAHighlandSong',
+    component: LetsPlayAHighlandSong,
     meta: { menu: 'letsplay' },
   },
   {

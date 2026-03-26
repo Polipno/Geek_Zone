@@ -20,16 +20,18 @@
   <section id="LetsPlay">
     <div class="bordure-texte">
       <h2>Let's Play</h2>
-      <iframe
-        width="1080"
-        height="630"
-        src="https://www.youtube.com/embed/wBkbsLc9u6E?si=Op_8bhRINXo5VDex"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+      <div class="responsive-video">
+        <iframe
+          width="1080"
+          height="630"
+          src="https://www.youtube.com/embed/wBkbsLc9u6E?si=Op_8bhRINXo5VDex"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </section>
   <section id="MonRessenti">

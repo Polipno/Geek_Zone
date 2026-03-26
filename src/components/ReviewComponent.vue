@@ -9,6 +9,7 @@
         style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px"
       />
     </div>
+    <p v-if="showNoResults" class="no-results-message">Aucun resultat pour cette recherche.</p>
     <div class="team-section">
       <div class="team-member">
         <div class="bordure-texte" v-show="matches('Another Code Recollection')">
@@ -45,7 +46,7 @@
           </router-link>
         </div>
 
-        <div class="bordure-texte" v-show="matches('Paper Mario : La Porte Millénaire')">
+        <div class="bordure-texte" v-show="matches('Paper Mario: La Porte Millénaire')">
           <h3>Paper Mario&nbsp;: La Porte Millénaire</h3>
           <router-link to="/paper_mario_la_porte_millenaire">
             <img
@@ -210,8 +211,19 @@
           <h3>Resident Evil Requiem</h3>
           <router-link to="/resident_evil_requiem">
             <img
-              src="../assets/Resident_Evil_Requiem/wp15649783.png"
+              src="../assets/Resident_Evil_Requiem/Affiche_Resident_Evil_Requiem.png"
               alt="Affiche de Resident Evil Requiem"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte" v-show="matches('Yoshi et le Livre Mystérieux')">
+          <h3>Yoshi et le Livre Mystérieux</h3>
+          <router-link to="/yoshi_et_le_livre_mysterieux">
+            <img
+              src="../assets/Yoshi_Et_Le_Livre_Mysterieux/Affiche_Yoshi_Et_Le_Livre_Mysterieux.jpg"
+              alt="Affiche de Yoshi et le livre Mystérieux"
               class="Image"
             />
           </router-link>
@@ -227,13 +239,40 @@ export default {
   data() {
     return {
       searchQuery: '',
+      hasResults: true,
     };
+  },
+  computed: {
+    normalizedQuery() {
+      return (this.searchQuery || '').trim().toLowerCase();
+    },
+    showNoResults() {
+      return Boolean(this.normalizedQuery) && !this.hasResults;
+    },
+  },
+  watch: {
+    searchQuery() {
+      this.$nextTick(() => {
+        this.updateHasResults();
+      });
+    },
+  },
+  mounted() {
+    this.updateHasResults();
   },
   methods: {
     matches(name) {
-      const q = (this.searchQuery || '').trim().toLowerCase();
-      if (!q) return true;
-      return name.toLowerCase().includes(q);
+      if (!this.normalizedQuery) return true;
+      return name.toLowerCase().includes(this.normalizedQuery);
+    },
+    updateHasResults() {
+      if (!this.$el) {
+        this.hasResults = true;
+        return;
+      }
+
+      const cards = Array.from(this.$el.querySelectorAll('.bordure-texte'));
+      this.hasResults = cards.some((card) => card.style.display !== 'none');
     },
   },
 };

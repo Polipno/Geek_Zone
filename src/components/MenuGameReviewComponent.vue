@@ -50,6 +50,7 @@ export default {
         '/little_nightmares_iii': 'Little Nightmares III',
         '/mario_tennis_fever': 'Mario Tennis Fever',
         '/resident_evil_requiem': 'Resident Evil Requiem',
+        '/yoshi_et_le_livre_mysterieux': 'Yoshi et le Livre Mystérieux',
       };
 
       return titles[this.$route.path];

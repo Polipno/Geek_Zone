@@ -28,8 +28,8 @@ export default {
   computed: {
     pageTitle() {
       const titles = {
-        '/lets_play_reanimal': 'Reanimal',
-        '/lets_play_gris': 'Gris',
+        '/lets_play_reanimal': 'REANIMAL',
+        '/lets_play_a_highland_song': 'A Highland Song',
       };
       return titles[this.$route.path];
     },

@@ -45,4 +45,22 @@ describe('ReviewComponent - integration search', () => {
 
     expect(splitCard.isVisible()).toBe(true);
   });
+
+  it('shows a message when no game matches the search', async () => {
+    const wrapper = mount(ReviewComponent, {
+      global: {
+        stubs: {
+          'router-link': { template: '<a><slot /></a>' },
+        },
+      },
+    });
+
+    const input = wrapper.find('input[type="text"]');
+    await input.setValue('zzz');
+
+    const message = wrapper.find('.no-results-message');
+
+    expect(message.exists()).toBe(true);
+    expect(message.text()).toContain('Aucun resultat');
+  });
 });
