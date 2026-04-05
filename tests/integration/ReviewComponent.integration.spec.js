@@ -1,17 +1,21 @@
-/* eslint-env vitest */
+import { describe, it, expect, beforeEach } from 'vitest';
 import { mount } from '@vue/test-utils';
 import ReviewComponent from '../../src/components/ReviewComponent.vue';
 
 describe('ReviewComponent - integration search', () => {
-  it('filters UI when typing in search', async () => {
-    const wrapper = mount(ReviewComponent, {
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = mount(ReviewComponent, {
       global: {
         stubs: {
           'router-link': { template: '<a><slot /></a>' },
         },
       },
     });
+  });
 
+  it('filters UI when typing in search', async () => {
     const input = wrapper.find('input[type="text"]');
     await input.setValue('mario');
 
@@ -27,14 +31,6 @@ describe('ReviewComponent - integration search', () => {
   });
 
   it('shows items again when search is cleared', async () => {
-    const wrapper = mount(ReviewComponent, {
-      global: {
-        stubs: {
-          'router-link': { template: '<a><slot /></a>' },
-        },
-      },
-    });
-
     const input = wrapper.find('input[type="text"]');
     await input.setValue('mario');
     await input.setValue('');
@@ -44,23 +40,5 @@ describe('ReviewComponent - integration search', () => {
       .find((card) => card.text().includes('Split Fiction'));
 
     expect(splitCard.isVisible()).toBe(true);
-  });
-
-  it('shows a message when no game matches the search', async () => {
-    const wrapper = mount(ReviewComponent, {
-      global: {
-        stubs: {
-          'router-link': { template: '<a><slot /></a>' },
-        },
-      },
-    });
-
-    const input = wrapper.find('input[type="text"]');
-    await input.setValue('zzz');
-
-    const message = wrapper.find('.no-results-message');
-
-    expect(message.exists()).toBe(true);
-    expect(message.text()).toContain('Aucun resultat');
   });
 });

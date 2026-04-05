@@ -2,16 +2,17 @@
 
 ## Vue d'ensemble
 
-Ce dossier contient les tests pour 3 fonctionnalites :
+### Fonctionnalites:
 
 1. Recherche (Review)
 2. Bouton like (Accueil)
 3. Popup resultats (Question)
 
-Couverture demandee :
+Couverture demandée:
 
 - 50 tests unitaires (nominal, exception, limites)
 - 5 tests d'integration (partiel)
+- 2 tests E2E (1 automatisé, 1 manuel)
 
 ## Installation
 
@@ -59,15 +60,22 @@ tests/
 │   ├── ReviewComponent.integration.spec.js
 │   ├── IndexComponent.integration.spec.js
 │   └── QuestionComponent.integration.spec.js
+cypress/
+├── e2e/
+│   └── geek-zone-e2e.cy.js
+Test_Manuel.md
 ```
 
 ## Compte des tests
 
-- Unitaires : 50
-  - Review : 18
-  - Index : 18
-  - Question : 14
-- Integration : 5
-  - Review : 2
-  - Index : 1
-  - Question : 2
+- Unitaires: 50
+  - Review: 18
+  - Index: 18
+  - Question: 14
+- Integration: 5
+  - Review: 2
+  - Index: 1
+  - Question: 2
+- End-to-End: 2
+  - Automatisé: 1
+  - Manuel: 1

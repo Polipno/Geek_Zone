@@ -10,7 +10,7 @@
     "test:watch": "vitest --watch",
     "test:e2e": "cypress run",
     "deploy": "vue-cli-service build && echo www.geekzone.site > dist/CNAME && gh-pages -d dist -b gh-pages --no-history -m \"chore(deploy): v$npm_config_version\"",
-    "push": "git add . && git commit -m \"$npm_config_message\" && git push"
+    "push": "git add . && git commit -m \"%$npm_config_message%\" && git push"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -42,7 +42,9 @@
       "describe": "readonly",
       "it": "readonly",
       "expect": "readonly",
-      "vi": "readonly"
+      "vi": "readonly",
+      "cy": "readonly",
+      "Cypress": "readonly"
     },
     "extends": [
       "plugin:vue/vue3-essential",

@@ -43,4 +43,4 @@ Pour plus d’options de configuration, consulte la [documentation officielle de
 ---
 
 **Auteur** : Geek Zone
-**Projet personnel – 2025**
+**Projet personnel – 2026**

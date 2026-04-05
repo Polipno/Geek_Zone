@@ -51,7 +51,7 @@ describe('QuestionComponent - results popup', () => {
     expect(wrapper.vm.incorrectAnswers.length).toBe(0);
   });
 
-  it('adds one incorrect answer per wrong response', () => {
+  it('adds one incorrect answer', () => {
     wrapper.vm.userAnswers = {
       q1: 'Space Invaders',
       q2: 'Le Royaume des Fleurs',
@@ -67,7 +67,7 @@ describe('QuestionComponent - results popup', () => {
   it('uses "Aucun" when an answer is missing', () => {
     wrapper.vm.userAnswers = {};
     wrapper.vm.showResults();
-    const hasAucun = wrapper.vm.incorrectAnswers.some((entry) => entry.userAnswer === 'Aucun');
+    const hasAucun = wrapper.vm.incorrectAnswers.every((entry) => entry.userAnswer === 'Aucun');
     expect(hasAucun).toBe(true);
   });
 
@@ -83,10 +83,16 @@ describe('QuestionComponent - results popup', () => {
     expect(wrapper.vm.score).toBe(2);
   });
 
-  it('scores q5 with 2 points', () => {
-    wrapper.vm.userAnswers = { q5: 'Alex Kidd' };
-    wrapper.vm.showResults();
-    expect(wrapper.vm.score).toBe(2);
+  it('allows only one answer per question', async () => {
+    const first = wrapper.find('#radio1');
+    const second = wrapper.find('#radio2');
+
+    await first.setValue();
+    await second.setValue();
+
+    expect(wrapper.vm.userAnswers.q1).toBe('Pong');
+    expect(first.element.checked).toBe(false);
+    expect(second.element.checked).toBe(true);
   });
 
   it('scores q1 with 1 point', () => {

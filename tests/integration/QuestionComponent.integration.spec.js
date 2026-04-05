@@ -1,4 +1,5 @@
 /* eslint-env vitest */
+import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import QuestionComponent from '../../src/components/QuestionComponent.vue';
 
@@ -8,7 +9,7 @@ describe('QuestionComponent - integration popup', () => {
 
     expect(wrapper.find('.popup').exists()).toBe(false);
 
-    await wrapper.find('button').trigger('click');
+    await wrapper.find('button.confirm-btn').trigger('click');
 
     expect(wrapper.find('.popup').exists()).toBe(true);
     expect(wrapper.find('.popup h3').exists()).toBe(true);
@@ -17,10 +18,10 @@ describe('QuestionComponent - integration popup', () => {
   it('hides popup after clicking close', async () => {
     const wrapper = mount(QuestionComponent);
 
-    await wrapper.find('button').trigger('click');
+    await wrapper.find('button.confirm-btn').trigger('click');
     expect(wrapper.find('.popup').exists()).toBe(true);
 
-    const closeButton = wrapper.find('.popup button');
+    const closeButton = wrapper.find('button.close-btn');
     await closeButton.trigger('click');
 
     expect(wrapper.find('.popup').exists()).toBe(false);

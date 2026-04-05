@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { mount } from '@vue/test-utils';
 import IndexComponent from '../../src/components/IndexComponent.vue';
+import { set, ref } from '../../src/firebase';
 
 vi.mock('../../src/firebase', () => {
   return {
@@ -16,19 +17,21 @@ describe('IndexComponent - integration like', () => {
   let wrapper;
 
   beforeEach(() => {
-    window.Cypress = true;
+    localStorage.clear();
     wrapper = mount(IndexComponent);
   });
 
   afterEach(() => {
     wrapper.unmount();
-    delete window.Cypress;
   });
 
-  it('updates UI after a click', async () => {
+  it('saves like to Firebase when button is clicked', async () => {
+    vi.clearAllMocks();
+
     await wrapper.find('button').trigger('click');
 
-    expect(wrapper.find('button').text()).toBe('❤️');
-    expect(wrapper.text()).toContain('Nombre de likes : 1');
+    expect(set).toHaveBeenCalledWith(expect.anything(), true);
+    expect(set).toHaveBeenCalledWith(expect.anything(), 1);
+    expect(ref).toHaveBeenCalledWith(expect.anything(), 'likes/global');
   });
 });

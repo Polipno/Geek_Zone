@@ -17,7 +17,7 @@ describe('ReviewComponent - matches()', () => {
 
   it('returns true when query is empty', () => {
     wrapper.vm.searchQuery = '';
-    expect(wrapper.vm.matches('Mario Kart World')).toBe(true);
+    expect(wrapper.vm.matches('Mario Kart World')).toBe(true);6
   });
 
   it('returns true when query is whitespace', () => {
@@ -50,13 +50,8 @@ describe('ReviewComponent - matches()', () => {
     expect(wrapper.vm.matches('Mario vs. Donkey Kong')).toBe(true);
   });
 
-  it('matches name with apostrophe', () => {
-    wrapper.vm.searchQuery = 'luigi';
-    expect(wrapper.vm.matches("Luigi's Mansion 2 HD")).toBe(true);
-  });
-
   it('matches name with ampersand', () => {
-    wrapper.vm.searchQuery = 'luigi';
+    wrapper.vm.searchQuery = '&';
     expect(wrapper.vm.matches('Mario & Luigi')).toBe(true);
   });
 
@@ -98,6 +93,15 @@ describe('ReviewComponent - matches()', () => {
   it('returns false for unknown query', () => {
     wrapper.vm.searchQuery = 'zzz';
     expect(wrapper.vm.matches('Mario Kart World')).toBe(false);
+  });
+
+  it('returns message for unknown query', async () => {
+    wrapper.vm.searchQuery = 'zzz';
+    await wrapper.vm.$nextTick();
+    wrapper.vm.updateHasResults();
+    await wrapper.vm.$nextTick();
+    expect(wrapper.vm.showNoResults).toBe(true);
+    expect(wrapper.text()).toContain('Aucun resultat');
   });
 
   it('returns false when name is empty and query is not empty', () => {

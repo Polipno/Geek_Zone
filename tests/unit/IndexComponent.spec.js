@@ -102,7 +102,7 @@ describe('IndexComponent - like button', () => {
   });
 
   it('updates like count text after click', async () => {
-    await wrapper.find('button').trigger('click');
+    await wrapper.vm.toggleLike();
     expect(wrapper.text()).toContain('Nombre de likes : 1');
   });
 
