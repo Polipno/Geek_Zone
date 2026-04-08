@@ -23,6 +23,16 @@
             />
           </router-link>
         </div>
+        <div class="bordure-texte">
+          <h3>A Short Hike</h3>
+          <router-link to="/lets_play_a_short_hike">
+            <img
+              src="../assets/Lets_Play/A_Short_Hike/Affiche_A_Short_Hike.jpg"
+              alt="Affiche de A Short Hike"
+              class="Image"
+            />
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

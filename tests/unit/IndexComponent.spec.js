@@ -18,7 +18,7 @@ function createVm(overrides = {}) {
   };
 }
 
-describe('IndexComponent', () => {
+describe('IndexComponent - Test Unitaire', () => {
   beforeEach(() => {
     localStorage.clear();
     delete window.Cypress;
@@ -29,7 +29,7 @@ describe('IndexComponent', () => {
     delete window.Cypress;
   });
 
-  it('Vérifier que les données initiales du composant sont correctes juste après sa création', () => {
+  it('Vérifie les valeurs initiales du composant', () => {
     const vm = createVm();
 
     const result = {
@@ -47,7 +47,7 @@ describe('IndexComponent', () => {
     });
   });
 
-  it('isE2E retourne true quand Cypress existe', () => {
+  it('isE2E retourne true si Cypress est présent', () => {
     const vm = createVm();
     window.Cypress = true;
 
@@ -56,7 +56,7 @@ describe('IndexComponent', () => {
     expect(isE2E).toBe(true);
   });
 
-  it('isE2E retourne false quand Cypress est absent', () => {
+  it('isE2E retourne false si Cypress est absent', () => {
     const vm = createVm();
     delete window.Cypress;
 
@@ -65,7 +65,7 @@ describe('IndexComponent', () => {
     expect(isE2E).toBeFalsy();
   });
 
-  it('getUserId créer est stocke un nouvel id', () => {
+  it('getUserId crée et stocke un nouvel id', () => {
     const vm = createVm();
     localStorage.removeItem('userId');
     const randomSpy = vi.spyOn(Math, 'random').mockReturnValue(0.123456789);
@@ -77,7 +77,7 @@ describe('IndexComponent', () => {
     randomSpy.mockRestore();
   });
 
-  it('getUserId fuse de stocké si id présent', () => {
+  it('getUserId retourne l’identifiant existant si il est déjà stocké', () => {
     const vm = createVm();
     localStorage.setItem('userId', 'user-existing-id');
 
@@ -86,7 +86,7 @@ describe('IndexComponent', () => {
     expect(userId).toBe('user-existing-id');
   });
 
-  it('created in E2E mode keeps local defaults and skips remote calls', async () => {
+  it('created en mode E2E n’appelle aucune logique distante', async () => {
     window.Cypress = true;
     const vm = createVm({
       getUserId: vi.fn(),
@@ -103,7 +103,7 @@ describe('IndexComponent', () => {
     expect(vm.fetchLikes).not.toHaveBeenCalled();
   });
 
-  it('created in normal mode initialises user and subscriptions', async () => {
+  it('created en mode normal initialise l’utilisateur et les données', async () => {
     const vm = createVm({
       isE2E: vi.fn(() => false),
       getUserId: vi.fn(() => 'user-abc'),
@@ -119,7 +119,7 @@ describe('IndexComponent', () => {
     expect(vm.fetchLikes).toHaveBeenCalledTimes(1);
   });
 
-  it('toggleLike in E2E mode likes when not liked', async () => {
+  it('toggleLike en mode E2E ajoute un like si non liké', async () => {
     window.Cypress = true;
     const vm = createVm({ likeCount: 0, isLiked: false });
 
@@ -130,7 +130,7 @@ describe('IndexComponent', () => {
     expect(vm.isProcessing).toBe(false);
   });
 
-  it('toggleLike in E2E mode unlikes when already liked', async () => {
+  it('toggleLike en mode E2E retire un like si déjà liké', async () => {
     window.Cypress = true;
     const vm = createVm({ likeCount: 3, isLiked: true });
 
@@ -155,7 +155,7 @@ describe('IndexComponent', () => {
     expect(set).not.toHaveBeenCalled();
   });
 
-  it('toggleLike persists like when not liked in normal mode', async () => {
+  it('toggleLike ajoute un like et le sauvegarde en mode normal', async () => {
     const vm = createVm({
       isE2E: () => false,
       userId: 'user-123',
@@ -172,13 +172,10 @@ describe('IndexComponent', () => {
       expect.objectContaining({ path: 'likes/users/user-123' }),
       true
     );
-    expect(set).toHaveBeenCalledWith(
-      expect.objectContaining({ path: 'likes/global' }),
-      1
-    );
+    expect(set).toHaveBeenCalledWith(expect.objectContaining({ path: 'likes/global' }), 1);
   });
 
-  it('toggleLike retire le like si isLiked est déja à true', async () => {
+  it('toggleLike retire un like et met à jour Firebase', async () => {
     const vm = createVm({
       isE2E: () => false,
       userId: 'user-123',
@@ -195,13 +192,10 @@ describe('IndexComponent', () => {
       expect.objectContaining({ path: 'likes/users/user-123' }),
       null
     );
-    expect(set).toHaveBeenCalledWith(
-      expect.objectContaining({ path: 'likes/global' }),
-      4
-    );
+    expect(set).toHaveBeenCalledWith(expect.objectContaining({ path: 'likes/global' }), 4);
   });
 
-  it('toggleLike resets processing flag when persistence throws', async () => {
+  it('toggleLike gère correctement une erreur lors de la sauvegarde', async () => {
     const vm = createVm({
       isE2E: () => false,
       userId: 'user-123',
@@ -218,7 +212,7 @@ describe('IndexComponent', () => {
     consoleErrorSpy.mockRestore();
   });
 
-  it('listenLikes updates likeCount when snapshot exists', () => {
+  it('listenLikes met à jour le compteur si des données existent', () => {
     const vm = createVm();
 
     onValue.mockImplementationOnce((_, callback) => {
@@ -231,7 +225,7 @@ describe('IndexComponent', () => {
     expect(onValue).toHaveBeenCalledTimes(1);
   });
 
-  it('fetchLikes loads global count and user like flag', async () => {
+  it('fetchLikes récupère le compteur global et le statut utilisateur', async () => {
     const vm = createVm({ userId: 'user-777' });
 
     get
@@ -245,19 +239,19 @@ describe('IndexComponent', () => {
     expect(get).toHaveBeenCalledTimes(2);
   });
 
-  it('listenLikes keeps current value when snapshot does not exist', () => {
-  const vm = createVm({ likeCount: 7 });
+  it('listenLikes conserve la valeur actuelle si aucune donnée n’existe', () => {
+    const vm = createVm({ likeCount: 7 });
 
-  onValue.mockImplementationOnce((_, callback) => {
-    callback({ exists: () => false, val: () => 999 });
+    onValue.mockImplementationOnce((_, callback) => {
+      callback({ exists: () => false, val: () => 999 });
+    });
+
+    vm.listenLikes();
+
+    expect(vm.likeCount).toBe(7);
   });
 
-  vm.listenLikes();
-
-  expect(vm.likeCount).toBe(7);
-});
-
-  it('fetchLikes leaves defaults when snapshots do not exist', async () => {
+  it('fetchLikes garde les valeurs par défaut si aucune donnée n’existe', async () => {
     const vm = createVm({ userId: 'user-777', likeCount: 0, isLiked: false });
 
     get

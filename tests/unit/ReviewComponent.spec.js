@@ -20,200 +20,112 @@ function createVm(overrides = {}) {
   return vm;
 }
 
-describe('ReviewComponent - unit logic', () => {
+describe('ReviewComponent - Test Unitaire', () => {
   let vm;
 
   beforeEach(() => {
     vm = createVm();
   });
 
-  it('initialises searchQuery to empty string', () => {
-    // Arrange
-    const state = createVm();
-
-    // Act
-    const result = state.searchQuery;
-
-    // Assert
-    expect(result).toBe('');
+  it('Initialise searchQuery avec une chaîne vide', () => {
+    expect(vm.searchQuery).toBe('');
   });
 
-  it('normalizedQuery trims and lowercases searchQuery', () => {
-    // Arrange
+  it('normalizedQuery supprime les espaces et met en minuscule', () => {
     vm.searchQuery = '  MaRiO  ';
-
-    // Act
     const result = vm.normalizedQuery;
-
-    // Assert
     expect(result).toBe('mario');
   });
 
-  it('normalizedQuery returns empty string when searchQuery is null', () => {
-    // Arrange
+  it('normalizedQuery retourne une chaîne vide si la requête est null', () => {
     vm.searchQuery = null;
-
-    // Act
-    const result = vm.normalizedQuery;
-
-    // Assert
-    expect(result).toBe('');
+    expect(vm.normalizedQuery).toBe('');
   });
 
-  it('showNoResults is false when query is empty', () => {
-    // Arrange
+  it('showNoResults est false quand la recherche est vide', () => {
     vm.searchQuery = '';
     vm.hasResults = false;
-
-    // Act
     const result = vm.showNoResults;
-
-    // Assert
     expect(result).toBe(false);
   });
 
-  it('showNoResults is true when query is non-empty and hasResults is false', () => {
-    // Arrange
+  it('showNoResults est true si la recherche n’est pas vide et qu’il n’y a aucun résultat', () => {
     vm.searchQuery = 'zzz';
     vm.hasResults = false;
-
-    // Act
     const result = vm.showNoResults;
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('showNoResults is false when query is non-empty and hasResults is true', () => {
-    // Arrange
+  it('showNoResults est false si la recherche n’est pas vide mais qu’il y a des résultats', () => {
     vm.searchQuery = 'mario';
     vm.hasResults = true;
-
-    // Act
     const result = vm.showNoResults;
-
-    // Assert
     expect(result).toBe(false);
   });
 
-  it('matches returns true when query is empty', () => {
-    // Arrange
+  it('matches retourne true si la recherche est vide', () => {
     vm.searchQuery = '';
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches returns true when query is whitespace', () => {
-    // Arrange
+  it('matches retourne true si la recherche contient uniquement des espaces', () => {
     vm.searchQuery = '   ';
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches returns true when query is null', () => {
-    // Arrange
+  it('matches retourne true si la recherche est null', () => {
     vm.searchQuery = null;
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches exact name', () => {
-    // Arrange
+  it('matches retourne true pour une correspondance exacte', () => {
     vm.searchQuery = 'Mario Kart World';
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches partial name case-insensitive', () => {
-    // Arrange
+  it('matches retourne true pour une correspondance partielle insensible à la casse', () => {
     vm.searchQuery = 'mArIo';
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('returns false for non-matching name', () => {
-    // Arrange
+  it('matches retourne false si le nom ne correspond pas', () => {
     vm.searchQuery = 'zelda';
-
-    // Act
     const result = vm.matches('Mario Kart World');
-
-    // Assert
     expect(result).toBe(false);
   });
 
-  it('matches name with punctuation (vs.)', () => {
-    // Arrange
+  it('matches gère correctement la ponctuation', () => {
     vm.searchQuery = 'vs.';
-
-    // Act
     const result = vm.matches('Mario vs. Donkey Kong');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches name with ampersand', () => {
-    // Arrange
+  it('matches gère le symbole "&"', () => {
     vm.searchQuery = '&';
-
-    // Act
     const result = vm.matches('Mario & Luigi');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches name with plus sign', () => {
-    // Arrange
+  it('matches gère les expressions avec "+"', () => {
     vm.searchQuery = '1 + 2';
-
-    // Act
     const result = vm.matches('Super Mario Galaxy 1 + 2');
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('matches name with number', () => {
-    // Arrange
+  it('matches gère les nombres dans les noms', () => {
     vm.searchQuery = '2';
-
-    // Act
     const result = vm.matches("Luigi's Mansion 2 HD");
-
-    // Assert
     expect(result).toBe(true);
   });
 
-  it('returns false when name is empty and query is not empty', () => {
-    // Arrange
+  it('matches retourne false si le nom est vide et la recherche non vide', () => {
     vm.searchQuery = 'mario';
-
-    // Act
     const result = vm.matches('');
-
-    // Assert
     expect(result).toBe(false);
   });
 });

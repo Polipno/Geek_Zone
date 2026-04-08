@@ -3,8 +3,8 @@ import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import QuestionComponent from '../../src/components/QuestionComponent.vue';
 
-describe('QuestionComponent - integration popup', () => {
-  it('shows popup after confirm', async () => {
+describe('QuestionComponent - Test Integration', () => {
+  it('affiche le popup après confirmation', async () => {
     const wrapper = mount(QuestionComponent);
 
     expect(wrapper.find('.popup').exists()).toBe(false);
@@ -15,7 +15,7 @@ describe('QuestionComponent - integration popup', () => {
     expect(wrapper.find('.popup h3').exists()).toBe(true);
   });
 
-  it('hides popup after clicking close', async () => {
+  it('masque le popup après avoir cliqué sur fermer', async () => {
     const wrapper = mount(QuestionComponent);
 
     await wrapper.find('button.confirm-btn').trigger('click');

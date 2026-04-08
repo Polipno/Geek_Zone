@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { mount } from '@vue/test-utils';
 import ReviewComponent from '../../src/components/ReviewComponent.vue';
 
-describe('ReviewComponent - integration search', () => {
+describe('ReviewComponent - Test Integration', () => {
   let wrapper;
 
   beforeEach(() => {
@@ -15,7 +15,7 @@ describe('ReviewComponent - integration search', () => {
     });
   });
 
-  it('filters UI when typing in search', async () => {
+  it('filtre les éléments de l’interface lors de la saisie dans la recherche', async () => {
     const input = wrapper.find('input[type="text"]');
     await input.setValue('mario');
 
@@ -30,7 +30,7 @@ describe('ReviewComponent - integration search', () => {
     expect(splitCard.isVisible()).toBe(false);
   });
 
-  it('shows items again when search is cleared', async () => {
+  it('réaffiche les éléments lorsque la recherche est effacée', async () => {
     const input = wrapper.find('input[type="text"]');
     await input.setValue('mario');
     await input.setValue('');

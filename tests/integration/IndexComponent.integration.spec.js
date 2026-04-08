@@ -13,7 +13,7 @@ vi.mock('../../src/firebase', () => {
   };
 });
 
-describe('IndexComponent - integration like', () => {
+describe('IndexComponent - Test Integration', () => {
   let wrapper;
 
   beforeEach(() => {
@@ -25,7 +25,7 @@ describe('IndexComponent - integration like', () => {
     wrapper.unmount();
   });
 
-  it('saves like to Firebase when button is clicked', async () => {
+  it('enregistre un like dans Firebase lors du clic sur le bouton', async () => {
     vi.clearAllMocks();
 
     await wrapper.find('button').trigger('click');

@@ -16,7 +16,7 @@
         <li><router-link to="#Information">Information</router-link></li>
         <li><router-link to="#LetsPlay">Let's Play</router-link></li>
         <li><router-link to="#MonRessenti">Mon ressentit</router-link></li>
-        <li><router-link to="#Images">Images</router-link></li>
+        <li><router-link to="#CaptureEcran">Capture d'écran</router-link></li>
       </ul>
     </nav>
   </div>
@@ -30,6 +30,7 @@ export default {
       const titles = {
         '/lets_play_reanimal': 'REANIMAL',
         '/lets_play_a_highland_song': 'A Highland Song',
+        '/lets_play_a_short_hike': 'A Short Hike',
       };
       return titles[this.$route.path];
     },
