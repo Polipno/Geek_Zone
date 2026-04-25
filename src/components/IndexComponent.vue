@@ -56,7 +56,7 @@
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>20.03.2026</td>
+          <td>15.04.2026</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>

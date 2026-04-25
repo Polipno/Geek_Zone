@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import IndexComponent from '../../src/components/IndexComponent.vue';
-import { get, onValue, ref, set } from '../../src/firebase';
+import { get, onValue, set } from '../../src/firebase';
 
 vi.mock('../../src/firebase', () => ({
   db: {},

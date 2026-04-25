@@ -69,9 +69,9 @@ Test_Manuel.md
 ## Compte des tests
 
 - Unitaires: 50
-  - Review: 18
-  - Index: 18
-  - Question: 14
+  - Review: 17
+  - Index: 17
+  - Question: 16
 - Integration: 5
   - Review: 2
   - Index: 1
