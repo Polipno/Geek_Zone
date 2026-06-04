@@ -25,3 +25,9 @@ pnpm-debug.log*
 
 
 src/firebase.js
+
+# Test output
+results.json
+
+# Python virtual env
+.venv
