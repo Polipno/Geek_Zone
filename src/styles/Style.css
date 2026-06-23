@@ -146,7 +146,7 @@ html {
   background-color: #252525;
 }
 
-.ImageAcceuil {
+.ImageAccueil {
   max-width: 350px;
 }
 
@@ -633,7 +633,7 @@ fieldset input[type='radio'] {
   }
 
   .Image,
-  .ImageAcceuil,
+  .ImageAccueil,
   .Littleimage {
     max-width: 420px;
     width: 100%;

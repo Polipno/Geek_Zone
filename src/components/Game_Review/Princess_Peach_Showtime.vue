@@ -12,7 +12,7 @@
       <h2>Information</h2>
       <p>
         <strong>Princess Peach: Showtime!</strong> est un jeu <strong>Nintendo</strong> sorti le 22
-        Mars 2024 sur <strong>Switch</strong>. <br />
+        mars 2024 sur <strong>Switch</strong>. <br />
         Ce jeu marque une <strong>nouvelle ère</strong> pour la princesse, car sa dernière
         apparition dans un jeu vidéo entièrement consacré à elle remonte à 2005 avec
         <strong>Super Princess Peach</strong>.<br />
@@ -36,7 +36,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Ce jeu brille par son <strong>originalité</strong> et possède une
         <strong>bande-son</strong> de qualité, à l'image de l'ensemble du jeu.
@@ -46,7 +46,7 @@
         Ma préférée est <strong>Kung Fu Peach</strong>, en raison de son
         <strong>gameplay</strong> qui rappelle celui de <strong>Street Fighter</strong>.<br />
         Une fois le jeu terminé, plusieurs <strong>bonus</strong> sont disponibles, tels que la
-        recherche de trois apprentis de <strong>l'Éteinceliste Ninja</strong> dans chaque niveau,
+        recherche de trois apprentis de <strong>l'Étinceliste Ninja</strong> dans chaque niveau,
         ainsi que la possibilité de refaire les combats contre les <strong>boss</strong>, entre
         autres.
       </p>

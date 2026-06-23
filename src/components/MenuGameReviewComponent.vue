@@ -16,7 +16,7 @@
       <ul>
         <li><router-link to="#Information">Information</router-link></li>
         <li><router-link to="#Histoire">Histoire</router-link></li>
-        <li><router-link to="#MonRessenti">Mon ressentit</router-link></li>
+        <li><router-link to="#MonRessenti">Mon ressenti</router-link></li>
         <li>
           <router-link to="#CaptureEcran">Capture d'écran</router-link>
         </li>
@@ -38,7 +38,7 @@ export default {
         '/luigis_mansion_2_hd': "Luigi's Mansion 2 HD",
         '/zelda_echoes_of_wisdom': 'Zelda Echoes Of Wisdom',
         '/mario_party_jamboree': 'Super Mario Party Jamboree',
-        '/mario_and_luigi_lepopee_fraternelle': "Mario & Luigi L'époppé Fraternelle",
+        '/mario_and_luigi_lepopee_fraternelle': "Mario & Luigi L'Épopée Fraternelle",
         '/donkey_kong_returns_hd': 'Donkey Kong Returns HD',
         '/mario_kart_world': 'Mario Kart World',
         '/donkey_kong_bananza': 'Donkey Kong Bananza',
@@ -51,6 +51,7 @@ export default {
         '/mario_tennis_fever': 'Mario Tennis Fever',
         '/resident_evil_requiem': 'Resident Evil Requiem',
         '/yoshi_et_le_livre_mysterieux': 'Yoshi et le Livre Mystérieux',
+        '/directive_8020': 'Directive 8020',
       };
 
       return titles[this.$route.path];

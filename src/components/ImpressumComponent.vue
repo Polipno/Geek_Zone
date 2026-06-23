@@ -1,6 +1,6 @@
 <template>
   <div class="team-section">
-    <h3>Cordonnée</h3>
+    <h3>Coordonnées</h3>
     <p><strong>Adresse :</strong> Suisse</p>
     <p><strong>Email :</strong> geekzone.dev@outlook.com</p>
 

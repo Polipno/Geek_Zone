@@ -12,7 +12,7 @@
       <h2>Information</h2>
       <p>
         Un jeu d'action-aventure sorti le 26 septembre 2024 sur Nintendo Switch.<br />
-        Pour la première fois dans la série, la princesse Zelda est la personnage jouable principal,
+        Pour la première fois dans la série, la princesse Zelda est le personnage jouable principal,
         prenant la place traditionnelle de Link.
       </p>
     </div>
@@ -30,7 +30,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu pour découvrir la licence Zelda.<br />
         Avec un style graphique 3D réussi et des musiques bien composées, il crée une véritable

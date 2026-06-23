@@ -33,7 +33,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Le jeu a un véritable effet <strong>cartoon</strong> et les animations sont très marrantes
         et soignées. <br />

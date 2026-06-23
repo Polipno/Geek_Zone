@@ -11,18 +11,18 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        Mario Kart World est un jeu de course dévloppé par Nintendo, sorti le 5 juin 2025
+        Mario Kart World est un jeu de course développé par Nintendo, sorti le 5 juin 2025
         exclusivement sur Nintendo Switch 2.
       </p>
     </div>
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Visuellement, ce jeu est une vraie réussite, il est très beau et tourne parfaitement sur la
         Nintendo Switch 2.<br />
-        Le jeu propose 32 circuits disponibles au le lancement, jouables en solo ou à plusieurs, en
+        Le jeu propose 32 circuits disponibles au lancement, jouables en solo ou à plusieurs, en
         local comme en ligne.<br />
         Le gameplay est très fun, et l’ajout de nouvelles mécaniques comme le Charge Jump ou la
         fonction Rewind apporte un vent de fraîcheur à la saga.<br />
@@ -31,7 +31,7 @@
         Avec plus de 200 morceaux de musique tous bien composés, l'ambiance sonore est au
         rendez-vous. <br />Le mode Grand Prix est bien fourni, avec 8 coupes disponibles en 50cc,
         100cc, 150cc ainsi qu’en mode miroir.<br />
-        On retrouve aussi un mode Survie, structuré de la même manière avec ses propres règle.<br />
+        On retrouve aussi un mode Survie, structuré de la même manière avec ses propres règles.<br />
         Le mode Balade permet quant à lui d’explorer un open world, à la recherche de collectibles
         comme des P-Switch, des médailles Peach, ou encore des panneaux.<br />
         D'autres modes comme le Contre-la-montre ou le Mode Combat offrent une expérience

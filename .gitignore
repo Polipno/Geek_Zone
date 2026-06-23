@@ -31,3 +31,7 @@ results.json
 
 # Python virtual env
 .venv
+
+# Claude Code (local only)
+.claude/
+CLAUDE.md

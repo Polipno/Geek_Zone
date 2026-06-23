@@ -2,7 +2,7 @@
   <div class="bordure-image mobile-only">
     <img
       src="../../assets/Kirby_Air_Raiders/Affiche_Kirby_Air_Riders.jpg"
-      alt="Affiche de Zelda Echoes Of Wisdom"
+      alt="Affiche de Kirby Air Raiders"
       class="Image"
     />
   </div>
@@ -28,7 +28,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu de course qui se démarque par son gameplay simple mais efficace.<br />
         On y retrouve 21 personnages de l’univers Kirby, chacun ayant ses propres attributs ainsi

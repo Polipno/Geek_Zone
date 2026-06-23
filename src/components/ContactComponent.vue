@@ -11,7 +11,7 @@
       </div>
 
       <p>
-        J'adore mon lit et les <strong>jeu vidéo</strong>. <br />
+        J'adore mon lit et les <strong>jeux vidéo</strong>. <br />
         Pour ma <strong>passion</strong> autre que le <strong>jeu vidéo</strong>, c'est
         <strong>l'ukulélé</strong>. <br />
         Je suis un grand fan de l'artiste <strong>BoyWithUke</strong>. <br />

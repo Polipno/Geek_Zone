@@ -44,21 +44,21 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <h3>Super Mario Galaxy</h3>
       <p>
         Super Mario Galaxy est un très grand classique de la licence.<br />Son gameplay est
         particulièrement marquant, notamment grâce au système de gravité, qui renouvelle
         intelligemment le platformer 3D et apporte des sensations vraiment uniques. <br />Les
-        environnements sont variés et toujours inventifs, tout comme les nombreux énnemis qu'on
+        environnements sont variés et toujours inventifs, tout comme les nombreux ennemis qu'on
         croisera au fil de l’aventure. <br />Les musiques sont composées avec soin, renforcent
         énormément l’immersion et donnent une vraie identité à chaque galaxie. <br />Le jeu propose
         également plusieurs mini-boss, tous différents, avec des mécaniques propres et souvent très
         agréables à affronter. Concernant le contenu, obtenir les 121 étoiles nécessaires pour
-        terminer le jeu à 100% ce qui est plus tôt facile il m’a fallu environ 30 heures pour y
-        parvenir. <br />En revanche, pour atteindre le véritable 100 %, il faut recommencer la
-        collecte des étoiles avec Luigi, puis décrocher la 242 ème étoile. <br />Un défi nettement
-        plus exigeant que je n’ai personnellement pas eu le courage de faire.
+        terminer le jeu à 100 % est plutôt facile : il m’a fallu environ 30 heures pour y parvenir.
+        <br />En revanche, pour atteindre le véritable 100 %, il faut recommencer la collecte des
+        étoiles avec Luigi, puis décrocher la 242 ème étoile. <br />Un défi nettement plus exigeant
+        que je n’ai personnellement pas eu le courage de faire.
       </p>
       <h3>Super Mario Galaxy 2</h3>
       <p>
@@ -78,7 +78,7 @@
         l’aventure.<br />
         La durée de vie est similaire à celle du premier jeu, mais elle peut aller beaucoup plus
         loin pour les complétionnistes, avec jusqu’à 242 étoiles à récolter.<br />
-        Personnellement, ça m'a prit environ 22 heures pour récolter 120 étoile.
+        Personnellement, ça m'a pris environ 22 heures pour récolter 120 étoiles.
       </p>
     </div>
   </section>

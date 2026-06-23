@@ -35,23 +35,23 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu avec une grande aventure très complète qui permet une
         <strong>immersion</strong> au jeu.<br />
         Une histoire assez simpliste mais avec énormément de scènes marrantes qui donnent un côté
-        très Comic qu'on
+        très comique qu'on
         <strong>apprécie</strong>.<br /><br />
-        Un RPG avec son lot de <strong>énigmes</strong> bien pensées ainsi qu'une durée de vie du
-        jeu assez longue, notamment +90h dans mon cas pour le 100 %. <br />
-        En cours de l'aventure, on pourra rencontrer plusieurs personnes dont certaines qui vous
+        Un RPG avec son lot d'<strong>énigmes</strong> bien pensées ainsi qu'une durée de vie du jeu
+        assez longue, notamment +90h dans mon cas pour le 100 %. <br />
+        Au cours de l'aventure, on pourra rencontrer plusieurs personnes dont certaines qui vous
         rejoindront dans l'aventure ainsi que plusieurs
         <strong>transformations</strong> de Mario <strong>sympathiques</strong> qui offriront leur
         lot de divertissement très bien sans oublier la bande-son très sympa. <br /><br />
         Un très bon jeu pour les gens qui veulent jouer à un RPG tour par tour avec une grande
         histoire simpliste sans prise de tête.<br />
-        Si vous êtes des joueurs à vouloir faire à 100 % prennaient bien en conte que c'est un vrai
-        investissement sachant le temp que ça peut prendre...
+        Si vous êtes des joueurs à vouloir faire le 100 %, prenez bien en compte que c'est un vrai
+        investissement sachant le temps que ça peut prendre...
       </p>
     </div>
   </section>

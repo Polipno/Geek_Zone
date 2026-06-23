@@ -8,7 +8,7 @@
       <img
         src="../assets/Affiche_Geek_Zone.jpg"
         alt="Affiche de Geek Zone"
-        class="Image ImageAcceuil"
+        class="Image ImageAccueil"
       />
     </div>
     <br />

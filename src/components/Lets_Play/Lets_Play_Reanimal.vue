@@ -11,9 +11,9 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        REANIMAL est un survival horror jouable en solo où en co-op sorti le 13 février sur toute
-        les platformes.<br />
-        Il a été créer par Tarsier Studios qui sont les créateurs de Little Nightmares 1 et 2.
+        REANIMAL est un survival horror jouable en solo ou en co-op sorti le 13 février sur toutes
+        les plateformes.<br />
+        Il a été créé par Tarsier Studios qui sont les créateurs de Little Nightmares 1 et 2.
       </p>
     </div>
   </section>
@@ -36,12 +36,12 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         REANIMAL est un très bon jeu d'horreur grâce à son ambiance sombre et immersive qui nous
         plonge immédiatement dans son univers.<br />
         L’atmosphère est travaillée avec soin, que ce soit la direction artistique ou les différents
-        environnements. l’un des points forts du jeu est le gameplay qui est particulièrement
+        environnements. L’un des points forts du jeu est le gameplay qui est particulièrement
         varié.<br />
         À certains moments, on prend le contrôle d’un bateau, d’une voiture, ou même d’un tank, ce
         qui apporte un vrai dynamisme à l’aventure et évite toute sensation de répétition.<br />
@@ -51,10 +51,10 @@
         regarder une vidéo explicative après avoir terminé le jeu pour mieux saisir le scénario.<br />
         Le jeu peut se parcourir en solo, mais aussi en coopération locale ou en ligne, ce qui est
         un vrai plus.<br />
-        Concernant la durée de vie, l’aventure principale reste relativement courte: On l'a terminée
-        en environ 5h30.<br />
+        Concernant la durée de vie, l’aventure principale reste relativement courte : on l'a
+        terminée en environ 5h30.<br />
         En revanche, pour obtenir le 100 %, il faudra y consacrer davantage de temps, notamment à
-        cause des nombreux collectibles colléctionable.
+        cause des nombreux collectibles à collectionner.
       </p>
     </div>
   </section>

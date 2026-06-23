@@ -40,7 +40,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu <strong>d'énigme</strong> qui est très plaisant à jouer, malgré quelques
         défauts de suivi des personnages qu'on a constatés en jouant à deux. <br />

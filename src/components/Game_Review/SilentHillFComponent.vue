@@ -33,7 +33,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Silent Hill f est un jeu d’horreur qui m’a beaucoup plu grâce à son ambiance très sombre et
         oppressante.<br />

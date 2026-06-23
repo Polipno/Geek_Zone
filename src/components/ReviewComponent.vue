@@ -9,7 +9,7 @@
         style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px"
       />
     </div>
-    <p v-if="showNoResults" class="no-results-message">Aucun resultat pour cette recherche.</p>
+    <p v-if="showNoResults" class="no-results-message">Aucun résultat pour cette recherche.</p>
     <div class="team-section">
       <div class="team-member">
         <div class="bordure-texte" v-show="matches('Another Code Recollection')">
@@ -224,6 +224,17 @@
             <img
               src="../assets/Yoshi_Et_Le_Livre_Mysterieux/Affiche_Yoshi_Et_Le_Livre_Mysterieux.jpg"
               alt="Affiche de Yoshi et le livre Mystérieux"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte" v-show="matches('Directive 8020')">
+          <h3>Directive 8020</h3>
+          <router-link to="/directive_8020">
+            <img
+              src="../assets/Directive_8020/Affiche_Directive_8020.jpg"
+              alt="Affiche de Directive 8020"
               class="Image"
             />
           </router-link>

@@ -37,12 +37,12 @@
 
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un bon jeu cozy pour les fans de randonnée qui recherchent une petite aventure dans un open
         world.<br />
         Le gameplay est réussi avec les sauts en l’air, l’escalade, le planage ou encore les piqués
-        qui rend la variété de déplacements très plaisante.<br />
+        qui rendent la variété de déplacements très plaisante.<br />
         A Short Hike nous donne beaucoup d’activités sympas comme jouer au beachstickball, conduire
         un bateau ou profiter de la pêche, et bien plus encore.<br />
         Il y a beaucoup de PNJ qu’on peut aborder, tous avec des conversations bien pensées et

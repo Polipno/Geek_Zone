@@ -29,7 +29,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un excellent jeu qui mélange action, aventure et comédie.<br />
         On explore 17 grands souterrains, chacun contenant ses propres zones secrètes. Chaque lieu

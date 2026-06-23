@@ -32,7 +32,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un jeu très sympa si vous recherchez un platformer 2D plus corsé.<br />
         Chaque niveau a sa propre identité et une bande-son qui correspond à l'ambiance du jeu.<br />
@@ -41,7 +41,7 @@
         temps défini.<br />
         Ce mode peut être un véritable défi, surtout si vous visez les médailles d'or brillantes
         dans chaque niveau.<br />
-        Le mode 2 joueur est aussi présent et très plaisant à jouer.<br />
+        Le mode 2 joueurs est aussi présent et très plaisant à jouer.<br />
         Le jeu est très complet, avec 9 mondes d’environ 9 niveaux chacun.<br />
         Un jeu que je recommande si vous n'avez jamais joué au jeu original.
       </p>

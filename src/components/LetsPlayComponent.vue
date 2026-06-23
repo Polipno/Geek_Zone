@@ -9,7 +9,7 @@
         style="width: 95%; max-width: 3000px; padding: 15px; margin-top: 20px"
       />
     </div>
-    <p v-if="showNoResults" class="no-results-message">Aucun resultat pour cette recherche.</p>
+    <p v-if="showNoResults" class="no-results-message">Aucun résultat pour cette recherche.</p>
     <div class="team-section">
       <div class="team-member">
         <div class="bordure-texte" v-show="matches('REANIMAL')">

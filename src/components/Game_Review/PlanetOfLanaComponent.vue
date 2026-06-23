@@ -21,7 +21,7 @@
     <div class="bordure-texte">
       <h2>Histoire</h2>
       <p>
-        Lana vit paisiblement sur sa planète natal, jusqu’au jour où des machines mystérieuses
+        Lana vit paisiblement sur sa planète natale, jusqu’au jour où des machines mystérieuses
         envahissent le monde et capturent ses habitants.<br />
         Accompagnée de Mui, une créature étrange et adorable, Lana se lance dans un long voyage afin
         de sauver sa planète et de comprendre l’origine de cette invasion.
@@ -30,7 +30,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Planet of Lana est un excellent jeu d’énigmes, doté de graphismes magnifiques et de musique
         particulièrement émouvante.<br />

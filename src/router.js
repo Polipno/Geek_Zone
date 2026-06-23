@@ -27,6 +27,7 @@ import LittleNightmaresIII from './components/Game_Review/LittleNightmaresIIICom
 import MarioTennisFever from './components/Game_Review/MarioTennisFeverComponent.vue';
 import ResidentEvilRequiem from './components/Game_Review/ResidentEvilRequiemComponent.vue';
 import YoshiEtLeLivreMysterieux from './components/Game_Review/YoshiEtLeLivreMysterieux.vue';
+import Directive8020 from './components/Game_Review/Directive8020Component.vue';
 import LetsPlayReanimal from './components/Lets_Play/Lets_Play_Reanimal.vue';
 import LetsPlayAHighlandSong from './components/Lets_Play/Lets_Play_A_Highland_Song.vue';
 import LetsPlayAShortHike from './components/Lets_Play/Lets_Play_A_Short_Hike.vue';
@@ -87,7 +88,7 @@ const routes = [
   },
   {
     path: '/princess_peach_showtime',
-    name: PrincessPeachShowtime,
+    name: 'PrincessPeachShowtime',
     component: PrincessPeachShowtime,
     meta: { menu: 'game' },
   },
@@ -191,6 +192,12 @@ const routes = [
     path: '/yoshi_et_le_livre_mysterieux',
     name: 'YoshiEtLeLivreMysterieux',
     component: YoshiEtLeLivreMysterieux,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/directive_8020',
+    name: 'Directive8020',
+    component: Directive8020,
     meta: { menu: 'game' },
   },
   {

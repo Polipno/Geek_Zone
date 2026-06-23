@@ -14,10 +14,10 @@
       <p>
         <strong>Another Code Recollection</strong> est un remake de 2 jeux,<br /><br />
         <strong> Another Code: Two Memories</strong> (sorti pour la Nintendo DS en 2005) et <br />
-        <strong> Another Code: R – A Journey into Lost Memories</strong> (sortie sur la Nintendo Wii
+        <strong> Another Code: R – A Journey into Lost Memories</strong> (sorti sur la Nintendo Wii
         en 2009).<br /><br />
         Il est aussi important de savoir que <strong>Cing</strong> <br />
-        les dévloppeurs du jeux original a collaboré avec
+        les développeurs du jeu original a collaboré avec
         <strong>Nintendo</strong> pour sortir ce remake.
       </p>
     </div>
@@ -27,7 +27,7 @@
     <div class="bordure-texte">
       <h2>Histoire</h2>
       <p>
-        Voici un resumé des 2 jeux sans trop spoiler.<br /><br />
+        Voici un résumé des 2 jeux sans trop spoiler.<br /><br />
         <strong>Another Code: Two Memories:</strong> <br />
         <strong>Ashley Mizuki Robins</strong>, pensant que son <strong>père</strong> est décédé,
         reçoit un message inattendu de lui la veille de son <strong>14ème</strong> anniversaire.
@@ -38,7 +38,7 @@
         Sur l'île, elle fait la rencontre de <strong>D</strong>, un fantôme coincé sur l'île depuis
         <strong>58</strong> ans. <br />
         Ensemble, ils se lancent dans une aventure pour élucider le mystère entourant la
-        <strong>famille Edward</strong>, explorer la mémoire de <strong>D</strong> et espérément,
+        <strong>famille Edward</strong>, explorer la mémoire de <strong>D</strong> et, espérons-le,
         retrouver son <strong>père</strong>. <br /><br />
         <strong>Another Code: R – A Journey into Lost Memories:</strong><br />
         Deux ans après les événements du premier jeu, <strong>Ashley</strong>, qui a maintenant
@@ -56,21 +56,21 @@
 
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
 
       <p>
-        Voici mon ressentit des 2 jeux<br /><br />
+        Voici mon ressenti des 2 jeux<br /><br />
 
-        <strong>Another Code: Two Memories:</strong> Un jeu avec des énigmes bien pensé et un
+        <strong>Another Code: Two Memories:</strong> Un jeu avec des énigmes bien pensées et un
         <strong>gameplay</strong> plus que plaisant.<br />
         L'atmosphère du jeu est enveloppée d'un mystère profond, créant une ambiance à la fois
         <strong>intrigante</strong> et légèrement <strong>inquiétante</strong>.<br />
-        Sans oublier les graphismes stylisés et la bande-son qui colle parfaitement à l'ambience de
+        Sans oublier les graphismes stylisés et la bande-son qui colle parfaitement à l'ambiance de
         la scène.<br /><br />
 
         <strong>Another Code: R – A Journey into Lost Memories</strong>: s'impose comme le deuxième
         opus qui complète <strong>harmonieusement</strong> l'histoire du premier jeu. <br />
-        Ce jeu se démarque par une ambiance completement différente de son prédécesseur, où l'on
+        Ce jeu se démarque par une ambiance complètement différente de son prédécesseur, où l'on
         explorait un manoir solitaire sur une île. <br />
         Ici, l'aventure se déroule en plein cœur de la nature, dans un cadre vivant et peuplé,
         offrant une expérience plus
@@ -78,7 +78,7 @@
         Graphiquement, le jeu brille par sa qualité créant un monde visuellement
         <strong>riche</strong> et <strong>immersif</strong>. <br />
         Scénaristiquement parlant le jeu réussit à captiver le joueur avec une histoire bien
-        pensé.<br />
+        pensée.<br />
         La bande-son, tout aussi <strong>exceptionnelle</strong> que dans le premier opus,
         accompagne parfaitement l'aventure. <br />
         <br />

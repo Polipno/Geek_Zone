@@ -32,13 +32,13 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu si vous recherchez de l'aventure dans l'univers du célèbre plombier.<br />
         Pas besoin d'avoir des connaissances dans la saga Mario & Luigi pour découvrir cet opus.<br />
-        Un tour par tour très agréable avec un système de combat bien pensé ainsi que des musique
-        qui colle au jeu.<br />
-        On peut voir un côté plus expressif des personnages comparé à d'autre jeu de la license,
+        Un tour par tour très agréable avec un système de combat bien pensé ainsi que des musiques
+        qui collent au jeu.<br />
+        On peut voir un côté plus expressif des personnages comparé à d'autres jeux de la licence,
         capturant l'essence même de la série Mario & Luigi.<br />
         On découvre également plus en profondeur des personnages emblématiques de la licence comme
         Bowser junior ou même la princesse Peach.<br />

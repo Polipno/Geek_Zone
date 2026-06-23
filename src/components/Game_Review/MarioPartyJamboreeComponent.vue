@@ -31,7 +31,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très bon jeu à faire à plusieurs, bien que plaisant également en solo.<br />
         Le jeu comporte 7 plateaux bien pensés, avec de nombreux personnages jouables.<br />

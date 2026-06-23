@@ -12,7 +12,7 @@
       <h2>Information</h2>
       <p>
         Resident Evil Requiem est un survival horror développé et publié par Capcom, sorti le 27
-        février 2026 sur les principaux platforme.<br />
+        février 2026 sur les principales plateformes.<br />
         Il s’agit du neuvième opus majeur de la série Resident Evil.
       </p>
     </div>
@@ -32,17 +32,17 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
-        Le gameplay est très varié car pour là première moitié du jeu on incarne principalement
+        Le gameplay est très varié car pour la première moitié du jeu on incarne principalement
         Grace pour une expérience de survival horror pur avec des ressources limitées, des énigmes
         et des phases de tension.<br />
-        Alors que l'autre moitié du jeu on incarne Leon et avec lui c'est l'inverse on est beaucoup
-        plus orienté vers l'action avec des armes fourni et des boss fight épique.<br />
-        Le jeu est très immersif avec ses graphiques granddioses et les cinématiques à couper le
+        Alors que dans l'autre moitié du jeu on incarne Leon, et avec lui c'est l'inverse : on est
+        beaucoup plus orienté vers l'action avec des armes fournies et des boss fights épiques.<br />
+        Le jeu est très immersif avec ses graphismes grandioses et les cinématiques à couper le
         souffle.<br />
-        L'ost est cohérant à l'univers et le sound design est aussi solide.<br />
-        L'histoire est prenante, avec de belles références d'anicens jeux et en offrant une aventure
+        L'OST est cohérente à l'univers et le sound design est aussi solide.<br />
+        L'histoire est prenante, avec de belles références d'anciens jeux et en offrant une aventure
         mémorable pour Leon S. Kennedy plus âgé.<br />
         Un jeu exceptionnel que je recommande à tous les fans de jeux d'horreur ou d'action.
       </p>

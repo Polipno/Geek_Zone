@@ -37,7 +37,7 @@
           value="Sarasaland"
           v-model="userAnswers.q2"
         />
-        <label for="radio1">Sarasaland</label><br />
+        <label for="radio4">Sarasaland</label><br />
 
         <input
           type="radio"
@@ -46,7 +46,7 @@
           value="Le Royaume des Champignons"
           v-model="userAnswers.q2"
         />
-        <label for="radio2">Le Royaume des Champignons</label><br />
+        <label for="radio5">Le Royaume des Champignons</label><br />
 
         <input
           type="radio"
@@ -55,11 +55,11 @@
           value="Le Royaume des Fleurs"
           v-model="userAnswers.q2"
         />
-        <label for="radio3">Le Royaume des Fleurs</label>
+        <label for="radio6">Le Royaume des Fleurs</label>
       </fieldset>
 
       <fieldset>
-        <legend>Quel est <strong>l'abillité</strong> de <strong>Kirby</strong> ? (1pt)</legend>
+        <legend>Quelle est <strong>la capacité</strong> de <strong>Kirby</strong> ? (1pt)</legend>
         <input
           type="radio"
           id="radio7"
@@ -67,7 +67,7 @@
           value="Court Vite"
           v-model="userAnswers.q3"
         />
-        <label for="radio1">Court Vite</label><br />
+        <label for="radio7">Court Vite</label><br />
 
         <input
           type="radio"
@@ -76,7 +76,7 @@
           value="Copie les capacités d'autrui"
           v-model="userAnswers.q3"
         />
-        <label for="radio2">Copie les capacités d'autrui</label><br />
+        <label for="radio8">Copie les capacités d'autrui</label><br />
 
         <input
           type="radio"
@@ -85,12 +85,12 @@
           value="Saute haut"
           v-model="userAnswers.q3"
         />
-        <label for="radio3">Saute haut</label>
+        <label for="radio9">Saute haut</label>
       </fieldset>
 
       <fieldset>
         <legend>
-          Sur <strong>Brawlstars</strong> Quel <strong>Brawler</strong> est
+          Sur <strong>Brawlstars</strong>, quel <strong>Brawler</strong> est
           <strong>légendaire</strong> ? (2pt)
         </legend>
         <input
@@ -100,7 +100,7 @@
           value="Corbac"
           v-model="userAnswers.q4"
         />
-        <label for="radio1">Corbac</label><br />
+        <label for="radio10">Corbac</label><br />
 
         <input
           type="radio"
@@ -109,7 +109,7 @@
           value="Mico"
           v-model="userAnswers.q4"
         />
-        <label for="radio2">Mico</label><br />
+        <label for="radio11">Mico</label><br />
 
         <input
           type="radio"
@@ -118,11 +118,11 @@
           value="Shelly"
           v-model="userAnswers.q4"
         />
-        <label for="radio3">Shelly</label>
+        <label for="radio12">Shelly</label>
       </fieldset>
 
       <fieldset>
-        <legend>Quel <strong>personnage</strong> Appartient à <strong>Sega</strong> ? (2pt)</legend>
+        <legend>Quel <strong>personnage</strong> appartient à <strong>Sega</strong> ? (2pt)</legend>
         <input
           type="radio"
           id="radio13"
@@ -130,7 +130,7 @@
           value="Link"
           v-model="userAnswers.q5"
         />
-        <label for="radio1">Link</label><br />
+        <label for="radio13">Link</label><br />
 
         <input
           type="radio"
@@ -139,7 +139,7 @@
           value="Spyro"
           v-model="userAnswers.q5"
         />
-        <label for="radio2">Spyro</label><br />
+        <label for="radio14">Spyro</label><br />
 
         <input
           type="radio"
@@ -148,16 +148,16 @@
           value="Alex Kidd"
           v-model="userAnswers.q5"
         />
-        <label for="radio3">Alex Kidd</label>
+        <label for="radio15">Alex Kidd</label>
       </fieldset>
 
       <fieldset>
         <legend>
-          Comment s'appele le <strong>personnage</strong> principal du jeu
+          Comment s'appelle le <strong>personnage</strong> principal du jeu
           <strong>Kid Icarus</strong> ? (3pt)
         </legend>
         <input type="radio" id="radio16" name="groupeRadio6" value="Pit" v-model="userAnswers.q6" />
-        <label for="radio1">Pit</label><br />
+        <label for="radio16">Pit</label><br />
 
         <input
           type="radio"
@@ -166,7 +166,7 @@
           value="Samus"
           v-model="userAnswers.q6"
         />
-        <label for="radio2">Samus</label><br />
+        <label for="radio17">Samus</label><br />
 
         <input
           type="radio"
@@ -175,7 +175,7 @@
           value="Palutena"
           v-model="userAnswers.q6"
         />
-        <label for="radio3">Palutena</label>
+        <label for="radio18">Palutena</label>
       </fieldset>
 
       <button class="confirm-btn" @click="showResults">Confirmer</button>
@@ -216,7 +216,7 @@ export default {
         },
         q3: {
           answer: "Copie les capacités d'autrui",
-          text: "Quel est l'abillité de Kirby ?",
+          text: 'Quelle est la capacité de Kirby ?',
         },
         q4: {
           answer: 'Corbac',

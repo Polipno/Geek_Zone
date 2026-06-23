@@ -11,7 +11,7 @@
     <div class="bordure-texte">
       <h2>Information</h2>
       <p>
-        Mario Tennis Fever est un jeu de Tennis sorti le 12 février 2026 dévloppé par Camelot
+        Mario Tennis Fever est un jeu de Tennis sorti le 12 février 2026 développé par Camelot
         Software et publié par Nintendo.
       </p>
     </div>
@@ -34,28 +34,28 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Mario Tennis Fever est un bon jeu de tennis pour les fans de jeux sportifs.<br />
         Ce Mario Tennis ajoute un gimmick majeur comme le Fever Raquettes, ce sont des raquettes
         avec chacune leur spécificité.<br />
-        On retrouve des raquettes qui permettent de curver la balle ou d'autre qui tirent des boules
-        de feu, etc.<br />
+        On retrouve des raquettes qui permettent de curver la balle ou d'autres qui tirent des
+        boules de feu, etc.<br />
         En tout, il y en a 30 ce qui est très bien pour varier le gameplay.<br />
-        Le jeu contient également 38 personnages, chacun avec ses stats et sa spécificité, certain
-        peuve tirer des lobs incroyables ou d'autres qui peuvent effectuer des tirs chargé en moins
-        de temp.<br />
-        En combinant les personnage et les raquettes, on peut varié le gameplay est également
+        Le jeu contient également 38 personnages, chacun avec ses stats et sa spécificité, certains
+        peuvent tirer des lobs incroyables ou d'autres qui peuvent effectuer des tirs chargés en
+        moins de temps.<br />
+        En combinant les personnages et les raquettes, on peut varier le gameplay et également
         essayer de trouver les meilleurs combos à notre goût.<br />
-        Il existe aussi plusieurs manières de tir comme le normal, le coupé, le plat, le lob le
-        short et le tir frenetique.<br />
+        Il existe aussi plusieurs manières de tirer comme le normal, le coupé, le plat, le lob, le
+        short et le tir frénétique.<br />
         Tous ces tirs sont importants à apprendre car ça peut vraiment aider à gagner, surtout en
-        ligne ou les adversaires peuvent être très fort dépendant du rang qu'on est.<br />
+        ligne où les adversaires peuvent être très forts selon le rang où l'on se trouve.<br />
         Le jeu contient un mode histoire faisable en environ 2h30, un mode sympa mais sans plus.<br />
         Il y a aussi le mode tournois qui contient trois tournois avec chacun sa difficulté, jouable
         en solo ou en duo.<br />
-        Le 3ème mode est la Tours des épreuves Il contient 3 tours avec 10 missions à réaliser.<br />
-        Une fois ses 3 tours terminé on à 100 missions à faire et chaque mission a des conditions
+        Le 3ème mode est la Tour des épreuves. Il contient 3 tours avec 10 missions à réaliser.<br />
+        Une fois ces 3 tours terminés, on a 100 missions à faire et chaque mission a des conditions
         pour obtenir les 3 étoiles.<br />
         Ce mode peut être assez long, mais pour les joueurs visant le 100 %, il est
         indispensable.<br />
@@ -67,10 +67,10 @@
         veulent jouer en faisant les vrais mouvements du tennis.<br />
         Le jeu brille surtout par le mode Online où on peut affronter des gens du monde entier et
         tenter d'augmenter en rank.<br />
-        Tous ces modes cité permettent de débloquer des personnages, des skins, des raquettes ou les
-        niveaux de NPC et des exploits.<br />
-        Le 100 % est faisable sans trop de peine en tout j'ai joué environ 35 heure, mais la plupart
-        ont été passées au mode Online.<br />
+        Tous ces modes cités permettent de débloquer des personnages, des skins, des raquettes ou
+        les niveaux de NPC et des exploits.<br />
+        Le 100 % est faisable sans trop de peine, en tout j'ai joué environ 35 heures, mais la
+        plupart ont été passées au mode Online.<br />
       </p>
     </div>
   </section>

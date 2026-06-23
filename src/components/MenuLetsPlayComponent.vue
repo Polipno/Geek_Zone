@@ -15,7 +15,7 @@
       <ul>
         <li><router-link to="#Information">Information</router-link></li>
         <li><router-link to="#LetsPlay">Let's Play</router-link></li>
-        <li><router-link to="#MonRessenti">Mon ressentit</router-link></li>
+        <li><router-link to="#MonRessenti">Mon ressenti</router-link></li>
         <li><router-link to="#CaptureEcran">Capture d'écran</router-link></li>
       </ul>
     </nav>

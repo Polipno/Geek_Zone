@@ -10,7 +10,7 @@
   <section id="Information">
     <div class="bordure-texte">
       <h2>Information</h2>
-      <p>Un jeu d'aventure narratif dévloppé par inkle sorti le 5 Decembre 2023.</p>
+      <p>Un jeu d'aventure narratif développé par inkle sorti le 5 décembre 2023.</p>
     </div>
   </section>
 
@@ -34,15 +34,15 @@
 
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un très beau jeu dépaysant qui offre une immense liberté d’exploration, avec plusieurs
         chemins possibles pour rejoindre l’oncle Hamish.<br />
-        Cet liberté rend le jeu trés rejouable notamment pour les joueurs qui voudront viser le 100
-        %, que ce soit en cherchant le chemin le plus rapide pour atteindre Hamish ou en tentant de
-        récupérer tous les collectibles.<br />
-        Je me suis pas mal perdu durant le Let’s Play, mais ça m’a aussi permis de découvrir de joli
-        endroits cachés, ce qui rend l’aventure encore plus immersive.<br />
+        Cette liberté rend le jeu très rejouable notamment pour les joueurs qui voudront viser le
+        100 %, que ce soit en cherchant le chemin le plus rapide pour atteindre Hamish ou en tentant
+        de récupérer tous les collectibles.<br />
+        Je me suis pas mal perdu durant le Let’s Play, mais ça m’a aussi permis de découvrir de
+        jolis endroits cachés, ce qui rend l’aventure encore plus immersive.<br />
         Toutes les musiques du jeu sont sublimes et collent parfaitement à l’ambiance ainsi qu’au
         gameplay du jeu.<br />
         Je recommande à tous ceux qui recherchent une aventure en pleine nature tout en restant à la

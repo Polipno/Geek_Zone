@@ -2,7 +2,7 @@
   <div class="bordure-image mobile-only">
     <img
       src="../../assets/Split_Fiction/Affiche_Split_Fiction.jpg"
-      alt="Affiche de Paper Mario : La Porte Millénaire"
+      alt="Affiche de Split Fiction"
       class="Image"
     />
   </div>
@@ -21,7 +21,7 @@
     <div class="bordure-texte">
       <h2>Histoire</h2>
       <p>
-        Deux écrivaines se retrouvent piégées dans une machine capable de voler les idées de leurs
+        Deux écrivaines se retrouvent piégées dans une machine capable de voler les idées de leur
         mémoire. <br />
         Pour s’en échapper, elles doivent avancer ensemble à travers différents mondes issus de leur
         imagination.
@@ -30,10 +30,10 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Un super jeu à deux avec des animations sublimes, l’histoire est bien construite et,
-        surtout, le jeu nous fait voyager à travers de nombreux décors variés et sublime.<br />
+        surtout, le jeu nous fait voyager à travers de nombreux décors variés et sublimes.<br />
         Le gameplay est très varié et les musiques correspondent parfaitement à l’univers.<br />
         Les boss fights sont très plaisants et bien travaillés.<br />
 

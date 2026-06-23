@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Kirby_Air_Raiders/Affiche_Kirby_Air_Riders.jpg"
+      src="../../assets/Little_Nightmares_III/Affiche_Little_Nightmares_III.jpg"
       alt="Affiche de Little Nightmares III"
       class="Image"
     />
@@ -12,7 +12,7 @@
       <h2>Information</h2>
       <p>
         Little Nightmares III est un jeu d’aventure et d’horreur narratif développé par Supermassive
-        Games et édité par Bandai Namco Entertainment, sorti le 10 Octobre 2025.<br />
+        Games et édité par Bandai Namco Entertainment, sorti le 10 octobre 2025.<br />
       </p>
     </div>
   </section>
@@ -28,7 +28,7 @@
   </section>
   <section id="MonRessenti">
     <div class="bordure-texte">
-      <h2>Mon ressentit</h2>
+      <h2>Mon ressenti</h2>
       <p>
         Little Nightmares III offre une bonne expérience de jeu, mais c’est vraiment dommage qu’il
         ne soit pas jouable en coop locale (en tout cas sur Switch 2).<br />
