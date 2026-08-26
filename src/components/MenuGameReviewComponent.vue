@@ -52,6 +52,8 @@ export default {
         '/resident_evil_requiem': 'Resident Evil Requiem',
         '/yoshi_et_le_livre_mysterieux': 'Yoshi et le Livre Mystérieux',
         '/directive_8020': 'Directive 8020',
+        '/star_fox': 'Star Fox',
+        '/stranger_than_heaven': 'Stranger Than Heaven',
       };
 
       return titles[this.$route.path];

@@ -239,6 +239,28 @@
             />
           </router-link>
         </div>
+
+        <div class="bordure-texte" v-show="matches('Star Fox')">
+          <h3>Star Fox</h3>
+          <router-link to="/star_fox">
+            <img
+              src="../assets/Star_Fox/Affiche_Star_Fox.jpeg"
+              alt="Affiche de Star Fox"
+              class="Image"
+            />
+          </router-link>
+        </div>
+
+        <div class="bordure-texte" v-show="matches('Stranger Than Heaven')">
+          <h3>Stranger Than Heaven</h3>
+          <router-link to="/stranger_than_heaven">
+            <img
+              src="../assets/Stranger_Than_Heaven/Affiche_Stranger_Than_Heaven.jpg"
+              alt="Affiche de Stranger Than Heaven"
+              class="Image"
+            />
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

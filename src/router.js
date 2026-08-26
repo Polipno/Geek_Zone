@@ -28,6 +28,8 @@ import MarioTennisFever from './components/Game_Review/MarioTennisFeverComponent
 import ResidentEvilRequiem from './components/Game_Review/ResidentEvilRequiemComponent.vue';
 import YoshiEtLeLivreMysterieux from './components/Game_Review/YoshiEtLeLivreMysterieux.vue';
 import Directive8020 from './components/Game_Review/Directive8020Component.vue';
+import StarFox from './components/Game_Review/StarFoxComponent.vue';
+import StrangerThanHeaven from './components/Game_Review/StrangerThanHeavenComponent.vue';
 import LetsPlayReanimal from './components/Lets_Play/Lets_Play_Reanimal.vue';
 import LetsPlayAHighlandSong from './components/Lets_Play/Lets_Play_A_Highland_Song.vue';
 import LetsPlayAShortHike from './components/Lets_Play/Lets_Play_A_Short_Hike.vue';
@@ -198,6 +200,18 @@ const routes = [
     path: '/directive_8020',
     name: 'Directive8020',
     component: Directive8020,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/star_fox',
+    name: 'StarFox',
+    component: StarFox,
+    meta: { menu: 'game' },
+  },
+  {
+    path: '/stranger_than_heaven',
+    name: 'StrangerThanHeaven',
+    component: StrangerThanHeaven,
     meta: { menu: 'game' },
   },
   {
