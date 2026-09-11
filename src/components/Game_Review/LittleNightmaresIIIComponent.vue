@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Little_Nightmares_III/Affiche_Little_Nightmares_III.jpg"
+      src="../../assets/Little_Nightmares_III/Affiche_Little_Nightmares_III.jpeg"
       alt="Affiche de Little Nightmares III"
       class="Image"
     />
@@ -38,16 +38,23 @@
         mêmes capacités, ce qui change la façon de résoudre les énigmes. Ces dernières sont
         d’ailleurs bien réfléchies. Les passages sont également très variés, tout comme les boss
         fights, qui sont très plaisants.<br />
-        Visuellement, le jeu est splendide et les animations sont très propres.<br />
+        Visuellement, on sent que le jeu n’a pas été très optimisé sur la Switch 2, mais il reste
+        correct et les animations sont très propres.<br />
         La durée de vie est plutôt courte: je l’ai terminé en environ 8 heures (sans le DLC), mais
-        je ne me suis pas ennuyé une seule fois pendant cette durée.
+        je ne me suis pas ennuyé une seule seconde.
       </p>
     </div>
   </section>
   <section id="DLC">
     <div class="bordure-texte">
       <h2>DLC - Secrets de la Spirale</h2>
-      <p>...</p>
+      <p>
+        Joli DLC qui rajoute 2 chapitres au jeu de base.<br />
+        Dans le chapitre 5, on parcourt l’aventure avec un nouveau personnage du nom de Dime, qui
+        peut créer des flashs avec son chapeau-lampe. Cette nouvelle attaque fait varier le gameplay
+        par rapport à ce qu’on a vu dans les chapitres précédents, et l’ennemi du chapitre, le
+        Marionnettiste, n’est pas mal du tout.
+      </p>
     </div>
   </section>
   <section id="CaptureEcran">
@@ -56,26 +63,30 @@
       <div class="image-gallery">
         <img
           src="../../assets/Little_Nightmares_III/Image_1_Little_Nightmares_III.jpeg"
-          alt="Image 1 de Little Nightmares III"
+          alt="Little Nightmares III : Low consulte sa carte aux côtés d'Alone dans une pièce sombre et poussiéreuse"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Little_Nightmares_III/Image_2_Little_Nightmares_III.jpeg"
-          alt="Image 2 de Little Nightmares III"
+          alt="Little Nightmares III : Low et Alone, minuscules, face à un gigantesque bébé-monstre aux yeux multiples"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Little_Nightmares_III/Image_3_Little_Nightmares_III.jpeg"
-          alt="Image 3 de Little Nightmares III"
+          alt="Little Nightmares III : Low et Alone en silhouette sur une poutre, dans une salle remplie d'écrans allumés"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Little_Nightmares_III/Image_4_Little_Nightmares_III.jpeg"
-          alt="Image 4 de Little Nightmares III"
+          alt="Little Nightmares III : Low, masqué, passe devant un distributeur de bonbons et une machine à pop-corn"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

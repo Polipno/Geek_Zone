@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Luigis_Mansion_2_HD/Affiche_Luigis_Mansion_2_HD.jpg"
+      src="../../assets/Luigis_Mansion_2_HD/Affiche_Luigis_Mansion_2_HD.jpeg"
       alt="Affiche de Luigi's Mansion 2 HD"
       class="Image"
     />
@@ -66,27 +66,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Luigis_Mansion_2_HD/Image_1_Luigi_Mansion_2_HD.jpg"
-          alt="Image 1 de Luigi Mansion 2 HD"
+          src="../../assets/Luigis_Mansion_2_HD/Image_1_Luigis_Mansion_2_HD.jpeg"
+          alt="Luigi's Mansion 2 HD : Luigi, l'Ectoblast sur le dos, appuie sur un bouton dans un couloir sombre du manoir"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Luigis_Mansion_2_HD/Image_2_Luigi_Mansion_2_HD.jpg"
-          alt="Image 2 de Luigi Mansion 2 HD"
+          src="../../assets/Luigis_Mansion_2_HD/Image_2_Luigis_Mansion_2_HD.jpeg"
+          alt="Luigi's Mansion 2 HD : Luigi éclaire de sa lampe torche un pont de bois dans une grotte aux champignons lumineux"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Luigis_Mansion_2_HD/Image_3_Luigi_Mansion_2_HD.jpg"
-          alt="Image 3 de Luigi Mansion 2 HD"
+          src="../../assets/Luigis_Mansion_2_HD/Image_3_Luigis_Mansion_2_HD.jpeg"
+          alt="Luigi's Mansion 2 HD : Luigi entouré de poupées dans une chambre d'enfant obscure, une plante carnivore à droite"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Luigis_Mansion_2_HD/Image_4_Luigi_Mansion_2_HD.jpg"
-          alt="Image 4 de Luigi Mansion 2 HD"
+          src="../../assets/Luigis_Mansion_2_HD/Image_4_Luigis_Mansion_2_HD.jpeg"
+          alt="Luigi's Mansion 2 HD : Luigi face à une momie dans une crypte de pierre, un sarcophage ouvert à ses côtés"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

@@ -1,12 +1,11 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Silent_Hill_f/Affiche_Silent_Hill_f_2.jpg"
+      src="../../assets/Silent_Hill_f/Affiche_Silent_Hill_f_2.jpeg"
       alt="Affiche de Silent Hill f"
       class="Image"
     />
   </div>
-  <audio ref="audioPlayer" :src="bgm" preload="auto"></audio>
   <section id="Information">
     <div class="bordure-texte">
       <h2>Information</h2>
@@ -57,23 +56,7 @@
 </template>
 
 <script>
-import bgm from '@/audio/SILENT_HILL_f_Shichibi_no_Tasogare.mp3';
 export default {
   name: 'SilentHillFComponent',
-  data() {
-    return { bgm };
-  },
-  mounted() {
-    const audio = this.$refs.audioPlayer;
-    audio.volume = 0.8;
-
-    audio.play().catch(() => {
-      const playOnClick = () => {
-        audio.play();
-        window.removeEventListener('click', playOnClick);
-      };
-      window.addEventListener('click', playOnClick);
-    });
-  },
 };
 </script>

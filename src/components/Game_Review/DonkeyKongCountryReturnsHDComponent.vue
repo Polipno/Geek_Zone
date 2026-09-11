@@ -1,8 +1,8 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Donkey_Kong_Country_Returns_HD/Donkey_Kong_Country_Returns_HD.jpg"
-      alt="Image de Donkey Kong Country Returns HD"
+      src="../../assets/Donkey_Kong_Country_Returns_HD/Affiche_Donkey_Kong_Country_Returns_HD.jpeg"
+      alt="Affiche de Donkey Kong Country Returns HD"
       class="Image"
     />
   </div>
@@ -53,27 +53,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_1_Donkey_Kong_Country_Returns_HD.jpg"
-          alt="Image 1 de Donkey Kong Country Returns"
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_1_Donkey_Kong_Country_Returns_HD.jpeg"
+          alt="Donkey Kong Country Returns HD : un Tiki Tak hypnotise une girafe et un écureuil dans la jungle au son de sa musique"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_2_Donkey_Kong_Country_Returns_HD.jpg"
-          alt="Image 2 de Donkey Kong Country Returns"
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_2_Donkey_Kong_Country_Returns_HD.jpeg"
+          alt="Donkey Kong Country Returns HD : Donkey Kong et Diddy sur des plateformes feuillues de la jungle, face à un perroquet"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_3_Donkey_Kong_Country_Returns_HD.jpg"
-          alt="Image 3 de Donkey Kong Country Returns"
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_3_Donkey_Kong_Country_Returns_HD.jpeg"
+          alt="Donkey Kong Country Returns HD : Donkey Kong et Diddy en ombres chinoises dans un niveau au coucher du soleil"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_4_Donkey_Kong_Country_Returns_HD.jpg"
-          alt="Image 4 de Donkey Kong Country Returns"
+          src="../../assets/Donkey_Kong_Country_Returns_HD/Image_4_Donkey_Kong_Country_Returns_HD.jpeg"
+          alt="Donkey Kong Country Returns HD : Donkey Kong chevauche Rambi sur une passerelle de bois, entouré de Tikis"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

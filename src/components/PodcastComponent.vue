@@ -7,7 +7,7 @@
         <div class="bordure-texte">
           <router-link to="/passion_pixel">
             <img
-              src="../assets/Podcast/Passion_Pixel_Affiche.png"
+              src="../assets/Podcast/Affiche_Passion_Pixel.png"
               alt="Affiche de Passion Pixel"
               class="Image"
             />

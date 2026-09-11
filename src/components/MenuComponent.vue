@@ -26,19 +26,7 @@ export default {
   name: 'MenuComponent',
   computed: {
     pageTitle() {
-      const titles = {
-        '/': 'Accueil',
-        '/contact': 'Contact',
-        '/review': 'Review',
-        '/letsplay': "Let's Play",
-        '/wishlist': 'Wishlist',
-        '/question': 'Question',
-        '/podcast': 'Podcast',
-        '/passion_pixel': 'Passion Pixel',
-        '/impressum': 'Impressum',
-        "/condition_d'utilisation": "Conditions d'utilisation",
-      };
-      return titles[this.$route.path];
+      return this.$route.meta.title;
     },
   },
 };

@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Split_Fiction/Affiche_Split_Fiction.jpg"
+      src="../../assets/Split_Fiction/Affiche_Split_Fiction.jpeg"
       alt="Affiche de Split Fiction"
       class="Image"
     />
@@ -55,26 +55,30 @@
       <div class="image-gallery">
         <img
           src="../../assets/Split_Fiction/Image_1_Split_Fiction.jpeg"
-          alt="Image 1 de Split Fiction"
+          alt="Split Fiction : écran partagé où Mio et Zoe affrontent des trolls dans un village médiéval, un dragon survolant le château"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Split_Fiction/Image_2_Split_Fiction.jpeg"
-          alt="Image 2 de Split Fiction"
+          alt="Split Fiction : Mio et Zoe, vues de dos, contemplent une cité aux dômes dorés nichée dans un canyon désertique"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Split_Fiction/Image_3_Split_Fiction.jpeg"
-          alt="Image 3 de Split Fiction"
+          alt="Split Fiction : une héroïne traverse une passerelle dans une cité cyberpunk aux néons dont les enseignes sont à l'envers"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Split_Fiction/Image_4_Split_Fiction.jpeg"
-          alt="Image 4 de Split Fiction"
+          alt="Split Fiction : Mio et Zoe se balancent au grappin au-dessus d'une base industrielle, face à une gigantesque sphère de feu"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

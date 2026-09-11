@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Mario_Kart_World/Affiche_Mario_Kart_World.jpg"
+      src="../../assets/Mario_Kart_World/Affiche_Mario_Kart_World.jpeg"
       alt="Affiche de Mario Kart World"
       class="Image"
     />
@@ -52,27 +52,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Mario_Kart_World/Image_1_Mario_Kart_World.jpg"
-          alt="Image 1 de Mario Kart World"
+          src="../../assets/Mario_Kart_World/Image_1_Mario_Kart_World.jpeg"
+          alt="Mario Kart World : Luigi plane en deltaplane la nuit au-dessus d'un village aux érables rouges éclairé de lanternes"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_Kart_World/Image_2_Mario_Kart_World.jpg"
-          alt="Image 2 de Mario Kart World"
+          src="../../assets/Mario_Kart_World/Image_2_Mario_Kart_World.jpeg"
+          alt="Mario Kart World : une pilote à moto gravit une pente enneigée sous une pluie de boîtes à objets"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_Kart_World/Image_3_Mario_Kart_World.jpg"
-          alt="Image 3 de Mario Kart World"
+          src="../../assets/Mario_Kart_World/Image_3_Mario_Kart_World.jpeg"
+          alt="Mario Kart World : Donkey Kong réalise une figure en l'air, entouré d'un anneau lumineux, dans un canyon couvert de lianes"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_Kart_World/Image_4_Mario_Kart_World.jpg"
-          alt="Image 4 de Mario Kart World"
+          src="../../assets/Mario_Kart_World/Image_4_Mario_Kart_World.jpeg"
+          alt="Mario Kart World : Luigi en kart traverse un tourbillon de lumières roses et dorées dans l'espace, près d'un train givré"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

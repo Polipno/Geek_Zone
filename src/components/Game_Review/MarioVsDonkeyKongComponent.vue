@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Mario_vs._Donkey_Kong/Affiche_Mario_vs._Donkey_Kong.jpg"
+      src="../../assets/Mario_vs_Donkey_Kong/Affiche_Mario_vs_Donkey_Kong.jpeg"
       alt="Affiche de Mario vs. Donkey Kong"
       class="Image"
     />
@@ -59,27 +59,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Mario_vs._Donkey_Kong/Image_1_Mario_vs._Donkey_Kong.jpg"
-          alt="Image 1 de Mario vs. Donkey Kong"
+          src="../../assets/Mario_vs_Donkey_Kong/Image_1_Mario_vs_Donkey_Kong.jpeg"
+          alt="Mario vs. Donkey Kong : Donkey Kong s'enfuit dans la rue, un gros sac de Mini Mario sur l'épaule"
           class="Image"
+          loading="lazy"
         />
 
         <img
-          src="../../assets/Mario_vs._Donkey_Kong/Image_2_Mario_vs._Donkey_Kong.jpg"
-          alt="Image 2 de Mario vs. Donkey Kong"
+          src="../../assets/Mario_vs_Donkey_Kong/Image_2_Mario_vs_Donkey_Kong.jpeg"
+          alt="Mario vs. Donkey Kong : Toad avance sur des plateformes de glace vers Donkey Kong, qui attend avec son sac dans un niveau enneigé"
           class="Image"
+          loading="lazy"
         />
 
         <img
-          src="../../assets/Mario_vs._Donkey_Kong/Image_3_Mario_vs._Donkey_Kong.jpg"
-          alt="Image 3 de Mario vs. Donkey Kong"
+          src="../../assets/Mario_vs_Donkey_Kong/Image_3_Mario_vs_Donkey_Kong.jpeg"
+          alt="Mario vs. Donkey Kong : Mario et Toad dans une usine aux plateformes violettes, entre Maskass mécaniques, clé et cadeau à récupérer"
           class="Image"
+          loading="lazy"
         />
 
         <img
-          src="../../assets/Mario_vs._Donkey_Kong/Image_4_Mario_vs._Donkey_Kong.jpg"
-          alt="Image 4 de Mario vs. Donkey Kong"
+          src="../../assets/Mario_vs_Donkey_Kong/Image_4_Mario_vs_Donkey_Kong.jpeg"
+          alt="Mario vs. Donkey Kong : Mario serre un jouet Mini Mario dans ses bras, entouré d'autres Mini Mario sur un toit au crépuscule"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

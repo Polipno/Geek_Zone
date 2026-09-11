@@ -1,8 +1,8 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Affiche_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-      alt="Image de Mario & Luigi L'épopée Fraternelle"
+      src="../../assets/Mario_and_Luigi_Lepopee_Fraternelle/Affiche_Mario_and_Luigi_Lepopee_Fraternelle.jpeg"
+      alt="Affiche de Mario & Luigi L'épopée Fraternelle"
       class="Image"
     />
   </div>
@@ -54,27 +54,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Image_1_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-          alt="Image 1 de Mario & Luigi L'épopée Fraternelle"
+          src="../../assets/Mario_and_Luigi_Lepopee_Fraternelle/Image_1_Mario_and_Luigi_Lepopee_Fraternelle.jpeg"
+          alt="Mario & Luigi : L'épopée fraternelle : Bowser et Bowser Jr. sur le pont de leur vaisseau volant, entourés de leurs sbires"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Image_2_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-          alt="Image 2 de Mario & Luigi L'épopée Fraternelle"
+          src="../../assets/Mario_and_Luigi_Lepopee_Fraternelle/Image_2_Mario_and_Luigi_Lepopee_Fraternelle.jpeg"
+          alt="Mario & Luigi : L'épopée fraternelle : Mario et Luigi éclaboussés d'eau devant une énorme machine en pleine action"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Image_3_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-          alt="Image 3 de Mario & Luigi L'épopée Fraternelle"
+          src="../../assets/Mario_and_Luigi_Lepopee_Fraternelle/Image_3_Mario_and_Luigi_Lepopee_Fraternelle.jpeg"
+          alt="Mario & Luigi : L'épopée fraternelle : vue d'ensemble d'une ville du désert aux maisons cubiques, les frères minuscules sur la place"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Mario_&_Luigi_Lepopee_Fraternelle/Image_4_Mario_&_Luigi_Lepopee_Fraternelle.jpg"
-          alt="Image 4 de Mario & Luigi L'épopée Fraternelle"
+          src="../../assets/Mario_and_Luigi_Lepopee_Fraternelle/Image_4_Mario_and_Luigi_Lepopee_Fraternelle.jpeg"
+          alt="Mario & Luigi : L'épopée fraternelle : Mario explore une jungle traversée de rayons de lumière, Luigi caché derrière un arbre"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

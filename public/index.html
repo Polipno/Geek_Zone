@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="Geek Zone, un site dédié à la passion du jeu vidéo : reviews, Let's Play, wishlist, quiz et podcast." />
     <% if (process.env.NODE_ENV === 'production') { %>
     <meta
       http-equiv="Content-Security-Policy"
@@ -11,6 +11,13 @@
     />
     <% } %>
     <link rel="icon" href="/Logo_Geek_Zone.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Geek Zone" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>

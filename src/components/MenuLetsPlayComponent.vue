@@ -5,7 +5,6 @@
         <img
           src="../assets/Logo_Geek_Zone.png"
           alt="Logo de Geek Zone"
-          href="index.html"
           class="Image pc-only"
         />
       </router-link>
@@ -27,12 +26,7 @@ export default {
   name: 'MenuLetsPlayComponent',
   computed: {
     pageTitle() {
-      const titles = {
-        '/lets_play_reanimal': 'REANIMAL',
-        '/lets_play_a_highland_song': 'A Highland Song',
-        '/lets_play_a_short_hike': 'A Short Hike',
-      };
-      return titles[this.$route.path];
+      return this.$route.meta.title;
     },
   },
 };

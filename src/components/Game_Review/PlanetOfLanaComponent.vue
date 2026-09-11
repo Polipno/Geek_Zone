@@ -53,26 +53,30 @@
       <div class="image-gallery">
         <img
           src="../../assets/Planet_Of_Lana/Image_1_Planet_Of_Lana.jpeg"
-          alt="Image 1 de Planet Of Lana"
+          alt="Planet of Lana : Lana marche dans les hautes herbes d'une clairière au crépuscule, devant deux pierres gravées"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Planet_Of_Lana/image_2_Planet_Of_Lana.jpeg"
-          alt="Image 2 de Planet Of Lana"
+          src="../../assets/Planet_Of_Lana/Image_2_Planet_Of_Lana.jpeg"
+          alt="Planet of Lana : Lana et Mui grimpent sur une structure mécanique dans le désert, sous le projecteur d'une machine volante"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Planet_Of_Lana/image_3_Planet_Of_Lana.jpeg.jpeg"
-          alt="Image 3 de Planet Of Lana"
+          src="../../assets/Planet_Of_Lana/Image_3_Planet_Of_Lana.jpeg"
+          alt="Planet of Lana : Lana discute avec un vieil homme à la barbe blanche, appuyé sur un bâton, au milieu du désert"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Planet_Of_Lana/image_4_Planet_Of_Lana.jpeg.jpeg"
-          alt="Image 4 de Planet Of Lana"
+          src="../../assets/Planet_Of_Lana/Image_4_Planet_Of_Lana.jpeg"
+          alt="Planet of Lana : vaste plaine désertique sous un ciel bleu, avec la minuscule silhouette de Lana à l'horizon"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

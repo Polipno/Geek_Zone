@@ -2,7 +2,7 @@
   <div style="max-width: 600px; margin: 0 auto">
     <div class="bordure-texte" style="padding: 20px">
       <img
-        src="../../assets/Podcast/Passion_Pixel_Affiche.png"
+        src="../../assets/Podcast/Affiche_Passion_Pixel.png"
         alt="Affiche de Passion Pixel"
         class="Image"
         style="display: block; margin: 0 auto"
@@ -14,21 +14,21 @@
         Pour ce premier podcast de Geek Zone on accueille Nerwaak qui va nous parler de son jeu
         d'enfance Minecraft.
       </p>
-      <div style="display: flex; justify-content: center">
-        <audio controls>
-          <source
-            src="../../audio/Podcast/Passion_Pixel/Passion_Pixel_Minecraft.mp3"
-            type="audio/mpeg"
-          />
-        </audio>
-      </div>
+      <AudioPlayer :src="episode" />
       <p style="text-align: center">Enregistré le 24.01.2025</p>
     </div>
   </div>
 </template>
 
 <script>
+import AudioPlayer from '../AudioPlayerComponent.vue';
+import episode from '../../audio/Podcast/Passion_Pixel/Passion_Pixel_Minecraft.mp3';
+
 export default {
   name: 'PassionPixelComponent',
+  components: { AudioPlayer },
+  data() {
+    return { episode };
+  },
 };
 </script>

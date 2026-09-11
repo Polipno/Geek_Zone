@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Mario_Tennis_Fever/Affiche_Mario_Tennis_Fever.jpg"
+      src="../../assets/Mario_Tennis_Fever/Affiche_Mario_Tennis_Fever.jpeg"
       alt="Affiche de Mario Tennis Fever"
       class="Image"
     />
@@ -81,26 +81,30 @@
       <div class="image-gallery">
         <img
           src="../../assets/Mario_Tennis_Fever/Image_1_Mario_Tennis_Fever.jpeg"
-          alt="Image 1 de Mario Tennis Fever"
+          alt="Mario Tennis Fever : match en double Mario et Bowser contre Peach et Daisy sur gazon, dans un stade bondé"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Mario_Tennis_Fever/Image_2_Mario_Tennis_Fever.jpeg"
-          alt="Image 2 de Mario Tennis Fever"
+          alt="Mario Tennis Fever : Bébé Mario et Bébé Luigi en barque frappent des Cheep Cheep à la raquette dans une épreuve chronométrée"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Mario_Tennis_Fever/Image_3_Mario_Tennis_Fever.jpeg"
-          alt="Image 3 de Mario Tennis Fever"
+          alt="Mario Tennis Fever : Bébé Luigi et Bébé Peach affrontent Bowser et Maskass sur gazon, Bowser frappe une balle enflammée"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Mario_Tennis_Fever/Image_4_Mario_Tennis_Fever.jpeg"
-          alt="Image 4 de Mario Tennis Fever"
+          alt="Mario Tennis Fever : Donkey Kong affronte Maskass sur terre battue, le score affiche 1 à 0"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

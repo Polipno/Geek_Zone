@@ -1,13 +1,11 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Donkey_Kong_Bananza/Affiche_Donkey_Kong_Bananza.jpg"
+      src="../../assets/Donkey_Kong_Bananza/Affiche_Donkey_Kong_Bananza.jpeg"
       alt="Affiche de Donkey Kong Bananza"
       class="Image"
     />
   </div>
-  <audio ref="audioPlayer" :src="bgm" preload="auto"></audio>
-
   <section id="Information">
     <div class="bordure-texte">
       <h2>Information</h2>
@@ -71,27 +69,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Donkey_Kong_Bananza/Image_1_Donkey_Kong_Bananza.jpg"
-          alt="Image 1 de Donkey Kong Bananza"
+          src="../../assets/Donkey_Kong_Bananza/Image_1_Donkey_Kong_Bananza.jpeg"
+          alt="Donkey Kong Bananza : l'île minière d'Ingot Isle illuminée de néons sous un croissant de lune, la nuit"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Bananza/Image_2_Donkey_Kong_Bananza.jpg"
-          alt="Image 2 de Donkey Kong Bananza"
+          src="../../assets/Donkey_Kong_Bananza/Image_2_Donkey_Kong_Bananza.jpeg"
+          alt="Donkey Kong Bananza : Donkey Kong, Pauline sur son dos, contemple un paysage rose parsemé de fumées colorées"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Bananza/Image_3_Donkey_Kong_Bananza.jpg"
-          alt="Image 3 de Donkey Kong Bananza"
+          src="../../assets/Donkey_Kong_Bananza/Image_3_Donkey_Kong_Bananza.jpeg"
+          alt="Donkey Kong Bananza : sous l'eau, la main de Pauline se tend vers la grande main de Donkey Kong"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Donkey_Kong_Bananza/Image_4_Donkey_Kong_Bananza.jpg"
-          alt="Image 4 de Donkey Kong Bananza"
+          src="../../assets/Donkey_Kong_Bananza/Image_4_Donkey_Kong_Bananza.jpeg"
+          alt="Donkey Kong Bananza : Donkey Kong, Pauline, Dixie, Cranky et Diddy Kong posent sur l'île de DK, face à la mer"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>
@@ -99,24 +101,7 @@
 </template>
 
 <script>
-import bgm from '@/audio/Donkey_Kong_Bananza_Heart_of_Gold.mp3';
-
 export default {
   name: 'DonkeyKongBananzaComponent',
-  data() {
-    return { bgm };
-  },
-  mounted() {
-    const audio = this.$refs.audioPlayer;
-    audio.volume = 0.8;
-
-    audio.play().catch(() => {
-      const playOnClick = () => {
-        audio.play();
-        window.removeEventListener('click', playOnClick);
-      };
-      window.addEventListener('click', playOnClick);
-    });
-  },
 };
 </script>

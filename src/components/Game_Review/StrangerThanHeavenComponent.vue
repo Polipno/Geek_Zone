@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Stranger_Than_Heaven/Affiche_Stranger_Than_Heaven.jpg"
+      src="../../assets/Stranger_Than_Heaven/Affiche_Stranger_Than_Heaven.jpeg"
       alt="Affiche de Stranger Than Heaven"
       class="Image"
     />

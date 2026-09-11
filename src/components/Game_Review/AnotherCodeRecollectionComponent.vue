@@ -1,13 +1,11 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="@/assets/Another_Code_Recollection/Affiche_2_Another_Code_Recollection.jpg"
+      src="@/assets/Another_Code_Recollection/Affiche_Another_Code_Recollection_2.jpeg"
       alt="Affiche de Another Code Recollection"
       class="Image"
     />
   </div>
-  <audio ref="audioPlayer" :src="bgm" preload="auto"></audio>
-
   <section id="Information">
     <div class="bordure-texte">
       <h2>Information</h2>
@@ -92,24 +90,28 @@
       <div class="image-gallery">
         <img
           src="../../assets/Another_Code_Recollection/Image_1_Another_Code_Recollection.jpeg"
-          alt="Image 1 de Another Code Recollection"
+          alt="Another Code Recollection : Ashley et le fantôme D côte à côte dans une pièce du manoir de l'île Edward"
           class="Image"
+          loading="lazy"
         />
         <img
           src="../../assets/Another_Code_Recollection/Image_2_Another_Code_Recollection.jpeg"
-          alt="Image 2 de Another Code Recollection"
+          alt="Another Code Recollection : la main d'Ashley effleure celle du fantôme D devant une côte rocheuse, la nuit"
           class="Image"
+          loading="lazy"
         />
 
         <img
           src="../../assets/Another_Code_Recollection/Image_3_Another_Code_Recollection.jpeg"
-          alt="Image 3 de Another Code Recollection"
+          alt="Another Code Recollection : Ashley, en chemise à carreaux, entourée de souvenirs flottants dans un espace bleu"
           class="Image"
+          loading="lazy"
         />
         <img
           src="../../assets/Another_Code_Recollection/Image_4_Another_Code_Recollection.jpeg"
-          alt="Image 4 de Another Code Recollection"
+          alt="Another Code Recollection : dessin d'Ashley, pop-corn en main, regardant un film effrayant avec Jessica et son père"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>
@@ -117,24 +119,7 @@
 </template>
 
 <script>
-import bgm from '@/audio/Another_Code_Recollection_OST_Just_a_Wish.mp3';
-
 export default {
   name: 'AnotherCodeRecollectionComponent',
-  data() {
-    return { bgm };
-  },
-  mounted() {
-    const audio = this.$refs.audioPlayer;
-    audio.volume = 0.8;
-
-    audio.play().catch(() => {
-      const playOnClick = () => {
-        audio.play();
-        window.removeEventListener('click', playOnClick);
-      };
-      window.addEventListener('click', playOnClick);
-    });
-  },
 };
 </script>

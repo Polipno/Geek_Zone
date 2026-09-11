@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Resident_Evil_Requiem/Affiche_Resident_Evil_Requiem.png"
+      src="../../assets/Resident_Evil_Requiem/Affiche_Resident_Evil_Requiem.jpeg"
       alt="Affiche de Resident Evil Requiem"
       class="Image"
     />
@@ -55,26 +55,30 @@
       <div class="image-gallery">
         <img
           src="../../assets/Resident_Evil_Requiem/Image_1_Resident_Evil_Requiem.jpeg"
-          alt="Image 1 de Resident Evil Requiem"
+          alt="Resident Evil Requiem : Grace Ashcroft marche dans une rue commerçante sous la pluie, entre passants et voitures"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Resident_Evil_Requiem/Image_2_Resident_Evil_Requiem.jpeg"
-          alt="Image 2 de Resident Evil Requiem"
+          alt="Resident Evil Requiem : Leon S. Kennedy, vu de dos, braque son pistolet sur des infectés dans une rue nocturne embrumée"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Resident_Evil_Requiem/Image_3_Resident_Evil_Requiem.jpeg"
-          alt="Image 3 de Resident Evil Requiem"
+          alt="Resident Evil Requiem : gros plan sur un monstre infecté au crâne éclaté, dans une pièce sombre éclaboussée de sang"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
           src="../../assets/Resident_Evil_Requiem/Image_4_Resident_Evil_Requiem.jpeg"
-          alt="Image 4 de Resident Evil Requiem"
+          alt="Resident Evil Requiem : Grace, pistolet en main, explore une salle d'opération ensanglantée d'un hôpital abandonné"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

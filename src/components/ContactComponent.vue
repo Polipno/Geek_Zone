@@ -4,7 +4,7 @@
       <p>Créateur du site web</p>
       <div class="bordure-image">
         <img
-          src="../assets/Profil_Geek_Zone.jpg"
+          src="../assets/Profil_Geek_Zone.jpeg"
           alt="Image de Profil"
           class="Image ImageContact"
         />

@@ -5,7 +5,6 @@
         <img
           src="../assets/Logo_Geek_Zone.png"
           alt="Logo de Geek Zone"
-          href="index.html"
           class="Image pc-only"
         />
       </router-link>
@@ -30,33 +29,7 @@ export default {
   name: 'MenuGameReviewComponent',
   computed: {
     pageTitle() {
-      const titles = {
-        '/another_code_recollection': 'Another Code Recollection',
-        '/mario_vs._donkey_kong': 'Mario vs. Donkey Kong',
-        '/princess_peach_showtime': 'Princess Peach Showtime',
-        '/paper_mario_la_porte_millenaire': 'Paper Mario La Porte Millénaire',
-        '/luigis_mansion_2_hd': "Luigi's Mansion 2 HD",
-        '/zelda_echoes_of_wisdom': 'Zelda Echoes Of Wisdom',
-        '/mario_party_jamboree': 'Super Mario Party Jamboree',
-        '/mario_and_luigi_lepopee_fraternelle': "Mario & Luigi L'Épopée Fraternelle",
-        '/donkey_kong_returns_hd': 'Donkey Kong Returns HD',
-        '/mario_kart_world': 'Mario Kart World',
-        '/donkey_kong_bananza': 'Donkey Kong Bananza',
-        '/super_mario_galaxy_+_super_mario_galaxy_2': 'Super Mario Galaxy + Super Mario Galaxy 2',
-        '/kirby_air_raiders': 'Kirby Air Raiders',
-        '/split_fiction': 'Split Fiction',
-        '/planet_of_lana': 'Planet of Lana',
-        '/silent_hill_f': 'Silent Hill f',
-        '/little_nightmares_iii': 'Little Nightmares III',
-        '/mario_tennis_fever': 'Mario Tennis Fever',
-        '/resident_evil_requiem': 'Resident Evil Requiem',
-        '/yoshi_et_le_livre_mysterieux': 'Yoshi et le Livre Mystérieux',
-        '/directive_8020': 'Directive 8020',
-        '/star_fox': 'Star Fox',
-        '/stranger_than_heaven': 'Stranger Than Heaven',
-      };
-
-      return titles[this.$route.path];
+      return this.$route.meta.title;
     },
   },
 };

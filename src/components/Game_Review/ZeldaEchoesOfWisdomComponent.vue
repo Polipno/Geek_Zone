@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Zelda_Echoes_Of_Wisdom/Affiche_Zelda_Echoes_Of_Wisdom.jpg"
+      src="../../assets/Zelda_Echoes_Of_Wisdom/Affiche_Zelda_Echoes_Of_Wisdom.jpeg"
       alt="Affiche de Zelda Echoes Of Wisdom"
       class="Image"
     />
@@ -51,27 +51,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_1_Zelda_Echoes_Of_Wisdom.jpg"
-          alt="Image 1 de Zelda Echoes Of Wisdom"
+          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_1_Zelda_Echoes_Of_Wisdom.jpeg"
+          alt="Zelda Echoes of Wisdom : Zelda et la fée Tri explorent le désert Gerudo, un ennemi entouré d'un tourbillon de sable approche"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_2_Zelda_Echoes_Of_Wisdom.jpg"
-          alt="Image 2 de Zelda Echoes Of Wisdom"
+          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_2_Zelda_Echoes_Of_Wisdom.jpeg"
+          alt="Zelda Echoes of Wisdom : Zelda traverse une corde tendue au-dessus de l'eau dans un donjon inondé, un requin et un insecte volant rôdent"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_3_Zelda_Echoes_Of_Wisdom.jpg"
-          alt="Image 3 de Zelda Echoes Of Wisdom"
+          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_3_Zelda_Echoes_Of_Wisdom.jpeg"
+          alt="Zelda Echoes of Wisdom : Zelda assiste à un concert des Zoras, harpe, flûtes et tuba, devant un immense poisson à la gueule ouverte"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_4_Zelda_Echoes_Of_Wisdom.jpg"
-          alt="Image 4 de Zelda Echoes Of Wisdom"
+          src="../../assets/Zelda_Echoes_Of_Wisdom/Image_4_Zelda_Echoes_Of_Wisdom.jpeg"
+          alt="Zelda Echoes of Wisdom : Zelda et Tri au bord d'un étang en forme de cœur où flottent deux petites créatures rondes"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>

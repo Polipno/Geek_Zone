@@ -1,6 +1,10 @@
 <template>
   <div class="bordure-image mobile-only">
-    <img src="../../assets/Star_Fox/Affiche_Star_Fox.jpeg" alt="Affiche de Star Fox" class="Image" />
+    <img
+      src="../../assets/Star_Fox/Affiche_Star_Fox.jpeg"
+      alt="Affiche de Star Fox"
+      class="Image"
+    />
   </div>
 
   <section id="Information">
@@ -20,8 +24,8 @@
         General Pepper fait appel à Fox McCloud et à son équipe pour repousser l'armée d'Andross,
         qui a envahi une grande partie du système Lylat après cinq années de conquête.<br />
         Aux commandes de leur Arwing, Fox et ses coéquipiers Falco, Peppy et Slippy traversent
-        Corneria, Zoness et les autres planètes du système avant d'affronter Andross sur Venom,
-        dans l'ombre de la disparition de James McCloud, le père de Fox.
+        Corneria, Zoness et les autres planètes du système avant d'affronter Andross sur Venom, dans
+        l'ombre de la disparition de James McCloud, le père de Fox.
       </p>
     </div>
   </section>
@@ -49,7 +53,35 @@
   <section id="CaptureEcran">
     <div class="bordure-texte">
       <h2>Capture d'écran</h2>
-      <p>...</p>
+      <div class="image-gallery">
+        <img
+          src="../../assets/Star_Fox/Image_1_Star_Fox.jpeg"
+          alt="Star Fox : cinématique où Fox, Peppy et Slippy reçoivent les ordres du général Pepper en hologramme sur le pont du vaisseau"
+          class="Image"
+          loading="lazy"
+        />
+        <br />
+        <img
+          src="../../assets/Star_Fox/Image_2_Star_Fox.jpeg"
+          alt="Star Fox : l'Arwing traverse des anneaux lumineux verts dans un champ d'astéroïdes en tirant sur un vaisseau ennemi"
+          class="Image"
+          loading="lazy"
+        />
+        <br />
+        <img
+          src="../../assets/Star_Fox/Image_3_Star_Fox.jpeg"
+          alt="Star Fox : Fox affronte Vulcain, une gigantesque créature de lave, au-dessus d'un océan de magma en fusion"
+          class="Image"
+          loading="lazy"
+        />
+        <br />
+        <img
+          src="../../assets/Star_Fox/Image_4_Star_Fox.jpeg"
+          alt="Star Fox : cinématique où Falco, Fox et Peppy s'avancent dans un couloir du vaisseau avant de descendre en Landmaster"
+          class="Image"
+          loading="lazy"
+        />
+      </div>
     </div>
   </section>
 </template>

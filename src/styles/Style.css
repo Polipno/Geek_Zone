@@ -173,8 +173,7 @@ html {
 #MonRessenti .bordure-texte,
 #DLC .bordure-texte,
 #CaptureEcran .bordure-texte,
-#LetsPlay .bordure-texte,
-#Images .bordure-texte {
+#LetsPlay .bordure-texte {
   display: block;
   width: min(100%, 1350px);
   margin: 10px auto;
@@ -258,18 +257,17 @@ h2 {
   border-bottom: 1px solid rgba(200, 200, 200, 0.5);
 }
 
-.Littleimage {
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+}
+
+/* Reserve la place des images 16:9 avant leur chargement (evite les sauts de page) */
+.image-gallery img,
+.review .Image {
+  aspect-ratio: 16 / 9;
 }
 
 .popup {
@@ -633,8 +631,7 @@ fieldset input[type='radio'] {
   }
 
   .Image,
-  .ImageAccueil,
-  .Littleimage {
+  .ImageAccueil {
     max-width: 420px;
     width: 100%;
   }

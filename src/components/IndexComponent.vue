@@ -6,7 +6,7 @@
 
     <div class="bordure-image">
       <img
-        src="../assets/Affiche_Geek_Zone.jpg"
+        src="../assets/Affiche_Geek_Zone.jpeg"
         alt="Affiche de Geek Zone"
         class="Image ImageAccueil"
       />
@@ -24,6 +24,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
+          loading="lazy"
           allowfullscreen
         ></iframe>
       </div>
@@ -56,7 +57,7 @@
           <td>Refonte du site en Vue</td>
         </tr>
         <tr>
-          <td>15.04.2026</td>
+          <td>07.09.2026</td>
           <td>Dernière actualisation du site</td>
         </tr>
       </tbody>
@@ -103,10 +104,6 @@ export default {
     isE2E() {
       return typeof window !== 'undefined' && window.Cypress;
     },
-    async incrementLike() {
-      this.likeCount++;
-      await set(ref(db, 'likes/global'), this.likeCount);
-    },
     getUserId() {
       let userId = localStorage.getItem('userId');
       if (!userId) {
@@ -122,14 +119,6 @@ export default {
           this.likeCount = snapshot.val();
         }
       });
-    },
-    async checkUserLike() {
-      const userLikeRef = ref(db, `likes/users/${this.userId}`);
-
-      const userSnapshot = await get(userLikeRef);
-      if (userSnapshot.exists()) {
-        this.isLiked = true;
-      }
     },
     async fetchLikes() {
       const likeRef = ref(db, 'likes/global');

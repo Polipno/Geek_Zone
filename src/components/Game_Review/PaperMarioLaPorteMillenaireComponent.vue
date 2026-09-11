@@ -1,7 +1,7 @@
 <template>
   <div class="bordure-image mobile-only">
     <img
-      src="../../assets/Paper_Mario_La_Porte_Millénaire/Affiche_Paper_Mario_La_Porte_Millénaire.jpg"
+      src="../../assets/Paper_Mario_La_Porte_Millenaire/Affiche_Paper_Mario_La_Porte_Millenaire.jpeg"
       alt="Affiche de Paper Mario : La Porte Millénaire"
       class="Image"
     />
@@ -60,27 +60,31 @@
       <h2>Capture d'écran</h2>
       <div class="image-gallery">
         <img
-          src="../../assets/Paper_Mario_La_Porte_Millénaire/Image_1_Paper_Mario_La_Porte_Millénaire.jpg"
-          alt="Image 1 de Paper Mario La Porte Millénaire"
+          src="../../assets/Paper_Mario_La_Porte_Millenaire/Image_1_Paper_Mario_La_Porte_Millenaire.jpeg"
+          alt="Paper Mario : La Porte Millénaire : Mario et Koopek explorent un donjon de château hanté par des Skelerex, près d'un coffre"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Paper_Mario_La_Porte_Millénaire/Image_2_Paper_Mario_La_Porte_Millénaire.jpg"
-          alt="Image 2 de Paper Mario La Porte Millénaire"
+          src="../../assets/Paper_Mario_La_Porte_Millenaire/Image_2_Paper_Mario_La_Porte_Millenaire.jpeg"
+          alt="Paper Mario : La Porte Millénaire : Mario, le petit Yoshi et des Toads au campement d'une île tropicale, un marchand à grand chapeau au premier plan"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Paper_Mario_La_Porte_Millénaire/Image_3_Paper_Mario_La_Porte_Millénaire.jpg"
-          alt="Image 3 de Paper Mario La Porte Millénaire"
+          src="../../assets/Paper_Mario_La_Porte_Millenaire/Image_3_Paper_Mario_La_Porte_Millenaire.jpeg"
+          alt="Paper Mario : La Porte Millénaire : Mario et l'amiral Bombart pataugent dans une grotte inondée remplie de tonneaux"
           class="Image"
+          loading="lazy"
         />
         <br />
         <img
-          src="../../assets/Paper_Mario_La_Porte_Millénaire/Image_4_Paper_Mario_La_Porte_Millénaire.jpg"
-          alt="Image 4 de Paper Mario La Porte Millénaire"
+          src="../../assets/Paper_Mario_La_Porte_Millenaire/Image_4_Paper_Mario_La_Porte_Millenaire.jpeg"
+          alt="Paper Mario : La Porte Millénaire : Mario, alias Gonzales, combat avec le petit Yoshi dans l'arène de Glitzville devant une foule en délire"
           class="Image"
+          loading="lazy"
         />
       </div>
     </div>
